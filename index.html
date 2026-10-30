@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI News — дашборд новостей ИИ</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #1a1d21;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+      --tg: #229ED9;
+      --tg-soft: #e8f4fb;
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+
+    header { margin-bottom: 20px; }
+    h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
+    .updated {
+      margin-top: 4px;
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .pulse {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #22c55e; display: inline-block;
+    }
+
+    nav.tabs { display: flex; gap: 6px; overflow-x: auto; padding: 4px 0 12px; scrollbar-width: none; }
+    nav.tabs::-webkit-scrollbar { display: none; }
+    .tab {
+      border: 1px solid var(--line);
+      background: var(--card);
+      color: var(--muted);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all .15s ease;
+    }
+    .tab:hover { border-color: var(--accent); color: var(--accent); }
+    .tab.active {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .tab .count { opacity: .6; font-size: 12px; margin-left: 4px; }
+
+    .empty { color: var(--muted); font-size: 14px; padding: 32px 0; text-align: center; }
+
+    ul.news { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    article.card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      transition: border-color .15s ease;
+    }
+    article.card:hover { border-color: #c7cdd6; }
+    .card-head { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+    .card h2 { font-size: 15px; font-weight: 600; line-height: 1.35; }
+    .card h2 a { color: var(--text); text-decoration: none; }
+    .card h2 a:hover { color: var(--accent); }
+    .card p { margin-top: 6px; font-size: 13.5px; color: #374151; }
+    .meta { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 12px; color: var(--muted); }
+    .badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      border-radius: 6px; padding: 2px 8px; font-weight: 500; font-size: 11.5px;
+    }
+    .badge.site { background: var(--accent-soft); color: var(--accent); }
+    .badge.telegram { background: var(--tg-soft); color: var(--tg); }
+    .meta a { color: var(--muted); text-decoration: none; border-bottom: 1px dashed #c7cdd6; }
+    .meta a:hover { color: var(--accent); }
+
+    footer { margin-top: 28px; font-size: 12px; color: var(--muted); text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>🤖 Новости ИИ</h1>
+      <div class="updated"><span class="pulse"></span> <span id="updated">Обновление: загрузка…</span></div>
+    </header>
+
+    <nav class="tabs" id="tabs" aria-label="Категории"></nav>
+    <main id="content"></main>
+
+    <footer>Обновляется автоматически каждый час · источники: RSS-фиды и Telegram-каналы</footer>
+  </div>
+
+  <script>
+    const state = { data: null, active: null };
+
+    async function boot() {
+      // Cache-busting: dashboard is static, data is rewritten hourly
+      const res = await fetch("data/news.json?v=" + Date.now(), { cache: "no-store" });
+      const data = await res.json();
+      state.data = data;
+
+      const upd = document.getElementById("updated");
+      upd.textContent = "Обновление: " + (data.updatedAtLocal || data.updatedAt);
+
+      const tabsEl = document.getElementById("tabs");
+      const contentEl = document.getElementById("content");
+
+      const cats = data.categories.filter(c => c.items.length);
+      if (!cats.length) {
+        contentEl.innerHTML = '<p class="empty">Пока нет новостей. Загляните позже.</p>';
+        return;
+      }
+
+      for (const cat of cats) {
+        const btn = document.createElement("button");
+        btn.className = "tab";
+        btn.innerHTML = escapeHtml(cat.label) +
+          ' <span class="count">' + cat.items.length + "</span>";
+        btn.onclick = () => select(cat.id);
+        btn.dataset.cat = cat.id;
+        tabsEl.appendChild(btn);
+      }
+
+      select(cats[0].id);
+    }
+
+    function select(id) {
+      state.active = id;
+      document.querySelectorAll(".tab").forEach(t => t.classList.toggle("active", t.dataset.cat === id));
+      const cat = state.data.categories.find(c => c.id === id);
+      const contentEl = document.getElementById("content");
+
+      if (!cat || !cat.items.length) {
+        contentEl.innerHTML = '<p class="empty">В этой категории новостей нет.</p>';
+        return;
+      }
+
+      const ul = document.createElement("ul");
+      ul.className = "news";
+      for (const n of cat.items) {
+        const li = document.createElement("li");
+
+        const badge = n.type === "telegram"
+          ? '<span class="badge telegram">✈ Telegram · ' + escapeHtml(n.source) + "</span>"
+          : '<span class="badge site">🌐 ' + escapeHtml(n.source) + "</span>";
+
+        const time = n.date ? " · " + fmtDate(n.date) : "";
+
+        li.innerHTML =
+          '<article class="card">' +
+            '<div class="card-head"><h2><a href="' + escapeAttr(n.link) + '" target="_blank" rel="noopener noreferrer">' +
+              escapeHtml(n.title) + "</a></h2></div>" +
+            (n.summary ? "<p>" + escapeHtml(n.summary) + "</p>" : "") +
+            '<div class="meta">' + badge + time +
+              ' · <a href="' + escapeAttr(n.sourceUrl) + '" target="_blank" rel="noopener noreferrer">источник</a>' +
+            "</div>" +
+          "</article>";
+        ul.appendChild(li);
+      }
+      contentEl.replaceChildren(ul);
+    }
+
+    function fmtDate(iso) {
+      const d = new Date(iso);
+      return d.toLocaleDateString("ru-RU", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Moscow" });
+    }
+    function escapeHtml(s) {
+      return String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+    function escapeAttr(s) { return escapeHtml(s); }
+
+    boot().catch(e => {
+      document.getElementById("content").innerHTML =
+        '<p class="empty">Не удалось загрузить данные: ' + escapeHtml(String(e)) + "</p>";
+    });
+  </script>
+</body>
+</html>
