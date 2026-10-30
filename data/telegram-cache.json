@@ -1,0 +1,1678 @@
+{
+  "channels": {
+    "neuro_channel": {
+      "fetchedAt": "2026-10-30T15:22:51.093Z",
+      "posts": [
+        {
+          "title": "Cursor сообщил, что 29 октября в его маркетплейсе расширений около 11 часов раздавалась подменённая сборка Claude",
+          "summary": "Cursor сообщил, что 29 октября в его маркетплейсе расширений около 11 часов раздавалась подменённая сборка Claude Code для VS Code 2.1.313…",
+          "link": "https://t.me/neuro_channel/3097",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-30T14:59:04.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "⚡️ OpenAI удвоила квоту Work и Codex на Pro-тарифах, это которые за 100, 200 или 500 долларов. Т.е",
+          "summary": "⚡️ OpenAI удвоила квоту Work и Codex на Pro-тарифах, это которые за 100, 200 или 500 долларов. Т.е. по факту уменьшение квоты на 200-баксовых отменяется, а 500-баксовый тариф теперь даёт 50х…",
+          "link": "https://t.me/neuro_channel/3096",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-29T17:41:55.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Mistral выложила веса Large 4, она же Le Chonk. После превью модель ещё три недели дообучали с подкреплением, и",
+          "summary": "Mistral выложила веса Large 4, она же Le Chonk. После превью модель ещё три недели дообучали с подкреплением, и компания показала в анонсе замеры Artificial Analysis: в Terminal-Bench 4…",
+          "link": "https://t.me/neuro_channel/3095",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-29T15:29:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Claude Code примерно каждые 30 секунд отправляет весь транскрипт каждого фонового агента в его же модель, обычно",
+          "summary": "Claude Code примерно каждые 30 секунд отправляет весь транскрипт каждого фонового агента в его же модель, обычно Opus, с просьбой описать последнее действие в 3–5 словах…",
+          "link": "https://t.me/neuro_channel/3094",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-29T14:05:23.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "В vLLM закрыли три уязвимости высокой опасности, обновляйтесь до 0.32.0 срочно",
+          "summary": "В vLLM закрыли три уязвимости высокой опасности, обновляйтесь до 0.32.0 срочно. Исправления вышли 5 и 18 октября, а 27–28 октября мейнтейнеры опубликовали десять предупреждений с техническими разборами, так что…",
+          "link": "https://t.me/neuro_channel/3093",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-29T13:40:16.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "По поводу волны блокировок Claude, провёл небольшое исследование и посмотрел источник всех этих постов про",
+          "summary": "По поводу волны блокировок Claude, провёл небольшое исследование и посмотрел источник всех этих постов про китайские находки.Так вот, один автор в X выложил «утечку» правил, по которым Anthropic банит аккаунты Claude…",
+          "link": "https://t.me/neuro_channel/3092",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-29T12:40:40.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Google анонсировала Gemini 4 Carbon, новый флагман после Gemini 4 Argon с упором на кибербезопасность и долгие",
+          "summary": "Google анонсировала Gemini 4 Carbon, новый флагман после Gemini 4 Argon с упором на кибербезопасность и долгие агентные задачи. На этой неделе модель получат отобранные специалисты по киберзащите, потом доступ…",
+          "link": "https://t.me/neuro_channel/3091",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-28T17:21:32.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Вышел llama.cpp 0.8.0: в нём больше десятка новых моделей и архитектур, включая DeepSeek V4",
+          "summary": "Вышел llama.cpp 0.8.0: в нём больше десятка новых моделей и архитектур, включая DeepSeek V4.1 Flash и Muse Spark Open, а локальный сервер получил голосовые эндпоинты…",
+          "link": "https://t.me/neuro_channel/3090",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-28T14:55:24.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "В прокси LiteLLM с Enterprise-лицензией нашли критическую уязвимость, обновляйтесь срочно",
+          "summary": "В прокси LiteLLM с Enterprise-лицензией нашли критическую уязвимость, обновляйтесь срочно. BerriAI оценила её в 10 баллов по CVSS: специально собранный запрос без аутентификации к любому LLM-маршруту может заставить…",
+          "link": "https://t.me/neuro_channel/3089",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-28T14:33:47.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "На 23-й день марафона Тибо объявил улучшением дня плагины iCloud Почты и Календаря для ChatGPT, которые вышли",
+          "summary": "На 23-й день марафона Тибо объявил улучшением дня плагины iCloud Почты и Календаря для ChatGPT, которые вышли накануне, и тут же признался, что пошутил.Ночью снова был сброс, вы заметили уже, наверное…",
+          "link": "https://t.me/neuro_channel/3088",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-28T13:25:18.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Artificial Analysis выпустила Intelligence Index v5: теперь 60% оценки дают приватные наборы задач и тесты со",
+          "summary": "Artificial Analysis выпустила Intelligence Index v5: теперь 60% оценки дают приватные наборы задач и тесты со скрытыми ответами. Для кода добавили закрытый бенчмарк FrontierCode 2…",
+          "link": "https://t.me/neuro_channel/3087",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-28T13:01:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Скиллов для AI-агентов становится всё больше, и уже непонятно, что где используется и как работает!Мы делаем",
+          "summary": "Скиллов для AI-агентов становится всё больше, и уже непонятно, что где используется и как работает!Мы делаем Hollon AMS. В визуальном редакторе из скиллов собираются процессы, для них задаются общие правила, а разных…",
+          "link": "https://t.me/neuro_channel/3086",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-28T07:58:58.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Что нового у харнессов: Codex CLI научился импортировать память других агентов, Claude Code бережёт 5-часовой",
+          "summary": "Что нового у харнессов: Codex CLI научился импортировать память других агентов, Claude Code бережёт 5-часовой лимит, а Cline сам сменил модели по умолчанию.🔘 Codex CLI 0.164…",
+          "link": "https://t.me/neuro_channel/3085",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-28T04:05:08.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Внутренние модели OpenAI и Anthropic почти одновременно опровергли гипотезу об экспоненциальном времени (ETH)",
+          "summary": "Внутренние модели OpenAI и Anthropic почти одновременно опровергли гипотезу об экспоненциальном времени (ETH). С конца 90-х считалось, что проверить, может ли логическая формула с n переменными быть истинной, в худшем…",
+          "link": "https://t.me/neuro_channel/3084",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-27T15:31:58.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Anthropic выпустила версию API 2026-10-21, первую после 2023-06-01, и мажорные версии всех SDK, которые переходят",
+          "summary": "Anthropic выпустила версию API 2026-10-21, первую после 2023-06-01, и мажорные версии всех SDK, которые переходят на неё сами.Главное в гайде по миграции: temperature, top_p и top_k убраны, и запрос с ними возвращает…",
+          "link": "https://t.me/neuro_channel/3083",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-27T14:35:20.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "За последнее время на OpenRouter приехала новая пачка моделей. Часть я разбирал отдельно, здесь подсвечу основное",
+          "summary": "За последнее время на OpenRouter приехала новая пачка моделей. Часть я разбирал отдельно, здесь подсвечу основное интересное, про что ещё не писал…",
+          "link": "https://t.me/neuro_channel/3082",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-27T13:13:28.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Z․ai раздаёт в своей агентной среде ZCode по 300 млн токенов GLM-5.3-Flash в день на пользователя",
+          "summary": "Z․ai раздаёт в своей агентной среде ZCode по 300 млн токенов GLM-5.3-Flash в день на пользователя. Раньше такие пакеты давали разовыми акциями на выходных, теперь раздача ежедневная…",
+          "link": "https://t.me/neuro_channel/3081",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-27T03:36:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "И вот вам сразу же место новой модели GPT-6.1 Terra в общем рейтинге. Отличное обновление, будем проверять на",
+          "summary": "И вот вам сразу же место новой модели GPT-6.1 Terra в общем рейтинге. Отличное обновление, будем проверять на реальных задачах.@neuro_channel",
+          "link": "https://t.me/neuro_channel/3080",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-26T18:48:42.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "OpenAI выпустила GPT-6.1 Terra: быструю модель для computer use, работы с картинками и текстами",
+          "summary": "OpenAI выпустила GPT-6.1 Terra: быструю модель для computer use, работы с картинками и текстами. В API она уже доступна как gpt-6.1-terra.Ввод подешевел вдвое: $1 за миллион токенов против $2 у GPT-5…",
+          "link": "https://t.me/neuro_channel/3079",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-26T18:34:47.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "На 21-й день был опять сброс лимитов Codex, заранее не заметил, да и зачастили они что-то прям чуть ли не через",
+          "summary": "На 21-й день был опять сброс лимитов Codex, заранее не заметил, да и зачастили они что-то прям чуть ли не через день сбросы.Какие-то релизы OpenAI готовит, но быстро не получается и приходится сбрасывать, согласно…",
+          "link": "https://t.me/neuro_channel/3078",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-26T16:08:02.000Z",
+          "aiFocused": true
+        }
+      ]
+    },
+    "AI_Chad": {
+      "fetchedAt": "2026-10-30T15:22:50.799Z",
+      "posts": [
+        {
+          "title": "Айфоны и Windows оказались под угрозой блокировки в России — Роскомнадзор включил Apple и Microsoft в специальный",
+          "summary": "Айфоны и Windows оказались под угрозой блокировки в России — Роскомнадзор включил Apple и Microsoft в специальный реестр, участники которого обязаны сотрудничать с российскими властями…",
+          "link": "https://t.me/AI_Chad/7695",
+          "source": "Chad GPT",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/AI_Chad",
+          "date": "2026-10-30T09:35:05.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "⚡️ Google ВЫТЕРЛА НОГИ об OpenAI и Anthropic — представлена флагманская модель Gemini 4 Carbon",
+          "summary": "⚡️ Google ВЫТЕРЛА НОГИ об OpenAI и Anthropic — представлена флагманская модель Gemini 4 Carbon. Это самый мощный ИИ в мире, который обошёл GPT-6 Astra и Claude Fable 5…",
+          "link": "https://t.me/AI_Chad/7692",
+          "source": "Chad GPT",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/AI_Chad",
+          "date": "2026-10-29T09:35:10.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Sony дропнула коллекцию PRISM — PlayStation 5 получит стилёвые контроллеры DualSense и чехлы в трёх цветах",
+          "summary": "Sony дропнула коллекцию PRISM — PlayStation 5 получит стилёвые контроллеры DualSense и чехлы в трёх цветах.Консоль станет ярко-оранжевой, изумрудно-зеленой или графитово-серой…",
+          "link": "https://t.me/AI_Chad/7686",
+          "source": "Chad GPT",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/AI_Chad",
+          "date": "2026-10-29T05:33:37.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Китайцы показали четырехметрового робота-гуманоида весом более ТОННЫNeo1 может поднимать до 500 кг, оснащен 41",
+          "summary": "Китайцы показали четырехметрового робота-гуманоида весом более ТОННЫNeo1 может поднимать до 500 кг, оснащен 41 суставом и создан для поднятия тяжелых грузов в местах и ситуациях, опасных для людей…",
+          "link": "https://t.me/AI_Chad/7684",
+          "source": "Chad GPT",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/AI_Chad",
+          "date": "2026-10-28T16:34:45.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "В США создали компьютерную СУПЕРМЫШКУ — она похожа на смартфон с кнопками",
+          "summary": "В США создали компьютерную СУПЕРМЫШКУ — она похожа на смартфон с кнопками.Super Mouse от Arctic Fox Technologies предлагает трёхдюймовый сенсорный экран вместо кучи настраиваемых кнопок…",
+          "link": "https://t.me/AI_Chad/7678",
+          "source": "Chad GPT",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/AI_Chad",
+          "date": "2026-10-28T13:15:30.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "OpenAI создала ФЕЙКОВЫЙ ИНТЕРНЕТ для ИИ-агентов, чтобы те могли безнаказанно творить дичь",
+          "summary": "OpenAI создала ФЕЙКОВЫЙ ИНТЕРНЕТ для ИИ-агентов, чтобы те могли безнаказанно творить дичь.Компания построила виртуальную копию интернета, где нейросети могут искать информацию, пользоваться веб-приложениями и общаться…",
+          "link": "https://t.me/AI_Chad/7677",
+          "source": "Chad GPT",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/AI_Chad",
+          "date": "2026-10-28T09:33:35.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Microsoft предложила уволиться более четверти своих сотрудников на фоне внедрения ИИ",
+          "summary": "Microsoft предложила уволиться более четверти своих сотрудников на фоне внедрения ИИ.Около 60 тысяч работников в США, Канаде, Индии и Великобритании получили предложение добровольно покинуть компанию с выплатой…",
+          "link": "https://t.me/AI_Chad/7676",
+          "source": "Chad GPT",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/AI_Chad",
+          "date": "2026-10-28T05:35:17.000Z",
+          "aiFocused": true
+        }
+      ]
+    },
+    "ai_newz": {
+      "fetchedAt": "2026-10-30T15:22:50.555Z",
+      "posts": [
+        {
+          "title": "А Tencent успели выложить свою world model в опенсорсHy-Nomas анонсировали за несколько дней до Genie 4",
+          "summary": "А Tencent успели выложить свою world model в опенсорсHy-Nomas анонсировали за несколько дней до Genie 4. В копилку к MIRA, Solaris и Odyssey-3 добавилась ещё одна world model с управлением текстом и камерой…",
+          "link": "https://t.me/ai_newz/4828",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-30T13:37:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Где AI уже реально управляет деньгами, а не просто экономит время? Пример — реклама онлайн-школы TripleTen",
+          "summary": "Где AI уже реально управляет деньгами, а не просто экономит время? Пример — реклама онлайн-школы TripleTen.У онлайн-школы цикл сделки занимает два месяца…",
+          "link": "https://t.me/ai_newz/4827",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-30T12:37:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Следите за руками, Mistral выкладывают веса Le Chonk, через пару часов уже взломан Polymarket, а теперь и Binance",
+          "summary": "Следите за руками, Mistral выкладывают веса Le Chonk, через пару часов уже взломан Polymarket, а теперь и Binance. 😂@ai_newz",
+          "link": "https://t.me/ai_newz/4826",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-29T22:09:43.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Genie 4 от GoogleК интерактивным мирам добавили звук и диалоги. Персонажи могут разговаривать и реагировать на",
+          "summary": "Genie 4 от GoogleК интерактивным мирам добавили звук и диалоги. Персонажи могут разговаривать и реагировать на происходящее, а сцену можно менять текстом на лету…",
+          "link": "https://t.me/ai_newz/4825",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-29T11:29:46.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Google анонсировали Gemini 4 CarbonМодель заняла первое место на новом Artificial Analysis Intelligence Index",
+          "summary": "Google анонсировали Gemini 4 CarbonМодель заняла первое место на новом Artificial Analysis Intelligence Index. Релиз будет постепенный, на этой неделе доступ постепенно получат выбранные кибербезопасники, потом доступ…",
+          "link": "https://t.me/ai_newz/4824",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-28T17:41:08.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "OpenAI и Anthropic опубликовали опровержения гипотезы экспоненциального времениОба результата были достигнуты",
+          "summary": "OpenAI и Anthropic опубликовали опровержения гипотезы экспоненциального времениОба результата были достигнуты внутренними моделями компаний 16 октября, почти одновременно…",
+          "link": "https://t.me/ai_newz/4823",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-27T07:18:50.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "OpenAI выпустили GPT 6.1 TerraНемного хуже Sol при более низкой цене, особенно хороша она в computer use",
+          "summary": "OpenAI выпустили GPT 6.1 TerraНемного хуже Sol при более низкой цене, особенно хороша она в computer use. Модель уже раскатывают на всех платящих пользователей. Цена по API $1/$5 за миллион токенов.@ai_newz",
+          "link": "https://t.me/ai_newz/4820",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-26T18:18:47.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Anthropic подали на IPOКомпания показала операционную прибыль в 8% во втором квартале этого года",
+          "summary": "Anthropic подали на IPOКомпания показала операционную прибыль в 8% во втором квартале этого года. За всё время Anthropic потратили всего 10 миллиардов инвесторских денег, что оставляет на их счетах финансовую подушку в…",
+          "link": "https://t.me/ai_newz/4819",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-26T16:17:16.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Moonshot выпустили K3.1 ProОна основана на той же базовой модели что и K3, но похоже Moonshot сложно инференсить",
+          "summary": "Moonshot выпустили K3.1 ProОна основана на той же базовой модели что и K3, но похоже Moonshot сложно инференсить модель такого размера и мы скоро увидим модельку поменьше…",
+          "link": "https://t.me/ai_newz/4818",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-23T17:39:57.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Unitree сняли боевик с роботом-телохранителемH2-X под именем Kung Fu Legend Guardian в ролике мнёт двери машин,",
+          "summary": "Unitree сняли боевик с роботом-телохранителемH2-X под именем Kung Fu Legend Guardian в ролике мнёт двери машин, делает сальто, прыгает с четырёхметровой платформы, спасает людей и поднимает машины…",
+          "link": "https://t.me/ai_newz/4817",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-22T16:33:02.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Код пишется, а счёт сам себя не откроетДелаешь AI-сервис, а параллельно собираешь документы и разбираешься с",
+          "summary": "Код пишется, а счёт сам себя не откроетДелаешь AI-сервис, а параллельно собираешь документы и разбираешься с международными расчётами. У Stable…",
+          "link": "https://t.me/ai_newz/4816",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-22T14:03:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Anthropic запустили в превью Duet — конкурента dotsЭто отдельное приложение, позволяющее коммуницировать с",
+          "summary": "Anthropic запустили в превью Duet — конкурента dotsЭто отдельное приложение, позволяющее коммуницировать с проактивным always-on облачным агентом…",
+          "link": "https://t.me/ai_newz/4815",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-21T20:02:11.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "fal разогнали FLUX 3 почти до реалтаймаПосле H3 Max в fal взялись за FLUX 3",
+          "summary": "fal разогнали FLUX 3 почти до реалтаймаПосле H3 Max в fal взялись за FLUX 3. Вместе с BFL дотренировали модель и ускорили инференс, получился FLUX 3 Max. Генерирует ролики со звуком по тексту или картинке…",
+          "link": "https://t.me/ai_newz/4814",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-21T18:35:11.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "OpenAI заметно улучшили кэшинг в продуктахCodex и Work теперь будут хранить кэш всегда, то есть теперь сессия не",
+          "summary": "OpenAI заметно улучшили кэшинг в продуктахCodex и Work теперь будут хранить кэш всегда, то есть теперь сессия не будет съедать кучу лимитов на перезаполнение кэша если пользователь отошёл на пару часов…",
+          "link": "https://t.me/ai_newz/4813",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-21T03:44:42.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Нейродайджест за неделю (#135)LLM- Gemini 4 Argon — модель вышла в платный API и чат для Pro/Ultra",
+          "summary": "Нейродайджест за неделю (#135)LLM- Gemini 4 Argon — модель вышла в платный API и чат для Pro/Ultra. До 30 ноября — $2/$10 за миллион входных/выходных токенов, затем $4/$20.- DeepSeek V4…",
+          "link": "https://t.me/ai_newz/4812",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-19T15:49:26.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Подъехали ещё два генератора картинокBFL выкатили FLUX 3 Image Klein на 5.6B. Опенсорс",
+          "summary": "Подъехали ещё два генератора картинокBFL выкатили FLUX 3 Image Klein на 5.6B. Опенсорс. Нативный 4MP, но в разрешении выше качество сильно садится.До 10 референсов и управление расположением объектов через бокмы…",
+          "link": "https://t.me/ai_newz/4810",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-16T10:40:10.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "FreeVideo запускает MiniMax H3 на домашней видеокартеЗаявленный минимум для генерации видео составляет 8 GB VRAM и",
+          "summary": "FreeVideo запускает MiniMax H3 на домашней видеокартеЗаявленный минимум для генерации видео составляет 8 GB VRAM и 16 GB оперативки. FreeVideo работает плагином для ComfyUI, поддерживает LoRA, первый и последний кадры,…",
+          "link": "https://t.me/ai_newz/4808",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-14T14:22:59.000Z",
+          "aiFocused": true
+        }
+      ]
+    },
+    "GPTMainNews": {
+      "fetchedAt": "2026-10-30T15:22:49.461Z",
+      "posts": [
+        {
+          "title": "Рассказ про \"взломы\" шифров с помощью искусственного интеллекта. В сентябре 2026 года GPT-6 Astra помогла",
+          "summary": "Рассказ про \"взломы\" шифров с помощью искусственного интеллекта. В сентябре 2026 года GPT-6 Astra помогла расшифровать немецкую армейскую радиограмму MVUEH от 10 июля 1941 года…",
+          "link": "https://t.me/GPTMainNews/1744",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-10-06T17:30:02.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🎉 Бот полностью восстановлен и снова в строю!Дорогие пользователи, отличные новости! Наш основной бот",
+          "summary": "🎉 Бот полностью восстановлен и снова в строю!Дорогие пользователи, отличные новости! Наш основной бот @ChatGPT_General_Bot успешно разблокирован и снова работает в штатном режиме. Все технические сложности позади…",
+          "link": "https://t.me/GPTMainNews/1743",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-09-20T13:57:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "⚠️ Важное объявление: временные технические сложности и рабочее зеркало ботаДорогие пользователи! Наш основной бот",
+          "summary": "⚠️ Важное объявление: временные технические сложности и рабочее зеркало ботаДорогие пользователи! Наш основной бот @ChatGPT_General_Bot был ошибочно заблокирован и сейчас временно недоступен…",
+          "link": "https://t.me/GPTMainNews/1742",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-09-17T07:33:41.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "В индустрии ИИ большие кадровые изменения. Из Meta (признана экстремистской в РФ) ушёл один из ведущих",
+          "summary": "В индустрии ИИ большие кадровые изменения. Из Meta (признана экстремистской в РФ) ушёл один из ведущих исследователей Эндрю Таллок. Ему предлагали $1 млрд бонуса с возможностью роста до $1…",
+          "link": "https://t.me/GPTMainNews/1741",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-09-13T09:16:47.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Кажется, ИИ нельзя просто выдернуть из розетки: Джейкоб Коксон уволился из Anthropic и теперь объясняет проблему",
+          "summary": "Кажется, ИИ нельзя просто выдернуть из розетки: Джейкоб Коксон уволился из Anthropic и теперь объясняет проблему «восстания машин».Нельзя просто взять и отключить его от сети, ведь он может скопировать себя на другие…",
+          "link": "https://t.me/GPTMainNews/1740",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-09-11T17:19:02.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Российские хакеры с помощью ИИ атаковали Украину и похитили технологии военных дронов Хакерская группировка",
+          "summary": "Российские хакеры с помощью ИИ атаковали Украину и похитили технологии военных дронов Хакерская группировка Midnight Blizzard, связанная с российской разведкой, использовала ИИ-агентов Claude для шпионской кампании…",
+          "link": "https://t.me/GPTMainNews/1739",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-09-11T14:20:53.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Claude взломал несколько компаний, приняв их за учебную цель. Модели проходили тест на кибербезопасность без",
+          "summary": "Claude взломал несколько компаний, приняв их за учебную цель. Модели проходили тест на кибербезопасность без защиты — и из-за ошибки настройки получили доступ в интернет…",
+          "link": "https://t.me/GPTMainNews/1738",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-09-10T19:44:42.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Игровая индустрия ВСЁ — GPT-6 Astra собрала за один промт клон The Long Dark, только действие перенесла в Турцию",
+          "summary": "Игровая индустрия ВСЁ — GPT-6 Astra собрала за один промт клон The Long Dark, только действие перенесла в Турцию.Запрос оказался максимально незамысловатым:Создай клон Long Dark в Турции в стиле, который понравится…",
+          "link": "https://t.me/GPTMainNews/1737",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-09-04T18:41:30.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "⚡️ Anthropic дропнул CLAUDE OPUS 5 — это практически лучшая модель на данный момент",
+          "summary": "⚡️ Anthropic дропнул CLAUDE OPUS 5 — это практически лучшая модель на данный момент. Она почти так же хороша, как Fable 5, но стоит вдвое дешевле, а в тестах на программирование и интеллектуальный труд и вовсе стала…",
+          "link": "https://t.me/GPTMainNews/1733",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-07-24T17:26:34.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Китайская AI-компания Zhipu выпустила открытую модель GLM-5.2: в тесте ИИ-агентов она уступила Claude Opus 4",
+          "summary": "Китайская AI-компания Zhipu выпустила открытую модель GLM-5.2: в тесте ИИ-агентов она уступила Claude Opus 4.8 всего 1 пункт, но обходится примерно в пять раз дешевле. Следующую версию GLM-5.5 ждут уже в августе…",
+          "link": "https://t.me/GPTMainNews/1732",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-07-01T15:44:02.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "📝 Проходим тест на совместимость с нейросетями.AI Values показывает, с какой LLM у вас больше всего совпадают",
+          "summary": "📝 Проходим тест на совместимость с нейросетями.AI Values показывает, с какой LLM у вас больше всего совпадают ценности и стиль мышления…",
+          "link": "https://t.me/GPTMainNews/1731",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-07-01T11:53:15.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🇺🇸 Mythos взломал почти все спецслужбы США — его заблокировалиГлава Киберкомандования США сообщил, что система",
+          "summary": "🇺🇸 Mythos взломал почти все спецслужбы США — его заблокировалиГлава Киберкомандования США сообщил, что система Mythos за несколько часов взломала почти все спецслужбы страны…",
+          "link": "https://t.me/GPTMainNews/1728",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-06-22T11:20:34.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🤔 Сомнительная технология будущего: VR-мастурбатор с ИИ обещает «полное погружение»Гаджет синхронизируется с",
+          "summary": "🤔 Сомнительная технология будущего: VR-мастурбатор с ИИ обещает «полное погружение»Гаджет синхронизируется с VR-видео и повторяет движения в реальном времени за счёт алгоритмов искусственного интеллекта…",
+          "link": "https://t.me/GPTMainNews/1727",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-04-21T18:26:56.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Китайские нейронки захватывают мир — они уже заполнили половину рынка, потеснив ChatGPT и ClaudeАнализ показывает,",
+          "summary": "Китайские нейронки захватывают мир — они уже заполнили половину рынка, потеснив ChatGPT и ClaudeАнализ показывает, что уже 45% запросов приходится на такие малоизвестные модели, как MiniMax, Zhipu, Moonshot…",
+          "link": "https://t.me/GPTMainNews/1724",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-04-18T14:12:00.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Как ИИ может помочь ученым достичь прогресса в естественных наукахВ «Коммерсанте» вышел материал о том, как",
+          "summary": "Как ИИ может помочь ученым достичь прогресса в естественных наукахВ «Коммерсанте» вышел материал о том, как российские исследователи естественных наук осваивают ML‑методы для применения в своей работе…",
+          "link": "https://t.me/GPTMainNews/1723",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-04-16T12:32:13.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🔥 Firecrawl запустил молниеносный парсер Fire-PDF — он извлекает всё содержимое из любых документов в формате",
+          "summary": "🔥 Firecrawl запустил молниеносный парсер Fire-PDF — он извлекает всё содержимое из любых документов в формате Markdown.• Выдаёт обычный текст, который легко считывают любые нейронки даже без режима распознавания фоток…",
+          "link": "https://t.me/GPTMainNews/1722",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-04-16T07:35:44.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🏠 ChatGPT помог продать дом за 5 дней без риелтора.Мужчина из США поручил нейронке весь процесс: от оценки",
+          "summary": "🏠 ChatGPT помог продать дом за 5 дней без риелтора.Мужчина из США поручил нейронке весь процесс: от оценки стоимости до общения с покупателями и подготовки документов. В итоге сделку закрыли за 5 дней…",
+          "link": "https://t.me/GPTMainNews/1721",
+          "source": "GPTMain News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/GPTMainNews",
+          "date": "2026-03-18T13:27:48.000Z",
+          "aiFocused": true
+        }
+      ]
+    },
+    "ml_product": {
+      "fetchedAt": "2026-10-30T15:22:51.183Z",
+      "posts": [
+        {
+          "title": "APOD: 26 августа 2025 года – Протуберанец на Солнце с утечкой (APOD: 2025 August 26 – A Leaky Solar",
+          "summary": "APOD: 26 августа 2025 года – Протуберанец на Солнце с утечкой (APOD: 2025 August 26 – A Leaky Solar Prominence)ссылкаНад Солнцем завис гигантский протуберанец размером больше Земли! Эта огненная арка из плазмы не…",
+          "link": "https://t.me/ml_product/974",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-26T18:26:39.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Опыт стажировки в Lyft (Intern Experience at Lyft)ссылкаLyft создает для стажеров атмосферу настоящего инженерного",
+          "summary": "Опыт стажировки в Lyft (Intern Experience at Lyft)ссылкаLyft создает для стажеров атмосферу настоящего инженерного погружения, где от первых дней ждут активного участия в реальных проектах, влияющих на продукт и его…",
+          "link": "https://t.me/ml_product/973",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-26T16:01:13.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Новый способ проверки качества классификации текстов ИИ-системами (A new way to test how well AI systems classify",
+          "summary": "Новый способ проверки качества классификации текстов ИИ-системами (A new way to test how well AI systems classify text)ссылкаУчёные из MIT разработали инновационный метод тестирования систем искусственного интеллекта…",
+          "link": "https://t.me/ml_product/972",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-26T14:00:30.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Дион: революция распределённых ортонормированных обновлений здесь (Dion: the distributed orthonormal update",
+          "summary": "Дион: революция распределённых ортонормированных обновлений здесь (Dion: the distributed orthonormal update revolution is here)ссылкаЭтот текст представляет новый алгоритм DION, который улучшает процесс обучения…",
+          "link": "https://t.me/ml_product/971",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-26T09:01:10.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Рубрика \"Утренняя статья\" AgentFly: Тонкая настройка агентов на основе LLM без тонкой настройки самих языковых",
+          "summary": "Рубрика \"Утренняя статья\" AgentFly: Тонкая настройка агентов на основе LLM без тонкой настройки самих языковых моделей(AgentFly: Fine-tuning LLM Agents without Fine-tuning LLMs)cсылкаAgentFly — это система,…",
+          "link": "https://t.me/ml_product/970",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-26T06:00:47.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "APOD: 25 августа 2025 – Метеор и звёздное скопление (APOD: 2025 August 25 – The Meteor and the Star",
+          "summary": "APOD: 25 августа 2025 – Метеор и звёздное скопление (APOD: 2025 August 25 – The Meteor and the Star Cluster)ссылкаВ Саудовской Аравии, во время часовой экспозиции звездного скопления Плеяды, в кадр совершенно случайно…",
+          "link": "https://t.me/ml_product/969",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-25T18:26:40.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Обеспечение врачебного надзора для AMIE (Enabling physician-centered oversight for AMIE)ссылкаСтатья описывает",
+          "summary": "Обеспечение врачебного надзора для AMIE (Enabling physician-centered oversight for AMIE)ссылкаСтатья описывает разработку системы AMIE, которая совмещает искусственный интеллект и экспертное мнение врачей для…",
+          "link": "https://t.me/ml_product/968",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-25T16:01:20.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Мышление на опережение: почему инженерам ИИ/МО важно выходить за рамки модели (The Upstream Mentality: Why AI/ML",
+          "summary": "Мышление на опережение: почему инженерам ИИ/МО важно выходить за рамки модели (The Upstream Mentality: Why AI/ML Engineers Must Think Beyond the Model)ссылкаСтатья предлагает переосмыслить подход к разработке AI/ML,…",
+          "link": "https://t.me/ml_product/967",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-25T14:00:26.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Рубрика \"Лендинг технологической компании\"элементы_дизайнаDer Baukasten – современная платформа, позволяющая",
+          "summary": "Рубрика \"Лендинг технологической компании\"элементы_дизайнаDer Baukasten – современная платформа, позволяющая создавать сайты, сочетая различные модули…",
+          "link": "https://t.me/ml_product/966",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-25T13:01:23.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Apple обсуждает использование ИИ Google для нового Siri (Apple in talks to use Google's AI for new Siri)ссылка•",
+          "summary": "Apple обсуждает использование ИИ Google для нового Siri (Apple in talks to use Google's AI for new Siri)ссылка• Apple может использовать ИИ Google Gemini для обновления Siri, так как собственные разработки компании…",
+          "link": "https://t.me/ml_product/965",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-25T12:01:13.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "ED2Mol: эффективный и надежный de novo дизайн и оптимизация молекул с учетом электронной плотности",
+          "summary": "ED2Mol: эффективный и надежный de novo дизайн и оптимизация молекул с учетом электронной плотности (Electron-density-informed effective and reliable de novo molecular design and optimization with ED2Mol)ссылкаСтатья…",
+          "link": "https://t.me/ml_product/964",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-25T09:01:22.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "APOD: 24 августа 2025 – Вращающийся пульсар Крабовидной туманности (APOD: 2025 August 24 – The Spinning Pulsar of",
+          "summary": "APOD: 24 августа 2025 – Вращающийся пульсар Крабовидной туманности (APOD: 2025 August 24 – The Spinning Pulsar of the Crab Nebula)ссылкаВ сердце Крабовидной туманности скрывается невероятный космический объект —…",
+          "link": "https://t.me/ml_product/963",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-24T18:26:41.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Крупные IT-компании спорят о сознании ИИ (Big Tech clashes on AI consciousness)ссылка- Глава AI Microsoft",
+          "summary": "Крупные IT-компании спорят о сознании ИИ (Big Tech clashes on AI consciousness)ссылка- Глава AI Microsoft предупреждает: ИИ уже может имитировать сознание (память, личность), что опасно и вызывает «психоз» у…",
+          "link": "https://t.me/ml_product/962",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-24T12:01:17.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Вышел DeepSeek V3.1 — возможно, самая мощная открытая ИИ-модель (DeepSeek V3",
+          "summary": "Вышел DeepSeek V3.1 — возможно, самая мощная открытая ИИ-модель (DeepSeek V3.1 just dropped — and it might be the most powerful open AI yet)ссылкаDeepSeek v3…",
+          "link": "https://t.me/ml_product/961",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-24T09:01:15.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Рубрика \"Утренняя статья\" Cold-RL: Обучение вытеснению кэша с помощью офлайн-обучения с подкреплением для",
+          "summary": "Рубрика \"Утренняя статья\" Cold-RL: Обучение вытеснению кэша с помощью офлайн-обучения с подкреплением для NGINX(Cold-RL: Learning Cache Eviction with Offline Reinforcement Learning for NGINX)cсылкаCold-RL — это алгоритм…",
+          "link": "https://t.me/ml_product/960",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-24T06:00:49.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "APOD: 23 августа 2025 – Ловля Луны (APOD: 2025 August 23 – Fishing for the Moon)ссылкаНа фоне идиллического заката",
+          "summary": "APOD: 23 августа 2025 – Ловля Луны (APOD: 2025 August 23 – Fishing for the Moon)ссылкаНа фоне идиллического заката над Адриатическим морем августовская полная Луна кажется крошечной, словно ее можно поймать в рыбацкие…",
+          "link": "https://t.me/ml_product/959",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-23T18:26:38.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Надвигающийся кризис искусственного интеллекта без ограничений (The looming crisis of AI speed without",
+          "summary": "Надвигающийся кризис искусственного интеллекта без ограничений (The looming crisis of AI speed without guardrails)ссылкаРазвитие искусственного интеллекта стремительно ускоряется, но меры по контролю и безопасности…",
+          "link": "https://t.me/ml_product/958",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-23T16:01:09.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Ничто не сравнится с Q: почему квантовые вычисления переопределят наш мир (Nothing Compares to Q: Why Quantum",
+          "summary": "Ничто не сравнится с Q: почему квантовые вычисления переопределят наш мир (Nothing Compares to Q: Why Quantum Computing Will Redefine Our World)ссылкаСтатья рассказывает о революционных возможностях квантовых…",
+          "link": "https://t.me/ml_product/957",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-23T14:00:27.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Рубрика \"Лендинг технологической компании\"элементы_дизайнаRocket SAAS — это современный сайт с минималистичным",
+          "summary": "Рубрика \"Лендинг технологической компании\"элементы_дизайнаRocket SAAS — это современный сайт с минималистичным дизайном, разработанный для привлечения внимания к SaaS-услугам…",
+          "link": "https://t.me/ml_product/956",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-23T13:01:19.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Крупная реструктуризация ИИ в Meta (Meta's major AI restructure)ссылка• Meta проводит масштабную реструктуризацию",
+          "summary": "Крупная реструктуризация ИИ в Meta (Meta's major AI restructure)ссылка• Meta проводит масштабную реструктуризацию ИИ-отдела: распускает команды, вводит заморозку найма и создаёт таинственную лабораторию «TBD Labs» для…",
+          "link": "https://t.me/ml_product/955",
+          "source": "ML Product",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ml_product",
+          "date": "2025-08-23T12:01:16.000Z",
+          "aiFocused": true
+        }
+      ]
+    },
+    "hiaimedia": {
+      "fetchedAt": "2026-10-30T15:22:49.929Z",
+      "posts": [
+        {
+          "title": "💡 Сегодня в России празднуют День инженераС результатами труда тысяч инженеров человек сталкивается каждый день",
+          "summary": "💡 Сегодня в России празднуют День инженераС результатами труда тысяч инженеров человек сталкивается каждый день. Но их работу редко замечают, пока все исправно — зато как только что-то ломается, их ценность становится…",
+          "link": "https://t.me/hiaimedia/3790",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-30T13:45:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "💻 Ученые создали «биоэлектронное» сердце с человеческими клеткамиИсследователи из Тель-Авивского университета",
+          "summary": "💻 Ученые создали «биоэлектронное» сердце с человеческими клеткамиИсследователи из Тель-Авивского университета разработали экспериментальное сердце, которое объединяет живую ткань и электронику…",
+          "link": "https://t.me/hiaimedia/3789",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-30T11:14:12.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "💰 Хакеры украли с Binance более $6 млрдВечером 29 октября с горячих кошельков крупнейшей криптобиржи Binance",
+          "summary": "💰 Хакеры украли с Binance более $6 млрдВечером 29 октября с горячих кошельков крупнейшей криптобиржи Binance хакеры вывели $6,3 млрд, основная часть ушла примерно за 20 минут. Из этой суммы $3 млрд успели заморозить…",
+          "link": "https://t.me/hiaimedia/3788",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-30T06:33:26.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🔍 GPT-5.4 нашел дыру в Telegram, из-за которой телефон можно было взломать одним звонкомО находке рассказал",
+          "summary": "🔍 GPT-5.4 нашел дыру в Telegram, из-за которой телефон можно было взломать одним звонкомО находке рассказал стартап NebuSec. В клиенте Telegram для Android до версии 12.10…",
+          "link": "https://t.me/hiaimedia/3787",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-29T15:37:24.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "💼 Политики платят, чтобы ИИ подсказывал людям, за кого голосоватьПолитики в США начали использовать GEO",
+          "summary": "💼 Политики платят, чтобы ИИ подсказывал людям, за кого голосоватьПолитики в США начали использовать GEO (generative engine optimization) — аналог SEO, но нацеленный на попадание не в топ обычного поиска, а в ответы…",
+          "link": "https://t.me/hiaimedia/3786",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-29T11:32:42.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🤖 Робо-пес собрал гигантский кубик РубикаИнженеры из ETH Zurich научили четвероногого ANYmal-D за 8-9 минут",
+          "summary": "🤖 Робо-пес собрал гигантский кубик РубикаИнженеры из ETH Zurich научили четвероногого ANYmal-D за 8-9 минут собирать кубик с длиной ребра 40 см и весом 4,6 кг…",
+          "link": "https://t.me/hiaimedia/3785",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-29T06:13:55.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "✏️ Девушка умерла после того, как ChatGPT посоветовал ей перестать пить лекарства от эпилепсииРодители Боуэн Вань",
+          "summary": "✏️ Девушка умерла после того, как ChatGPT посоветовал ей перестать пить лекарства от эпилепсииРодители Боуэн Вань подали в суд на OpenAI и Сэма Альтмана…",
+          "link": "https://t.me/hiaimedia/3784",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-28T13:32:29.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "👨‍💻 Just AI запускает Jay Agents — конструктор ИИ-агентов для бизнесаJay Agents — это универсальная студия для",
+          "summary": "👨‍💻 Just AI запускает Jay Agents — конструктор ИИ-агентов для бизнесаJay Agents — это универсальная студия для создания ИИ-помощников. Достаточно описать задачу в чате, и Jay сам найдет путь для ее решения…",
+          "link": "https://t.me/hiaimedia/3783",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-28T10:33:17.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "👨‍💻 Обвиняемый в убийстве инсценировал свои похороны с помощью ИИВ 2025 году 38-летний Раджкумар Раджбхар из",
+          "summary": "👨‍💻 Обвиняемый в убийстве инсценировал свои похороны с помощью ИИВ 2025 году 38-летний Раджкумар Раджбхар из Индии, которого обвиняли в убийстве другого мужчины, но отпустили под залог, инсценировал похоронный обряд…",
+          "link": "https://t.me/hiaimedia/3782",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-28T06:07:53.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🤖 ИИ не справился с созданием еды для приложения доставкиJust Eat протестировала в Британии ИИ-сервис для",
+          "summary": "🤖 ИИ не справился с созданием еды для приложения доставкиJust Eat протестировала в Британии ИИ-сервис для оформления меню ресторанов…",
+          "link": "https://t.me/hiaimedia/3777",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-27T15:29:38.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🔍 Древний вирус отключил у шимпанзе ген развития мозга Несколько миллионов лет назад предки современных шимпанзе",
+          "summary": "🔍 Древний вирус отключил у шимпанзе ген развития мозга Несколько миллионов лет назад предки современных шимпанзе и бонобо заразились вирусом PTERV1, который закрепил копию своего генома в их ДНК…",
+          "link": "https://t.me/hiaimedia/3776",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-27T11:13:21.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "👨‍💻 ИИ опроверг одну из главных гипотез информатики, заявляет OpenAIВнутренняя модель компании нашла алгоритм,",
+          "summary": "👨‍💻 ИИ опроверг одну из главных гипотез информатики, заявляет OpenAIВнутренняя модель компании нашла алгоритм, существование которого противоречит гипотезе экспоненциального времени (ETH)…",
+          "link": "https://t.me/hiaimedia/3775",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-27T06:12:21.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "💰 ИИ-пузырь уже лопнул в КитаеТак считает Reuters. За последние четыре месяца индекс STAR50, который отслеживает",
+          "summary": "💰 ИИ-пузырь уже лопнул в КитаеТак считает Reuters. За последние четыре месяца индекс STAR50, который отслеживает 50 крупнейших компаний технологической площадки Шанхайской биржи (китайского аналога Nasdaq), рухнул на…",
+          "link": "https://t.me/hiaimedia/3774",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-26T19:25:34.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🤖 Исследователи нашли способ сократить стоимость генерации ответов ИИ на корпоративных объемахКрупные компании",
+          "summary": "🤖 Исследователи нашли способ сократить стоимость генерации ответов ИИ на корпоративных объемахКрупные компании из-за требований безопасности не могут отправлять данные во внешние облака и вынуждены крутить десятки…",
+          "link": "https://t.me/hiaimedia/3773",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-26T16:25:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🚀 Летающий полицейский патруль появится в СШАПолиция Политехнического университета Флориды представила",
+          "summary": "🚀 Летающий полицейский патруль появится в СШАПолиция Политехнического университета Флориды представила одноместный электрический коптер Astro…",
+          "link": "https://t.me/hiaimedia/3772",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-26T15:02:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "📌 Алгоритм знает, где вы будете 7-го ноябряRecSys-митап в Москве для тех, кто уже строит рекомендательные системы",
+          "summary": "📌 Алгоритм знает, где вы будете 7-го ноябряRecSys-митап в Москве для тех, кто уже строит рекомендательные системы и хочет делать это еще лучше…",
+          "link": "https://t.me/hiaimedia/3770",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-26T12:00:00.000Z",
+          "aiFocused": true
+        }
+      ]
+    },
+    "gptpublic": {
+      "fetchedAt": "2026-10-30T15:22:49.948Z",
+      "posts": [
+        {
+          "title": "Этот парень был из тех, кто просто не хотел выходить на работу…Главное, чтобы это желание не оказалось последним 🤤",
+          "summary": "Этот парень был из тех, кто просто не хотел выходить на работу…Главное, чтобы это желание не оказалось последним 🤤",
+          "link": "https://t.me/gptpublic/6686",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-30T15:04:05.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Появился закрытый чат ИИ-креаторов. Промпты, разборы, какая модель под что, фиксы, тренды",
+          "summary": "Появился закрытый чат ИИ-креаторов. Промпты, разборы, какая модель под что, фиксы, тренды. Вход пока бесплатный 👉🏻 ТЫК",
+          "link": "https://t.me/gptpublic/6685",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-29T16:30:15.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Claude начал требовать паспорт и блокировать россиян. Anthropic ввела обязательную проверку личности (KYC)",
+          "summary": "Claude начал требовать паспорт и блокировать россиян. Anthropic ввела обязательную проверку личности (KYC). Теперь для регистрации аккаунта нужны официальные документы, включая водительские права, удостоверение личности…",
+          "link": "https://t.me/gptpublic/6683",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-29T14:44:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "ChatGPT обвинили в гибели айтишницы из Amazon: тот убедил ее отказаться от лекарства от эпилепсии",
+          "summary": "ChatGPT обвинили в гибели айтишницы из Amazon: тот убедил ее отказаться от лекарства от эпилепсии. Все началось со снижения дозировки препарата по совету бота…",
+          "link": "https://t.me/gptpublic/6682",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-28T17:08:51.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Apple и Microsoft могут быть забанены в России — РКН внес компании в реестр ОРИ Теперь они обязаны:🤩 Хранить",
+          "summary": "Apple и Microsoft могут быть забанены в России — РКН внес компании в реестр ОРИ Теперь они обязаны:🤩 Хранить переписки и данные пользователей на территории России;🤩 По запросам предоставлять информацию властям;🤩 При…",
+          "link": "https://t.me/gptpublic/6680",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-28T14:49:53.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🎃 В номинации «Самый страшный костюм на Хэллоуин» первое место безоговорочно забирает:",
+          "summary": "🎃 В номинации «Самый страшный костюм на Хэллоуин» первое место безоговорочно забирает:",
+          "link": "https://t.me/gptpublic/6679",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-27T20:29:08.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "💻 ИИ — спасение от всех бед: у пользователя треснул экран ноутбука, и он попросил Claude подогнать рабочее окно",
+          "summary": "💻 ИИ — спасение от всех бед: у пользователя треснул экран ноутбука, и он попросил Claude подогнать рабочее окно под уцелевшую часть дисплея…",
+          "link": "https://t.me/gptpublic/6678",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-27T18:07:46.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Google блочит доступ россиян к Gemini — с утра уже поступают жалобы на невозможность юзать ИИ Сервис отказывается",
+          "summary": "Google блочит доступ россиян к Gemini — с утра уже поступают жалобы на невозможность юзать ИИ Сервис отказывается работать даже с включённым VPN — другие способы обхода тоже не спасают.Тем временем Gemini в Pointgpt…",
+          "link": "https://t.me/gptpublic/6677",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-27T13:11:28.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🔊 Джек Дорси показал миру одну из самых реалистичных ИИ-моделей для генерации речи — диалоги с Dessa практически",
+          "summary": "🔊 Джек Дорси показал миру одну из самых реалистичных ИИ-моделей для генерации речи — диалоги с Dessa практически не отличить от общения с живым человеком…",
+          "link": "https://t.me/gptpublic/6675",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-26T20:39:59.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Кажется, кто-то смог выжать максимум интеллекта из Claude Opus 5.5 😭",
+          "summary": "Кажется, кто-то смог выжать максимум интеллекта из Claude Opus 5.5 😭",
+          "link": "https://t.me/gptpublic/6673",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-26T18:25:52.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Хэллоуин-тренд, который залетает в рилсахКак повритить: 1. Открываем Pointgpt2",
+          "summary": "Хэллоуин-тренд, который залетает в рилсахКак повритить: 1. Открываем Pointgpt2. Выбери шаблон, грузим свое фото и готово Попробуй со своим фото и любимыми луками 🤩✨",
+          "link": "https://t.me/gptpublic/6671",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-25T21:41:58.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "♟ Выиграл партию в шахматы с помощью очков Ray-Ban и ИИ.Блогер, который вообще не умеет играть в шахматы,",
+          "summary": "♟ Выиграл партию в шахматы с помощью очков Ray-Ban и ИИ.Блогер, который вообще не умеет играть в шахматы, полностью доверился встроенному в очки ИИ — и затащил партию с первой попытки.Жульничество вышло на новый уровень…",
+          "link": "https://t.me/gptpublic/6670",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-25T15:43:18.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Если вам нужно проверить свой продукт на пользовательский опыт, Claude идеально подойдет на роль клиента",
+          "summary": "Если вам нужно проверить свой продукт на пользовательский опыт, Claude идеально подойдет на роль клиента.Но есть один нюанс… это будет слишком реалистично 😬",
+          "link": "https://t.me/gptpublic/6669",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-25T11:09:40.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🤩 В Telegram гуляет ссылка, уничтожающая аккаунты — из-за нее можно лишиться доступа навсегдаОна маскируется под",
+          "summary": "🤩 В Telegram гуляет ссылка, уничтожающая аккаунты — из-за нее можно лишиться доступа навсегдаОна маскируется под подарок и отправляет профиль в заморозку. На фото пример такой ссылки.Предупредите всех знакомых!",
+          "link": "https://t.me/gptpublic/6668",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-24T21:18:05.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Воу: ChatGPT помог мужику в Китае разобраться с автомобильной системой на китайском языке.Респект железяке 💪",
+          "summary": "Воу: ChatGPT помог мужику в Китае разобраться с автомобильной системой на китайском языке.Респект железяке 💪",
+          "link": "https://t.me/gptpublic/6667",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-24T15:55:03.000Z",
+          "aiFocused": true
+        }
+      ]
+    },
+    "neuraldvig": {
+      "fetchedAt": "2026-10-30T15:22:50.255Z",
+      "posts": [
+        {
+          "title": "В Amazon разработчики начали накручивать токены ИИ, чтобы казаться продуктивнее 🤣Сотрудники гоняли ИИ-агента",
+          "summary": "В Amazon разработчики начали накручивать токены ИИ, чтобы казаться продуктивнее 🤣Сотрудники гоняли ИИ-агента MeshClaw ради красивых цифр в рейтинге использования нейросетей…",
+          "link": "https://t.me/neuraldvig/11879",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-30T11:25:39.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "В России сегодня отмечают День инженера — ИКС Холдинг напомнил, кто стоит за технологиями, которыми мы пользуемся",
+          "summary": "В России сегодня отмечают День инженера — ИКС Холдинг напомнил, кто стоит за технологиями, которыми мы пользуемся каждый день. Эти ребята проектируют спутники, создают умные устройства, разрабатывают сервисы и…",
+          "link": "https://t.me/neuraldvig/11878",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-30T10:30:00.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Американец официально освободился от использования нейросетей на работе по религиозным убеждениям 😈45-летний",
+          "summary": "Американец официально освободился от использования нейросетей на работе по религиозным убеждениям 😈45-летний сотрудник Университета Кентукки заявил, что он гуманист, а ChatGPT и Copilot противоречат его вере в…",
+          "link": "https://t.me/neuraldvig/11876",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-30T09:28:45.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Нейросеть будет оценивать царские сокровища в «Петергофе» — Сбер и музей-заповедник разрабатывают ИИ-сервис,",
+          "summary": "Нейросеть будет оценивать царские сокровища в «Петергофе» — Сбер и музей-заповедник разрабатывают ИИ-сервис, который поможет изучать продажи на мировых аукционах, рассчитывать стоимость произведений искусства и…",
+          "link": "https://t.me/neuraldvig/11875",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-30T08:00:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "ОР: гадалки остались без работы из-за ИИ — у экстрасенсов и других шарлатанов начался жесткий отток клиентов 😂Всё",
+          "summary": "ОР: гадалки остались без работы из-за ИИ — у экстрасенсов и других шарлатанов начался жесткий отток клиентов 😂Всё печально: нейросеть может наговорить рандомных предсказаний почти что бесплатно, поэтому «магам»…",
+          "link": "https://t.me/neuraldvig/11873",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-29T22:35:36.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Нейросети помогут онлифанщице переспать с 10 000 мужиками за сутки 😐Лили Филлипс уже осилила 1113 мужчин за 12",
+          "summary": "Нейросети помогут онлифанщице переспать с 10 000 мужиками за сутки 😐Лили Филлипс уже осилила 1113 мужчин за 12 часов, но теперь решила масштабироваться с помощью ИИ…",
+          "link": "https://t.me/neuraldvig/11872",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-29T19:09:45.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Добром это не кончится: в Японии решили, что роботу с бензопилой не хватает только искусственного интеллекта",
+          "summary": "Добром это не кончится: в Японии решили, что роботу с бензопилой не хватает только искусственного интеллекта 😔Железнодорожная компания JR East использует здоровенного металлического гуманоида с бензопилой и клешнёй для…",
+          "link": "https://t.me/neuraldvig/11868",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-29T16:01:26.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Яндекс Браузер впервые преодолел отметку в 100 миллионов активных пользователей на устройствахВ сентябре этот",
+          "summary": "Яндекс Браузер впервые преодолел отметку в 100 миллионов активных пользователей на устройствахВ сентябре этот показатель составил 104 миллиона — на 9 миллионов больше, чем в начале третьего квартала…",
+          "link": "https://t.me/neuraldvig/11867",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-29T15:30:00.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Нейросети научились настолько хорошо притворяться людьми, что даже другие ИИ не могут их вычислить 😐Учёные",
+          "summary": "Нейросети научились настолько хорошо притворяться людьми, что даже другие ИИ не могут их вычислить 😐Учёные проверили ChatGPT, Claude, Gemini и Grok: из 98 попыток распознать ИИ они справились лишь трижды…",
+          "link": "https://t.me/neuraldvig/11866",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-29T14:47:54.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Во Вьетнаме россияне теперь расплачиваются без наличных и банковской карты — туристы уже используют оплату по",
+          "summary": "Во Вьетнаме россияне теперь расплачиваются без наличных и банковской карты — туристы уже используют оплату по QR-коду через приложение Сбера в магазинах, ресторанах и кафе…",
+          "link": "https://t.me/neuraldvig/11865",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-29T14:15:02.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Первые тестеры сенсорного Макбука делятся своими фотками в сети.💀💀💀",
+          "summary": "Первые тестеры сенсорного Макбука делятся своими фотками в сети.💀💀💀",
+          "link": "https://t.me/neuraldvig/11864",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-29T13:57:05.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Ничего необычного, просто на Ebay выставили на продажу СУПЕРКОМПЬЮТЕР — всего за 59,7 млн долларов можно стать",
+          "summary": "Ничего необычного, просто на Ebay выставили на продажу СУПЕРКОМПЬЮТЕР — всего за 59,7 млн долларов можно стать счастливым обладателем:— 300 стоек;— На которых висят 9000 видеокарт Nvidia A100;— Доставка обойдется в $50…",
+          "link": "https://t.me/neuraldvig/11862",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-29T13:05:18.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "VK запускает новые рекомендеры за 1 день — это эффект переезда на Discovery-платформу, которая ускоряет настройку",
+          "summary": "VK запускает новые рекомендеры за 1 день — это эффект переезда на Discovery-платформу, которая ускоряет настройку и тестирование рекомендаций…",
+          "link": "https://t.me/neuraldvig/11861",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-29T12:15:18.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "❗️Claude начал банить пользователей с российским паспортом. Anthropic стали чаще просить пользователей подтвердить",
+          "summary": "❗️Claude начал банить пользователей с российским паспортом. Anthropic стали чаще просить пользователей подтвердить личность с помощью реальных документов. Если скинуть российский паспорт — бан практически гарантирован…",
+          "link": "https://t.me/neuraldvig/11859",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-29T09:40:40.000Z",
+          "aiFocused": true
+        }
+      ]
+    },
+    "chatgpt_try": {
+      "fetchedAt": "2026-10-30T15:22:50.355Z",
+      "posts": [
+        {
+          "title": "Штат укомплектован, свободных вакансий нет, команда мобильная, больничных не берут, отпусков не просят,",
+          "summary": "Штат укомплектован, свободных вакансий нет, команда мобильная, больничных не берут, отпусков не просят, переработки компенсируются зарядкой. 🔖 Воспользоваться TryChat🔵 Мы в VK | ⭐ Мы в Дзен",
+          "link": "https://t.me/chatgpt_try/292",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-30T11:38:24.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🤖 ИИ научился притворяться человеком так, что другие нейросети его не узналиУчёные решили проверить, смогут ли",
+          "summary": "🤖 ИИ научился притворяться человеком так, что другие нейросети его не узналиУчёные решили проверить, смогут ли нейросети отличить человека от бота. Взяли 7 ИИ-моделей и провели 98 тестов…",
+          "link": "https://t.me/chatgpt_try/291",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-29T20:11:57.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🏠 НЕЙРОСЕТЬ СДЕЛАЕТ ВАМ РЕМОНТ Можно больше не гадать, подойдёт ли вам бежевая кухня, впишется ли диван в",
+          "summary": "🏠 НЕЙРОСЕТЬ СДЕЛАЕТ ВАМ РЕМОНТ Можно больше не гадать, подойдёт ли вам бежевая кухня, впишется ли диван в гостиную и будет ли ваша квартира выглядеть как как та самая картинка из Pinterest 🤍Загружаете фото комнаты в…",
+          "link": "https://t.me/chatgpt_try/290",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-29T09:37:55.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🪦 МУЖЧИНА ИНСЦЕНИРОВАЛ СОБСТВЕННЫЕ ПОХОРОНЫ С ПОМОЩЬЮ ИИЭто звучит как сюжет сериала, но это реальная история,",
+          "summary": "🪦 МУЖЧИНА ИНСЦЕНИРОВАЛ СОБСТВЕННЫЕ ПОХОРОНЫ С ПОМОЩЬЮ ИИЭто звучит как сюжет сериала, но это реальная история, которая получила огласку только в этом месяце…",
+          "link": "https://t.me/chatgpt_try/289",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-28T20:33:25.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🕵️ «ВАКАНСИЯ МЕЧТЫ»Описание отличное. Интересные задачи, молодой дружный коллектив, возможность расти внутри",
+          "summary": "🕵️ «ВАКАНСИЯ МЕЧТЫ»Описание отличное. Интересные задачи, молодой дружный коллектив, возможность расти внутри компании, зарплата обсуждается на собеседовании…",
+          "link": "https://t.me/chatgpt_try/288",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-28T11:30:30.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🧬 ВИРУС, КОТОРЫЙ СДЕЛАЛ НАС УМНЕЕ Несколько миллионов лет назад шимпанзе и бонобо подхватили вирус",
+          "summary": "🧬 ВИРУС, КОТОРЫЙ СДЕЛАЛ НАС УМНЕЕ Несколько миллионов лет назад шимпанзе и бонобо подхватили вирус. Не просто переболели, он буквально вписал себя в их ДНК. И с тех пор передаётся из поколения в поколение…",
+          "link": "https://t.me/chatgpt_try/287",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-27T20:30:45.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🎨 ОБНОВЛЕННЫЕ МОДЕЛИ ДЛЯ ГЕНЕРАЦИИ КАРТИНОК➡️ Nano Banana 2.1Быстрая рабочая лошадка на каждый деньГлавное",
+          "summary": "🎨 ОБНОВЛЕННЫЕ МОДЕЛИ ДЛЯ ГЕНЕРАЦИИ КАРТИНОК➡️ Nano Banana 2.1Быстрая рабочая лошадка на каждый деньГлавное улучшение: она держит в кадре сразу несколько героев и предметов, не путая их между собой…",
+          "link": "https://t.me/chatgpt_try/283",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-27T11:58:53.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "😄 НЕ ПЕЧАТАЙТЕ, ПРОСТО ГОВОРИТЕВ трайчате теперь можно надиктовать запрос голосом 🗣Когда вы печатаете, вы себя",
+          "summary": "😄 НЕ ПЕЧАТАЙТЕ, ПРОСТО ГОВОРИТЕВ трайчате теперь можно надиктовать запрос голосом 🗣Когда вы печатаете, вы себя незаметно урезаете. Начали подробно, стало некогда или лень, отправили что уже есть…",
+          "link": "https://t.me/chatgpt_try/282",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-26T11:40:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🧥 КОФТА СО ВСТРОЕННЫМ ЭКРАНОМВ Сингапуре вшили сенсорный экран прямо в рукав обычной кофты",
+          "summary": "🧥 КОФТА СО ВСТРОЕННЫМ ЭКРАНОМВ Сингапуре вшили сенсорный экран прямо в рукав обычной кофты.Команда Национального университета Сингапура опубликовала работу в Nature…",
+          "link": "https://t.me/chatgpt_try/281",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-25T19:02:30.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🦠 ИИ СПРОЕКТИРОВАЛ ВИРУС, И ЕГО ВВЕЛИ ЧЕЛОВЕКУЗвучит как завязка фильма ужасов",
+          "summary": "🦠 ИИ СПРОЕКТИРОВАЛ ВИРУС, И ЕГО ВВЕЛИ ЧЕЛОВЕКУЗвучит как завязка фильма ужасов. На деле это попытка решить проблему, от которой в мире умирает больше людей, чем от многих известных болезней…",
+          "link": "https://t.me/chatgpt_try/279",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-24T20:49:29.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🏙 ПЕРЕЕЗД В ДРУГОЙ ГОРОД: СКОЛЬКО ЭТО РЕАЛЬНО СТОИТМногие считают так: «Сниму квартиру за 30 тысяч, накоплю 60 —",
+          "summary": "🏙 ПЕРЕЕЗД В ДРУГОЙ ГОРОД: СКОЛЬКО ЭТО РЕАЛЬНО СТОИТМногие считают так: «Сниму квартиру за 30 тысяч, накоплю 60 — и вперёд».А потом оказывается, что залог + первый месяц — это уже 60. Плюс перевозка вещей…",
+          "link": "https://t.me/chatgpt_try/278",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-24T07:20:06.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🎙️ ЧТО, ЕСЛИ НЕЙРОСЕТЬ ВОЗЬМЁТ У ВАС ИНТЕРВЬЮ?Обычно вопросы задаём мы, давайте теперь наоборот",
+          "summary": "🎙️ ЧТО, ЕСЛИ НЕЙРОСЕТЬ ВОЗЬМЁТ У ВАС ИНТЕРВЬЮ?Обычно вопросы задаём мы, давайте теперь наоборот.Вопрос «кто я вообще такой и чего хочу» себе задавал каждый. Обычно ночью, когда накрывает бессонница…",
+          "link": "https://t.me/chatgpt_try/277",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-23T11:47:12.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🧠 ИИ, КОТОРЫЙ ИЩЕТ ДЕМЕНЦИЮЛю Сычжэ вырос с бабушкой и дедушкой. В какой-то момент заметил, что они стали",
+          "summary": "🧠 ИИ, КОТОРЫЙ ИЩЕТ ДЕМЕНЦИЮЛю Сычжэ вырос с бабушкой и дедушкой. В какой-то момент заметил, что они стали говорить всё меньше. Дедушка замолкает посреди разговора, бабушка путает имена…",
+          "link": "https://t.me/chatgpt_try/276",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-22T16:37:06.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "📸 ПОЛАРОИД СО СВОИМ КУМИРОМУ каждого есть артист, которого слушаешь годами, может быть актёр, чьи фильмы",
+          "summary": "📸 ПОЛАРОИД СО СВОИМ КУМИРОМУ каждого есть артист, которого слушаешь годами, может быть актёр, чьи фильмы пересматриваешь или футболист, за которого болеешь с детства…",
+          "link": "https://t.me/chatgpt_try/275",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-22T11:46:44.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🪰 МОЗГ МУХИ ЗАПУСТИЛИ В МИРЕ, КОТОРЫЙ НЕЙРОСЕТЬ ПРИДУМЫВАЕТ НА ХОДУНи одна муха при эксперименте не",
+          "summary": "🪰 МОЗГ МУХИ ЗАПУСТИЛИ В МИРЕ, КОТОРЫЙ НЕЙРОСЕТЬ ПРИДУМЫВАЕТ НА ХОДУНи одна муха при эксперименте не пострадалаЛаборатория Odyssey из Пало-Алто взяла цифровую копию мозга дрозофилы, собранную по карте связей настоящего…",
+          "link": "https://t.me/chatgpt_try/274",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-21T19:55:34.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "🧩 ОБЪЯСНИ НА МОЁМ ПРИМЕРЕЛюбой учебник объясняет на примерах не очень понятных для всех",
+          "summary": "🧩 ОБЪЯСНИ НА МОЁМ ПРИМЕРЕЛюбой учебник объясняет на примерах не очень понятных для всех. Поезда выходят из пункта А, абстрактная фирма производит абстрактный товар, шарик скатывается по наклонной плоскости…",
+          "link": "https://t.me/chatgpt_try/273",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-21T11:47:09.000Z",
+          "aiFocused": true
+        }
+      ]
+    },
+    "neurobureau": {
+      "fetchedAt": "2026-10-30T15:22:49.643Z",
+      "posts": []
+    },
+    "StableDiffusionBest": {
+      "fetchedAt": "2026-10-30T15:22:50.759Z",
+      "posts": [
+        {
+          "title": "🍁 Сгенерируй фотосессию в листьях1️⃣ Переходите в бот — @PixelNanoBot2️⃣ Выберите портретное фото хорошего",
+          "summary": "🍁 Сгенерируй фотосессию в листьях1️⃣ Переходите в бот — @PixelNanoBot2️⃣ Выберите портретное фото хорошего качества 3️⃣ Отправьте фото и промт из этого поста одним сообщением (скопируйте текст, нажав на него):Сохранить…",
+          "link": "https://t.me/StableDiffusionBest/5527",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-10-13T12:00:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: a highly detailed and intricate masterpiece of an interpretative rough pencil sketch,",
+          "summary": "#SDXL #Midjourney🏛Запрос: a highly detailed and intricate masterpiece of an interpretative rough pencil sketch, depicting an abstract representation of woman in the ornate and flowing style of art nouveau, with bold,…",
+          "link": "https://t.me/StableDiffusionBest/5524",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-10-05T17:32:38.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: mixed media art, white cat portrait, surrounded by stylized poppies and foliage,",
+          "summary": "#SDXL #Midjourney🏛Запрос: mixed media art, white cat portrait, surrounded by stylized poppies and foliage, intricate pen and ink outlines combined with soft watercolor textures…",
+          "link": "https://t.me/StableDiffusionBest/5523",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-10-05T12:03:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #OilPainting🏛Запрос: a highly detailed charcoal painting in a hatching , painterly style depicting a adult",
+          "summary": "#SDXL #OilPainting🏛Запрос: a highly detailed charcoal painting in a hatching , painterly style depicting a adult 40yo woman with long, straight black hair and straight-cut bangs, seated on the edge of a wooden rowboat…",
+          "link": "https://t.me/StableDiffusionBest/5522",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-10-05T06:40:23.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: bottom view, luxurious glamour 3d photo of a beautiful tall girl in russian folk style,",
+          "summary": "#SDXL #Midjourney🏛Запрос: bottom view, luxurious glamour 3d photo of a beautiful tall girl in russian folk style, wearing a bright kokoshnik with a hood and multi-layered fluffy fur mesh with gold embroidery, pearls,…",
+          "link": "https://t.me/StableDiffusionBest/5521",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-26T08:15:26.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: a watercolor painting featuring a relaxed pose",
+          "summary": "#SDXL #Midjourney🏛Запрос: a watercolor painting featuring a relaxed pose. a charming blue-eyed girl with angular features and curly white hair—styled in two buns—smiles as she holds a tiny, incredibly fluffy ginger…",
+          "link": "https://t.me/StableDiffusionBest/5520",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-25T07:25:20.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: high-fashion editorial portrait of a model in a contemporary streetwear look",
+          "summary": "#SDXL #Midjourney🏛Запрос: high-fashion editorial portrait of a model in a contemporary streetwear look. the model has red hair and is posing confidently…",
+          "link": "https://t.me/StableDiffusionBest/5519",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-23T05:55:25.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Hyperrealism🏛Запрос: a mystical garden scene featuring a fluffy orange cat cradled by a greco-roman marble",
+          "summary": "#SDXL #Hyperrealism🏛Запрос: a mystical garden scene featuring a fluffy orange cat cradled by a greco-roman marble statue. the statue has flowing carved hair and a serene expression, while crimson roses grow around its…",
+          "link": "https://t.me/StableDiffusionBest/5518",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-21T15:11:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: a cozy autumn still-life photograph featuring a glossy ribbed orange ceramic mug filled",
+          "summary": "#SDXL #Midjourney🏛Запрос: a cozy autumn still-life photograph featuring a glossy ribbed orange ceramic mug filled with frothy dark coffee at the center on a rustic wooden slice, black curved handle facing right,…",
+          "link": "https://t.me/StableDiffusionBest/5517",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-21T12:10:34.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: a vintage decorative portrait illustration of a front-facing young woman wearing an",
+          "summary": "#SDXL #Midjourney🏛Запрос: a vintage decorative portrait illustration of a front-facing young woman wearing an elaborate floral brocade headdress and matching pale pink embroidered robe, a deep blue floral panel down…",
+          "link": "https://t.me/StableDiffusionBest/5516",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-21T06:04:22.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: woman in elegant, historical chinese attire sitting on a wooden boat at night",
+          "summary": "#SDXL #Midjourney🏛Запрос: woman in elegant, historical chinese attire sitting on a wooden boat at night. the scene is lit by a warm lantern hanging inside the boat's canopy, which creates a striking contrast with the…",
+          "link": "https://t.me/StableDiffusionBest/5515",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-20T17:15:40.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Portrait🏛Запрос: photorealistic monochrome portrait, poised woman with a sleek dark hairstyle and a fitted",
+          "summary": "#SDXL #Portrait🏛Запрос: photorealistic monochrome portrait, poised woman with a sleek dark hairstyle and a fitted leopard-pattern dress…",
+          "link": "https://t.me/StableDiffusionBest/5514",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-20T12:05:27.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: black and white pencil and ink graphics, jagged lines, sharp angles, shading, high",
+          "summary": "#SDXL #Midjourney🏛Запрос: black and white pencil and ink graphics, jagged lines, sharp angles, shading, high detail, three-quarter turn, free pose. the atmosphere of dark fantasy…",
+          "link": "https://t.me/StableDiffusionBest/5513",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-20T06:12:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: acrylic, random pose. a stunning beauty in a russian folk costume and a richly",
+          "summary": "#SDXL #Midjourney🏛Запрос: acrylic, random pose. a stunning beauty in a russian folk costume and a richly decorated kokoshnik; rowan berries and delicate leaves frame her face…",
+          "link": "https://t.me/StableDiffusionBest/5512",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-19T14:16:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Portrait🏛Запрос: stunning, cinematic portrait of a beautiful young chinesewoman wearing a traditional",
+          "summary": "#SDXL #Portrait🏛Запрос: stunning, cinematic portrait of a beautiful young chinesewoman wearing a traditional flowing white and blue hanfu, sitting inside a wooden boat on a misty river at twilight…",
+          "link": "https://t.me/StableDiffusionBest/5511",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-19T11:09:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: acrylic random pose: a modern fashionable look for a young woman, inspired by russian",
+          "summary": "#SDXL #Midjourney🏛Запрос: acrylic random pose: a modern fashionable look for a young woman, inspired by russian folklore, mythology, and fairy tales…",
+          "link": "https://t.me/StableDiffusionBest/5510",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-19T06:34:16.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Polaroid🏛Запрос: 1 woman, vintage film photo in 70s style with deep colors, focus on the character,",
+          "summary": "#SDXL #Polaroid🏛Запрос: 1 woman, vintage film photo in 70s style with deep colors, focus on the character, blurred background. above-waist portrait of a model with unconventional but beautiful appearance, dark hair…",
+          "link": "https://t.me/StableDiffusionBest/5508",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-15T17:24:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #Midjourney🏛Запрос: a whimsical miniature crystal garden, translucent acrylic flowers, delicate glass",
+          "summary": "#SDXL #Midjourney🏛Запрос: a whimsical miniature crystal garden, translucent acrylic flowers, delicate glass petals, soft pastel pink, lavender and pale mint colors with sparkling crystal textures and dreamy luminous…",
+          "link": "https://t.me/StableDiffusionBest/5507",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-15T12:18:01.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #OilPainting🏛Запрос: a highly detailed, monochromatic digital artwork of a woman merged with a spider,",
+          "summary": "#SDXL #OilPainting🏛Запрос: a highly detailed, monochromatic digital artwork of a woman merged with a spider, rendered in intricate wireframe mesh…",
+          "link": "https://t.me/StableDiffusionBest/5506",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-15T06:20:20.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "#SDXL #OilPainting🏛Запрос: amc pacer car, sunset aspen background, photorealism, face detalisation, eyes",
+          "summary": "#SDXL #OilPainting🏛Запрос: amc pacer car, sunset aspen background, photorealism, face detalisation, eyes detalisation, aquacolors: 0…",
+          "link": "https://t.me/StableDiffusionBest/5505",
+          "source": "Stable Diffusion News",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/StableDiffusionBest",
+          "date": "2026-09-14T16:45:41.000Z",
+          "aiFocused": true
+        }
+      ]
+    }
+  }
+}
