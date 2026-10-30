@@ -1,4 +1,4 @@
-FROM nginx:1.27-alpine
+FROM nginxinc/nginx-unprivileged:1.27-alpine
 
 COPY index.html /usr/share/nginx/html/index.html
 COPY data/news.json /usr/share/nginx/html/data/news.json
