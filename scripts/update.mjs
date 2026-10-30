@@ -8,16 +8,19 @@
  * without breaking the whole update.
  */
 
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { DOMParser } from "linkedom";
+import { CATEGORY_RULES, DEFAULT_CATEGORY, MAX_PER_CATEGORY, categorize, isAiNews } from "./news-rules.mjs";
+import { fetchWithRetry, mapWithConcurrency } from "./retry.mjs";
+import { seedTelegramCache, mergeTelegramPosts, markTelegramPostsStale } from "./telegram-cache.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const OUT_PATH = resolve(ROOT, "data", "news.json");
-const MAX_PER_CATEGORY = 20;
-
+const TELEGRAM_CACHE_PATH = resolve(ROOT, "data", "telegram-cache.json");
+const TELEGRAM_CONCURRENCY = 2;
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36";
 
@@ -50,72 +53,6 @@ const TELEGRAM_CHANNELS = [
   { channel: "neuro_channel", source: "Нейросети · Инструменты", aiFocused: true },
   { channel: "ml_product", source: "ML Product", aiFocused: true },
 ];
-
-// ------------------------------------------------------------ categories
-
-const CATEGORY_RULES = [
-  {
-    id: "models",
-    label: "Модели и релизы",
-    patterns: [
-      /(?:нов(?:ая|ый|ую)|представил[аи]?|выпустил[аи]?|запустил[аи]?|обновил[аи]?|релиз|вышла|вышел|доступна|доступен|обучил[аи]?).{0,55}(?:модел|нейросет|llm|gpt|claude|gemini|llama|mistral|deepseek|gigachat|гигачат|yandexgpt)/i,
-      /(?:модел|нейросет).{0,45}(?:gpt|claude|gemini|llama|mistral|deepseek|релиз|выпуск|обновлен|верси|параметр|вес)/i,
-      /(?<![\p{L}\p{N}])(?:gpt|claude|gemini|llama|mistral|deepseek|yandexgpt|gigachat)(?![\p{L}\p{N}]).{0,55}(?:выпуст|представ|релиз|обнов|модел|нейросет)/iu,
-      /(?:открыт(?:ые|ых) веса|open weights|open-weight|большая языковая модель)/i,
-    ],
-  },
-  {
-    id: "business",
-    label: "Бизнес и инвестиции",
-    patterns: [
-      /(?:инвестиц|финансирован|раунд|привлек[лаи]?|вложил[аи]?|купил[аи]?|приобрел[аи]?|поглотил[аи]?|стартап|оценк[аи] компании|выручк[аи]|доход[аы]|миллиардн(?:ый|ая|ое) сделк)/i,
-      /(?:компани|стартап|сервис|платформ).{0,60}(?:инвестиц|финансирован|раунд|купил|приобрел|оценк|выручк|прибыл)/i,
-      /\b(?:ipo|funding|investment round|acquisition|valuation|raises? \$|billion investment)\b/i,
-    ],
-  },
-  {
-    id: "research",
-    label: "Исследования",
-    patterns: [
-      /(?:учен(?:ые|ые)|исследовател|научн(?:ая|ое|ый)|лаборатори).{0,65}(?:открыли|выявили|обнаружили|доказали|разработали|создали|опубликовали|исследован|эксперимент)/i,
-      /(?:исследован|эксперимент|научн(?:ая|ое|ый) работ|препринт|публикац|arxiv|бенчмарк|датасет|обучени с подкреплением|интерпретируемост)/i,
-      /\b(?:arxiv|peer-reviewed|research paper|scientific study|reinforcement learning)\b/i,
-    ],
-  },
-  {
-    id: "policy",
-    label: "Регулирование",
-    patterns: [
-      /(?:закон|законопроект|регулирован|регулятор|госдум|министерств|суд|иск против|штраф|запретил|запретят|авторск(?:ое право|их прав)|персональн(?:ые данные|ых данных)|лицензирован|заблокир|банит аккаунт)/i,
-      /(?:власти|правительств|евросоюз|еврокомисс|роскомнадзор|ркн).{0,55}(?:ии|искусственн(?:ого интеллекта|ому интеллекту)|нейросет|законе|запрет|регулир)/i,
-      /\b(?:eu ai act|ai regulation|copyright lawsuit|ai safety law|regulator)\b/i,
-    ],
-  },
-  {
-    id: "applications",
-    label: "Применение и инструменты",
-    patterns: [
-      /(?:внедрил[аи]?|применя|использу|автоматизир|помогает|помощник|ассистент|инструмент|сервис на базе|приложени|робот для|роботизир|оператор|генератор).{0,70}(?:ии|искусственн(?:ого интеллекта|ым интеллектом)|нейросет|модел|gpt|claude|gemini|алгоритм)/i,
-      /(?:ии|искусственн(?:ый интеллект|ого интеллекта)|нейросет|модел|gpt|claude|gemini).{0,70}(?:внедрил|применя|использу|автоматизир|помогает|помощник|ассистент|инструмент|сервис|приложени|робот)/i,
-    ],
-  },
-];
-const DEFAULT_CATEGORY = "misc";
-
-// Boundaries prevent false matches such as "ии" inside "России" or "ai" in English words.
-const AI_PATTERNS = [
-  /искусственн(?:ый интеллект|ого интеллекта|ому интеллекту|ым интеллектом)/i,
-  /нейросет|нейронн(?:ая сеть|ые сети|ой сети)|машинн(?:ое обучение|ого обучения)/i,
-  /(?<![\p{L}\p{N}])ии(?![\p{L}\p{N}])/iu,
-  /(?<![\p{L}\p{N}])(?:ai|gpt|chatgpt|llm|openai|anthropic|claude|gemini|deepseek|yandexgpt|gigachat|llama|mistral)(?![\p{L}\p{N}])/iu,
-  /генеративн(?:ый|ая|ое) (?:ии|модел|нейросет)|языков(?:ая модель|ой модели)|компьютерное зрение/i,
-  /алгоритм(?: машинного обучения| ии)|обучени(?:е|я) с подкреплением/i,
-];
-
-function isAiNews(news) {
-  const text = news.aiFocused ? `${news.title} ${news.summary}` : news.title;
-  return Boolean(news.aiFocused) || AI_PATTERNS.some((pattern) => pattern.test(text));
-}
 
 // ------------------------------------------------------------ utilities
 
@@ -262,21 +199,6 @@ function parseTelegram(html, meta) {
 
 // ---------------------------------------------------------- categorize
 
-function categorize(news) {
-  const title = news.title.toLowerCase();
-  const summary = news.summary.toLowerCase();
-  const titleMatches = [];
-  const summaryMatches = [];
-  for (const cat of CATEGORY_RULES) {
-    if (cat.patterns.some((pattern) => pattern.test(title))) titleMatches.push(cat.id);
-    else if (cat.patterns.some((pattern) => pattern.test(summary))) summaryMatches.push(cat.id);
-  }
-  if (titleMatches.length === 1) return titleMatches[0];
-  if (titleMatches.length > 1) return DEFAULT_CATEGORY;
-  if (summaryMatches.length === 1) return summaryMatches[0];
-  return DEFAULT_CATEGORY;
-}
-
 function dedupeKey(news) {
   const url = (news.link || "").split("?")[0].replace(/\/$/, "");
   const title = news.title.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim().slice(0, 60);
@@ -288,26 +210,55 @@ function dedupeKey(news) {
 async function main() {
   console.log("Collecting AI news…");
 
-  const tasks = [];
+  const rssTasks = [];
   for (const f of RSS_FEEDS) {
-    tasks.push(
+    rssTasks.push(
       fetchText(f.url)
         .then((xml) => ({ ok: true, data: parseRss(xml, f, "site"), meta: f }))
         .catch((e) => ({ ok: false, error: String(e.message || e), meta: f }))
     );
   }
-  for (const t of TELEGRAM_CHANNELS) {
-    tasks.push(
-      fetchText(`https://t.me/s/${t.channel}`)
-        .then((html) => ({ ok: true, data: parseTelegram(html, t), meta: t }))
-        .catch((e) => ({ ok: false, error: String(e.message || e), meta: t }))
-    );
+  const cachedTelegram = existsSync(TELEGRAM_CACHE_PATH)
+    ? JSON.parse(readFileSync(TELEGRAM_CACHE_PATH, "utf-8"))
+    : { channels: {} };
+  if (!existsSync(TELEGRAM_CACHE_PATH) && existsSync(OUT_PATH)) {
+    try {
+      const previous = JSON.parse(readFileSync(OUT_PATH, "utf-8"));
+      cachedTelegram.channels = seedTelegramCache(previous, TELEGRAM_CHANNELS, dedupeKey).channels;
+      console.log(`Seeded Telegram cache from previous dashboard data (${Object.keys(cachedTelegram.channels).length} channels)`);
+    } catch (error) {
+      console.warn(`Could not seed Telegram cache: ${error.message}`);
+    }
   }
-
-  const results = await Promise.allSettled(tasks);
+  const [rssResults, telegramResults] = await Promise.all([
+    Promise.allSettled(rssTasks),
+    mapWithConcurrency(TELEGRAM_CHANNELS, TELEGRAM_CONCURRENCY, async (channel) => {
+      try {
+        const html = await fetchWithRetry(`https://t.me/s/${channel.channel}`, undefined, fetchText);
+        const posts = parseTelegram(html, channel);
+        const previousPosts = cachedTelegram.channels[channel.channel]?.posts || [];
+        const retainedPosts = mergeTelegramPosts(posts, previousPosts, dedupeKey);
+        const fetchedAt = new Date().toISOString();
+        cachedTelegram.channels[channel.channel] = { fetchedAt, posts: retainedPosts };
+        return { ok: true, data: retainedPosts, meta: channel };
+      } catch (error) {
+        const cached = cachedTelegram.channels[channel.channel];
+        return {
+          ok: false,
+          error: String(error.message || error),
+          meta: channel,
+          data: cached?.posts || [],
+          staleSince: cached?.fetchedAt || null,
+        };
+      }
+    }),
+  ]);
+  writeFileSync(TELEGRAM_CACHE_PATH, JSON.stringify(cachedTelegram, null, 2), "utf-8");
+  const results = [...rssResults, ...telegramResults.map((result) => ({ status: "fulfilled", value: result }))];
 
   let all = [];
   const failed = [];
+  const staleTelegram = [];
   for (const r of results) {
     const v = r.value;
     if (v && v.ok) {
@@ -316,6 +267,12 @@ async function main() {
     } else if (v) {
       failed.push(v.meta.source);
       console.warn(`  ✗ ${v.meta.source}: ${v.error}`);
+      if (v.meta.channel) {
+        const cachedPosts = markTelegramPostsStale(v.data);
+        all.push(...cachedPosts);
+        staleTelegram.push({ channel: v.meta.channel, fetchedAt: v.staleSince, count: v.data.length });
+        if (v.data.length) console.log(`    keeping ${v.data.length} cached items${v.staleSince ? ` from ${v.staleSince}` : ""}`);
+      }
     }
   }
 
@@ -343,7 +300,7 @@ async function main() {
     categories[id] = deduped
       .filter((n) => n.category === id)
       .slice(0, MAX_PER_CATEGORY)
-      .map(({ title, summary, link, source, type, sourceUrl, date }) => ({
+      .map(({ title, summary, link, source, type, sourceUrl, date, category, stale }) => ({
         title,
         summary,
         link,
@@ -351,6 +308,8 @@ async function main() {
         type,
         sourceUrl,
         date,
+        category,
+        ...(stale ? { stale: true } : {}),
       }));
   }
 
@@ -367,6 +326,7 @@ async function main() {
       minute: "2-digit",
     }).format(new Date()),
     failedSources: failed,
+    staleTelegram,
     total,
     categories: CATEGORY_RULES.map(({ id, label }) => ({
       id,

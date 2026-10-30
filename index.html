@@ -117,10 +117,11 @@
 
   <script>
     const state = { data: null, active: null };
+    const DATA_URL = "https://raw.githubusercontent.com/andreyreformpress-ux/test-project/main/data/news.json";
 
     async function boot() {
-      // Cache-busting: dashboard is static, data is rewritten hourly
-      const res = await fetch("data/news.json?v=" + Date.now(), { cache: "no-store" });
+      const res = await fetch(DATA_URL + "?v=" + Date.now(), { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
       const data = await res.json();
       state.data = data;
 
@@ -128,8 +129,13 @@
       upd.textContent = "Обновление: " + (data.updatedAtLocal || data.updatedAt);
       if (data.failedSources?.length) {
         const warning = document.getElementById("source-warning");
-        warning.textContent = "Не удалось обновить часть источников: " + data.failedSources.join(", ");
+        const cachedCount = data.staleTelegram?.reduce((count, source) => count + source.count, 0) || 0;
+        warning.textContent = cachedCount
+          ? `Telegram временно недоступен (${data.failedSources.length} источников). Показаны сохранённые публикации: ${cachedCount}.`
+          : "Не удалось обновить часть источников: " + data.failedSources.join(", ");
         warning.style.display = "block";
+      } else {
+        document.getElementById("source-warning").style.display = "none";
       }
 
       const tabsEl = document.getElementById("tabs");
@@ -141,6 +147,8 @@
         return;
       }
 
+      const previousActive = state.active;
+      tabsEl.replaceChildren();
       for (const cat of cats) {
         const btn = document.createElement("button");
         btn.className = "tab";
@@ -151,7 +159,7 @@
         tabsEl.appendChild(btn);
       }
 
-      select(cats[0].id);
+      select(cats.some(c => c.id === previousActive) ? previousActive : cats[0].id);
     }
 
     function select(id) {
@@ -173,6 +181,8 @@
         const badge = n.type === "telegram"
           ? '<span class="badge telegram">✈ Telegram · ' + escapeHtml(n.source) + "</span>"
           : '<span class="badge site">🌐 ' + escapeHtml(n.source) + "</span>";
+        const topic = n.category ? '<span>' + escapeHtml(categoryLabel(n.category)) + '</span>' : '';
+        const cached = n.stale ? '<span>сохранённая копия</span>' : '';
 
         const time = n.date ? " · " + fmtDate(n.date) : "";
 
@@ -182,7 +192,7 @@
               escapeHtml(n.title) + "</a></h2></div>" +
             (n.summary ? "<p>" + escapeHtml(n.summary) + "</p>" : "") +
             '<div class="meta">' + badge + time +
-              ' · <a href="' + escapeAttr(n.sourceUrl) + '" target="_blank" rel="noopener noreferrer">источник</a>' +
+              ' · ' + topic + (cached ? ' · ' + cached : '') + ' · <a href="' + escapeAttr(n.sourceUrl) + '" target="_blank" rel="noopener noreferrer">источник</a>' +
             "</div>" +
           "</article>";
         ul.appendChild(li);
@@ -194,6 +204,9 @@
       const d = new Date(iso);
       return d.toLocaleDateString("ru-RU", { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Moscow" });
     }
+    function categoryLabel(id) {
+      return state.data.categories.find(c => c.id === id)?.label || "Разное";
+    }
     function escapeHtml(s) {
       return String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
     }
@@ -203,6 +216,7 @@
       document.getElementById("content").innerHTML =
         '<p class="empty">Не удалось загрузить данные: ' + escapeHtml(String(e)) + "</p>";
     });
+    setInterval(() => boot().catch(() => {}), 5 * 60 * 1000);
   </script>
 </body>
 </html>

@@ -33,10 +33,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json
+          git add data/news.json data/telegram-cache.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             git commit -m "chore: hourly news update $(date -u '+%Y-%m-%d %H:%M UTC')"
-            git push
+            git push origin HEAD:main
           fi
