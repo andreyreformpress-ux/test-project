@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-30T17:54:43.659Z",
-  "updatedAtLocal": "30 октября 2026 г. в 20:54",
+  "updatedAt": "2026-10-30T19:06:15.741Z",
+  "updatedAtLocal": "30 октября 2026 г. в 22:06",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 76,
+  "total": 75,
   "categories": [
     {
       "id": "models",
@@ -175,16 +175,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/hiaimedia",
           "date": "2026-10-30T16:45:40.000Z",
-          "category": "business"
-        },
-        {
-          "title": "Anthropic купила стартап из одного человека, который разрабатывает лекарства с помощью ИИ",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/10/30/anthropic-kupila-startap-iz-odnogo-celoveka-kotoryi-razrabatyvaet-lekarstva-s-pomoshhiu-ii.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-10-30T03:59:00.000Z",
           "category": "business"
         },
         {
@@ -396,6 +386,16 @@
       "label": "Применение и инструменты",
       "items": [
         {
+          "title": "Эксперт Ручкина: применение ИИ в создании дизайна неэффективно без знаний",
+          "summary": "Дизайнер отметила, что для использования искусственного интеллекта, нужно иметь базовое образование",
+          "link": "https://tass.ru/ekonomika/28273141",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-10-30T18:28:45.000Z",
+          "category": "applications"
+        },
+        {
           "title": "Виртуальные сотрудники под контролем: как ограничить автономных ИИ-агентов",
           "summary": "Очевидный факт: ИИ-агент умеет действовать самостоятельно — запускать программы, управлять файлами и часами напролет последовательно решать поставленную задачу…",
           "link": "https://habr.com/ru/companies/ru_mts/articles/1097646/?utm_campaign=1097646&utm_source=habrahabr&utm_medium=rss",
@@ -566,16 +566,6 @@
           "category": "applications"
         },
         {
-          "title": "Что бэкапить в ИИ-приложении: модель, документы, индексы или историю диалогов?",
-          "summary": "Привет, Хабр! На связи Михаил Витко, менеджер PaaS-продуктов Рег.облака. Представим ситуацию. После восстановления ИИ-помощник принимает запросы и отвечает без ошибок…",
-          "link": "https://habr.com/ru/companies/runity/articles/1101250/?utm_campaign=1101250&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-10-29T12:44:03.000Z",
-          "category": "applications"
-        },
-        {
           "title": "Под капотом современных ИИ-сервисов: KV-кэш, батчинг, квантизация и серверное железо",
           "summary": "Итак, вы отправляете запрос через сайт или приложение. В этот момент начинается его путь к подробному и, возможно, корректному ответу…",
           "link": "https://habr.com/ru/companies/selectel/articles/1099322/?utm_campaign=1099322&utm_source=habrahabr&utm_medium=rss",
@@ -602,6 +592,36 @@
       "label": "Разное",
       "items": [
         {
+          "title": "Черепашка, Дракон и вайбкодинг. 70 лет попыток обойтись без программиста",
+          "summary": "В 1959 году создатели COBOL надеялись, что код на нём смогут читать менеджеры. Потом были черепашка Logo, советский ДРАКОН, Visual Basic, no-code платформы, теперь нейросети…",
+          "link": "https://habr.com/ru/companies/lukit_ru/articles/1100404/?utm_campaign=1100404&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-10-30T18:40:45.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Anthropic убрала 5-часовой лимит на подписке за $200 и переименовала её из Max 20x в Ultra",
+          "summary": "Anthropic убрала 5-часовой лимит на подписке за $200 и переименовала её из Max 20x в Ultra. Max 5x теперь называется просто Max, цены прежние.Есть один нюанс: только для верифицированных аккаунтов…",
+          "link": "https://t.me/neuro_channel/3098",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-30T18:31:52.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Большая победа китайцев — нейронку Kimi теперь можно оплатить РУБЛЯМИ картой «Мир»",
+          "summary": "Большая победа китайцев — нейронку Kimi теперь можно оплатить РУБЛЯМИ картой «Мир». Из последних релизов у них — Kimi 3.1 Pro, которая почти не уступает Opus 5.5. Claude, что с лицом? 😚",
+          "link": "https://t.me/neuraldvig/11883",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-30T18:22:58.000Z",
+          "category": "misc"
+        },
+        {
           "title": "📣 ИИ ВЫДАЛ ТРИ ОТКРЫТИЯ ЗА РАЗСотни научных работ начинаются с одной и той же оговорки: будем считать, что эту",
           "summary": "📣 ИИ ВЫДАЛ ТРИ ОТКРЫТИЯ ЗА РАЗСотни научных работ начинаются с одной и той же оговорки: будем считать, что эту задачу быстро решить нельзя.Внутренняя модель одной из крупных ИИ-лабораторий заявила, что оговорка неверна…",
           "link": "https://t.me/chatgpt_try/293",
@@ -609,6 +629,16 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/chatgpt_try",
           "date": "2026-10-30T17:49:24.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Google впервые получила ответ от ИИ на орбите: спутник с чипом TPU сочинил хокку",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/10/30/google-vpervye-polucila-otvet-ot-ii-na-orbite-sputnik-s-cipom-tpu-socinil-xokku.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-10-30T17:49:00.000Z",
           "category": "misc"
         },
         {
@@ -759,46 +789,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
           "date": "2026-10-30T12:10:39.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Штат укомплектован, свободных вакансий нет, команда мобильная, больничных не берут, отпусков не просят,",
-          "summary": "Штат укомплектован, свободных вакансий нет, команда мобильная, больничных не берут, отпусков не просят, переработки компенсируются зарядкой. 🔖 Воспользоваться TryChat🔵 Мы в VK | ⭐ Мы в Дзен",
-          "link": "https://t.me/chatgpt_try/292",
-          "source": "TryChatGPT.ru",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/chatgpt_try",
-          "date": "2026-10-30T11:38:24.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "От ИИ-агента в 1С до мотивации команды: семь коротких докладов на A&PM EVENT 2026",
-          "summary": "Как превратить личные эксперименты с ИИ в общую практику компании? Что поручить агенту, подключённому к базе 1С? Как руководителю поддерживать доверие и мотивацию команды? Эти вопросы вошли в программу «Открытого…",
-          "link": "https://habr.com/ru/companies/infostart/articles/1101692/?utm_campaign=1101692&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-10-30T11:16:41.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "В России сегодня отмечают День инженера — ИКС Холдинг напомнил, кто стоит за технологиями, которыми мы пользуемся",
-          "summary": "В России сегодня отмечают День инженера — ИКС Холдинг напомнил, кто стоит за технологиями, которыми мы пользуемся каждый день. Эти ребята проектируют спутники, создают умные устройства, разрабатывают сервисы и…",
-          "link": "https://t.me/neuraldvig/11878",
-          "source": "Нейродвиж",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuraldvig",
-          "date": "2026-10-30T10:30:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Вайбучение",
-          "summary": "Давайте сразу. Вайбучение — это когда нет паузы между получением и применением знаний. Система подготовки к жизни без вертикальной передачи знаний, базирующаяся на инициирующих событиях. Это не «Образование 5…",
-          "link": "https://habr.com/ru/articles/1101654/?utm_campaign=1101654&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-10-30T10:12:15.000Z",
           "category": "misc"
         }
       ]
