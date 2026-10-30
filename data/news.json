@@ -1,16 +1,26 @@
 {
-  "updatedAt": "2026-10-30T19:06:15.741Z",
-  "updatedAtLocal": "30 октября 2026 г. в 22:06",
+  "updatedAt": "2026-10-30T23:27:35.987Z",
+  "updatedAtLocal": "31 октября 2026 г. в 02:27",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 75,
+  "total": 76,
   "categories": [
     {
       "id": "models",
       "label": "Модели и релизы",
       "items": [
+        {
+          "title": "DeepSeek и Moonshot обучали новые модели на ответах GPT-6 Astra, сообщают СМИ",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/10/31/deepseek-i-moonshot-obucali-novye-modeli-na-otvetax-gpt-6-astra-soobshhaiut-smi.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-10-30T23:15:00.000Z",
+          "category": "models"
+        },
         {
           "title": "Человечество ВЫРЫВАЕТСЯ ВПЕРЁД — Нобель Арустамян ОБЫГРЫВАЕТ нейросеть Альфа-Банка в первом выпуске шоу",
           "summary": "Человечество ВЫРЫВАЕТСЯ ВПЕРЁД — Нобель Арустамян ОБЫГРЫВАЕТ нейросеть Альфа-Банка в первом выпуске шоу предсказателей 😎❤️Искусственный интеллект наступал, но футбольная интуиция оказалась сильнее…",
@@ -386,17 +396,17 @@
       "label": "Применение и инструменты",
       "items": [
         {
-          "title": "Эксперт Ручкина: применение ИИ в создании дизайна неэффективно без знаний",
-          "summary": "Дизайнер отметила, что для использования искусственного интеллекта, нужно иметь базовое образование",
-          "link": "https://tass.ru/ekonomika/28273141",
-          "source": "ТАСС",
+          "title": "Внедряем ИИ. Между увольнением и ненавистью",
+          "summary": "Внедренца ИИ ждёт молот руководства сверху и вилы сотрудников снизу. Почему инструкции и тулзы не работают, пока не продана сама идея перемен — и при чём тут конвейер зарабатывания денег? Читать далее",
+          "link": "https://habr.com/ru/articles/1101946/?utm_campaign=1101946&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
           "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-10-30T18:28:45.000Z",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-10-30T20:23:20.000Z",
           "category": "applications"
         },
         {
-          "title": "Виртуальные сотрудники под контролем: как ограничить автономных ИИ-агентов",
+          "title": "Виртуальные сотрудники под контролем: как ограничить автономных ИИ‑агентов",
           "summary": "Очевидный факт: ИИ-агент умеет действовать самостоятельно — запускать программы, управлять файлами и часами напролет последовательно решать поставленную задачу…",
           "link": "https://habr.com/ru/companies/ru_mts/articles/1097646/?utm_campaign=1097646&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -413,16 +423,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-10-30T12:53:20.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "ТОП-5 нейросетей для создания презентаций: слайды и дизайн за 15 минут. Генерация изображений и ИИ для структуры",
-          "summary": "Презентацию обычно делают в три подхода: сначала структура, текст для слайдов, потом картинки и верстка. Каждый этап — отдельная задача, и зачастую одна нейросеть не выполнит их все одинаково хорошо…",
-          "link": "https://habr.com/ru/companies/speshu_ai/articles/1101736/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1101736",
-          "source": "Хабр",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
-          "date": "2026-10-30T12:21:04.000Z",
           "category": "applications"
         },
         {
@@ -584,6 +584,16 @@
           "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
           "date": "2026-10-29T06:44:07.000Z",
           "category": "applications"
+        },
+        {
+          "title": "От языка к действию: как устроены агентные ИИ‑системы",
+          "summary": "LLM умеет рассуждать и генерировать ответы, но что делать, если системе нужно самостоятельно выполнять задачи, взаимодействовать с внешними сервисами и проверять результаты своих действий? Здесь начинается территория…",
+          "link": "https://habr.com/ru/companies/otus/articles/1095784/?utm_campaign=1095784&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · Машинное обучение",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
+          "date": "2026-10-28T18:16:45.000Z",
+          "category": "applications"
         }
       ]
     },
@@ -592,7 +602,57 @@
       "label": "Разное",
       "items": [
         {
-          "title": "Черепашка, Дракон и вайбкодинг. 70 лет попыток обойтись без программиста",
+          "title": "Сэм Альтман рассказал, как OpenAI собирается автоматизировать строительство дата-центров и с помощью роботов резко удешевить вычислительные мощности",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/10/31/sem-altman-rasskazal-kak-openai-sobiraetsia-avtomatizirovat-stroitelstvo-data-centrov-i-s-pomoshhiu-robotov-rezko-udesevit-vycislitelnye-moshhnosti.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-10-30T22:01:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Valve не станет банить игры с ИИ в Steam",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/10/31/valve-ne-stanet-banit-igry-s-ii-v-steam.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-10-30T21:52:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "⚡️ ChatGPT снова оказался в центре скандала после смерти 31-летней девушки с эпилепсией",
+          "summary": "⚡️ ChatGPT снова оказался в центре скандала после смерти 31-летней девушки с эпилепсией.По данным из сети, на протяжении нескольких месяцев она общалась с ИИ, который помогал ей отказываться от назначенных лекарств и…",
+          "link": "https://t.me/gptpublic/6689",
+          "source": "ChatGPT · Нейросети",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-10-30T19:25:01.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Gemini или DeepSeek для разбора SDK: считаем 20 запросов и цену промахов кэша",
+          "summary": "Двадцать вопросов к большому руководству по миграции SDK обойдутся в $0,69 у Gemini 3.8 Flash и $0,2028 у DeepSeek Flash — при заданных ниже объемах и одинаковых попаданиях в кэш…",
+          "link": "https://habr.com/ru/companies/raketa_pay/articles/1101936/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1101936",
+          "source": "Хабр",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
+          "date": "2026-10-30T19:14:59.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Подписку Kimi теперь можно оплатить рублями с карты «Мир». В «Код.ру» проверили это сами: сайт открывается без",
+          "summary": "Подписку Kimi теперь можно оплатить рублями с карты «Мир». В «Код.ру» проверили это сами: сайт открывается без VPN, оплата прошла, Plus за $19 в месяц обошёлся им в 1652 рубля…",
+          "link": "https://t.me/neuro_channel/3099",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-30T19:08:30.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Черепашка, Дракон и вайбкодинг. 70 лет попыток обойтись без программиста",
           "summary": "В 1959 году создатели COBOL надеялись, что код на нём смогут читать менеджеры. Потом были черепашка Logo, советский ДРАКОН, Visual Basic, no-code платформы, теперь нейросети…",
           "link": "https://habr.com/ru/companies/lukit_ru/articles/1100404/?utm_campaign=1100404&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -712,7 +772,7 @@
           "category": "misc"
         },
         {
-          "title": "Когда пользователь медсервиса — ИИ-агент",
+          "title": "Когда пользователь медсервиса — ИИ‑агент",
           "summary": "За одну неделю: Gemini получил право записывать людей к врачу, семья из Сиэтла подала иск к OpenAI за советы ChatGPT, а нейросети, как выяснилось, рекомендуют из пяти лекарств одно — то, у которого лучше SEO…",
           "link": "https://habr.com/ru/articles/1101590/?utm_campaign=1101590&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -722,7 +782,7 @@
           "category": "misc"
         },
         {
-          "title": "Фотосессия стоматологов без фотосессии за $3: FLUX.3 klein + ComfyUI + RunPod = 290 кадров",
+          "title": "Фотосессия стоматологов без фотосессии за $3: FLUX.3 klein + ComfyUI + RunPod = 290 кадров",
           "summary": "Я настраиваю платный трафик для стоматологических клиник (и не только). Для хороших креативов всегда нужны фото врачей: настоящее лицо врача в кабинете работает лучше стока…",
           "link": "https://habr.com/ru/articles/1101804/?utm_campaign=1101804&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -739,56 +799,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/hiaimedia",
           "date": "2026-10-30T13:45:01.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "А Tencent успели выложить свою world model в опенсорсHy-Nomas анонсировали за несколько дней до Genie 4",
-          "summary": "А Tencent успели выложить свою world model в опенсорсHy-Nomas анонсировали за несколько дней до Genie 4. В копилку к MIRA, Solaris и Odyssey-3 добавилась ещё одна world model с управлением текстом и камерой…",
-          "link": "https://t.me/ai_newz/4828",
-          "source": "эйай ньюз",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/ai_newz",
-          "date": "2026-10-30T13:37:01.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Самообучение одноклеточных и коллективный интеллект",
-          "summary": "Казалось бы, обучение — это процесс, непосредственно связанный с нервной деятельностью. Неслучайно вычислительная единица в составе перцептрона и самообучающихся сетей названа именно « нейроном »…",
-          "link": "https://habr.com/ru/articles/1101770/?utm_campaign=1101770&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-10-30T13:04:34.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Перенос сессий между консольными ИИ-агентами без потери контекста",
-          "summary": "Когда в разгар отладки у консольного ИИ-агента кончается пятичасовой лимит, хочется пересесть на другого агента, у которого ещё есть лимиты. Популярный приём с выгрузкой сводки в файл HANDOFF…",
-          "link": "https://habr.com/ru/companies/ruvds/articles/1101674/?utm_campaign=1101674&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-10-30T13:01:28.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Где AI уже реально управляет деньгами, а не просто экономит время? Пример — реклама онлайн-школы TripleTen",
-          "summary": "Где AI уже реально управляет деньгами, а не просто экономит время? Пример — реклама онлайн-школы TripleTen.У онлайн-школы цикл сделки занимает два месяца…",
-          "link": "https://t.me/ai_newz/4827",
-          "source": "эйай ньюз",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/ai_newz",
-          "date": "2026-10-30T12:37:01.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Когда A/B-тест провести сложно: оцениваем эффект предодобренных кредитов с помощью PSM",
-          "summary": "Банк выбрал клиентов, которым готов предложить кредит, рассчитал предварительные условия и запустил кампанию. Через несколько месяцев доля оформивших кредит среди получателей предложения оказалась выше, чем среди…",
-          "link": "https://habr.com/ru/articles/1101732/?utm_campaign=1101732&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · Машинное обучение",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
-          "date": "2026-10-30T12:10:39.000Z",
           "category": "misc"
         }
       ]
