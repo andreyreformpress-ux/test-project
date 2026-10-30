@@ -1,16 +1,26 @@
 {
-  "updatedAt": "2026-10-30T15:22:59.386Z",
-  "updatedAtLocal": "30 октября 2026 г. в 18:22",
+  "updatedAt": "2026-10-30T17:54:43.659Z",
+  "updatedAtLocal": "30 октября 2026 г. в 20:54",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 74,
+  "total": 76,
   "categories": [
     {
       "id": "models",
       "label": "Модели и релизы",
       "items": [
+        {
+          "title": "Человечество ВЫРЫВАЕТСЯ ВПЕРЁД — Нобель Арустамян ОБЫГРЫВАЕТ нейросеть Альфа-Банка в первом выпуске шоу",
+          "summary": "Человечество ВЫРЫВАЕТСЯ ВПЕРЁД — Нобель Арустамян ОБЫГРЫВАЕТ нейросеть Альфа-Банка в первом выпуске шоу предсказателей 😎❤️Искусственный интеллект наступал, но футбольная интуиция оказалась сильнее…",
+          "link": "https://t.me/neuraldvig/11881",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-30T17:22:20.000Z",
+          "category": "models"
+        },
         {
           "title": "Видеомодель на 22 миллиарда параметров на RTX 3080: что пришлось сделать, чтобы она влезла в 10 ГБ",
           "summary": "У меня RTX 3080 с 10 ГБ видеопамяти. У LTX-2.5 — 22 миллиарда параметров, 39 ГБ весов трансформера и ещё 24,5 ГБ текстового энкодера. По этим цифрам знакомство можно было бы закончить…",
@@ -157,6 +167,16 @@
       "id": "business",
       "label": "Бизнес и инвестиции",
       "items": [
+        {
+          "title": "❗️ ИИ-агент провел операцию на мозге крысыОб этом рассказал основатель биотех стартапа Exin Therapeutics Габриэль",
+          "summary": "❗️ ИИ-агент провел операцию на мозге крысыОб этом рассказал основатель биотех стартапа Exin Therapeutics Габриэль Окана-Сантеро. Ученые дали Sonnet 5 полный доступ к автоматизированной хирургической установке на базе…",
+          "link": "https://t.me/hiaimedia/3791",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-10-30T16:45:40.000Z",
+          "category": "business"
+        },
         {
           "title": "Anthropic купила стартап из одного человека, который разрабатывает лекарства с помощью ИИ",
           "summary": "",
@@ -582,6 +602,46 @@
       "label": "Разное",
       "items": [
         {
+          "title": "📣 ИИ ВЫДАЛ ТРИ ОТКРЫТИЯ ЗА РАЗСотни научных работ начинаются с одной и той же оговорки: будем считать, что эту",
+          "summary": "📣 ИИ ВЫДАЛ ТРИ ОТКРЫТИЯ ЗА РАЗСотни научных работ начинаются с одной и той же оговорки: будем считать, что эту задачу быстро решить нельзя.Внутренняя модель одной из крупных ИИ-лабораторий заявила, что оговорка неверна…",
+          "link": "https://t.me/chatgpt_try/293",
+          "source": "TryChatGPT.ru",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/chatgpt_try",
+          "date": "2026-10-30T17:49:24.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Сначала память и SSD, а теперь и печатные платы: стоимость материалов для печатных плат выросла в 12 раз на фоне ИИ-бума, а сами платы становятся дефицитом",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/10/30/snacala-pamiat-i-ssd-a-teper-i-pecatnye-platy-stoimost-materialov-dlia-pecatnyx-plat-vyrosla-v-12-raz-na-fone-ii-buma-a-sami-platy-stanoviatsia-deficitom.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-10-30T17:19:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Большая победа китайцев — нейронку Kimi теперь можно оплатить РУБЛЯМИ картой «Мир»",
+          "summary": "Большая победа китайцев — нейронку Kimi теперь можно оплатить РУБЛЯМИ картой «Мир».Из последних релизов у них — Kimi 3.1 Pro, которая почти не уступает Opus 5.5.Claude, что с лицом? 😚",
+          "link": "https://t.me/neuraldvig/11880",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-30T17:00:08.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Впихнуть невпихуемое",
+          "summary": "Прогресс мчится невероятными темпами. Еще в сентябре запуск 125-миллиардной MoE-модели на домашнем ПК казался забавой для владельцев серверных стоек…",
+          "link": "https://habr.com/ru/articles/1101852/?utm_campaign=1101852&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-10-30T15:38:37.000Z",
+          "category": "misc"
+        },
+        {
           "title": "Этот парень был из тех, кто просто не хотел выходить на работу…Главное, чтобы это желание не оказалось последним 🤤",
           "summary": "Этот парень был из тех, кто просто не хотел выходить на работу…Главное, чтобы это желание не оказалось последним 🤤",
           "link": "https://t.me/gptpublic/6686",
@@ -612,16 +672,6 @@
           "category": "misc"
         },
         {
-          "title": "Чернышенко будет отвечать за цифровое развитие и госполитику в сфере ИИ",
-          "summary": "",
-          "link": "https://ria.ru/20261030/chernyshenko-2128177798.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-10-30T14:37:56.000Z",
-          "category": "misc"
-        },
-        {
           "title": "ИИ-агент выбрал генную терапию и ввёл её в мозг мыши с эпилепсией",
           "summary": "",
           "link": "https://www.ixbt.com/news/2026/10/30/ii-agent-vybral-gennuiu-terapiiu-i-vvel-ee-v-mozg-mysi-s-epilepsiei.html",
@@ -629,16 +679,6 @@
           "type": "site",
           "sourceUrl": "https://www.ixbt.com/export/news.rss",
           "date": "2026-10-30T14:36:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Си Цзиньпин заявил о готовности Китая сотрудничать с Германией в сфере ИИ",
-          "summary": "Это позволит повысить конкурентоспособность обеих стран, отметил председатель КНР",
-          "link": "https://tass.ru/mezhdunarodnaya-panorama/28272245",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-10-30T14:15:30.000Z",
           "category": "misc"
         },
         {
@@ -759,26 +799,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-10-30T10:12:15.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Айфоны и Windows оказались под угрозой блокировки в России — Роскомнадзор включил Apple и Microsoft в специальный",
-          "summary": "Айфоны и Windows оказались под угрозой блокировки в России — Роскомнадзор включил Apple и Microsoft в специальный реестр, участники которого обязаны сотрудничать с российскими властями…",
-          "link": "https://t.me/AI_Chad/7695",
-          "source": "Chad GPT",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/AI_Chad",
-          "date": "2026-10-30T09:35:05.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Американец официально освободился от использования нейросетей на работе по религиозным убеждениям 😈45-летний",
-          "summary": "Американец официально освободился от использования нейросетей на работе по религиозным убеждениям 😈45-летний сотрудник Университета Кентукки заявил, что он гуманист, а ChatGPT и Copilot противоречат его вере в…",
-          "link": "https://t.me/neuraldvig/11876",
-          "source": "Нейродвиж",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuraldvig",
-          "date": "2026-10-30T09:28:45.000Z",
           "category": "misc"
         }
       ]
