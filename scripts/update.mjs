@@ -16,7 +16,7 @@ import { DOMParser } from "linkedom";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 const OUT_PATH = resolve(ROOT, "data", "news.json");
-const MAX_NEWS = 20;
+const MAX_PER_CATEGORY = 20;
 
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36";
@@ -24,16 +24,31 @@ const UA =
 // ---------------------------------------------------------------- sources
 
 const RSS_FEEDS = [
-  { url: "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru", source: "Хабр · ИИ" },
-  { url: "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru", source: "Хабр · Машинное обучение" },
+  { url: "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru", source: "Хабр · ИИ", aiFocused: true },
+  { url: "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru", source: "Хабр · Машинное обучение", aiFocused: true },
+  { url: "https://habr.com/ru/rss/all/all/?fl=ru", source: "Хабр" },
   { url: "https://vc.ru/rss", source: "vc.ru" },
   { url: "https://www.cnews.ru/inc/rss/news.xml", source: "CNews" },
   { url: "https://www.ixbt.com/export/news.rss", source: "iXBT" },
+  { url: "https://naked-science.ru/feed", source: "Naked Science" },
+  { url: "https://tass.ru/rss/v2.xml", source: "ТАСС" },
+  { url: "https://www.interfax.ru/rss.asp", source: "Интерфакс" },
+  { url: "https://ria.ru/export/rss2/archive/index.xml", source: "РИА Новости" },
+  { url: "https://www.vedomosti.ru/rss/news", source: "Ведомости" },
 ];
 
 const TELEGRAM_CHANNELS = [
-  { channel: "neurobureau", source: "Neuro Bureau" },
-  { channel: "ai_machinelearning", source: "AI • Машинное обучение" },
+  { channel: "neurobureau", source: "Neuro Bureau", aiFocused: true },
+  { channel: "GPTMainNews", source: "GPTMain News", aiFocused: true },
+  { channel: "hiaimedia", source: "Hi, AI", aiFocused: true },
+  { channel: "gptpublic", source: "ChatGPT · Нейросети", aiFocused: true },
+  { channel: "neuraldvig", source: "Нейродвиж", aiFocused: true },
+  { channel: "chatgpt_try", source: "TryChatGPT.ru", aiFocused: true },
+  { channel: "ai_newz", source: "эйай ньюз", aiFocused: true },
+  { channel: "StableDiffusionBest", source: "Stable Diffusion News", aiFocused: true },
+  { channel: "AI_Chad", source: "Chad GPT", aiFocused: true },
+  { channel: "neuro_channel", source: "Нейросети · Инструменты", aiFocused: true },
+  { channel: "ml_product", source: "ML Product", aiFocused: true },
 ];
 
 // ------------------------------------------------------------ categories
@@ -42,52 +57,64 @@ const CATEGORY_RULES = [
   {
     id: "models",
     label: "Модели и релизы",
-    keywords: [
-      "model", "gpt", "llm", "claude", "gemini", "llama", "mistral",
-      "release", "launch", "benchmark", "open weights", "openweights",
-      "openai", "anthropic", "deepmind", "модель", "релиз", "вес",
+    patterns: [
+      /(?:нов(?:ая|ый|ую)|представил[аи]?|выпустил[аи]?|запустил[аи]?|обновил[аи]?|релиз|вышла|вышел|доступна|доступен|обучил[аи]?).{0,55}(?:модел|нейросет|llm|gpt|claude|gemini|llama|mistral|deepseek|gigachat|гигачат|yandexgpt)/i,
+      /(?:модел|нейросет).{0,45}(?:gpt|claude|gemini|llama|mistral|deepseek|релиз|выпуск|обновлен|верси|параметр|вес)/i,
+      /(?<![\p{L}\p{N}])(?:gpt|claude|gemini|llama|mistral|deepseek|yandexgpt|gigachat)(?![\p{L}\p{N}]).{0,55}(?:выпуст|представ|релиз|обнов|модел|нейросет)/iu,
+      /(?:открыт(?:ые|ых) веса|open weights|open-weight|большая языковая модель)/i,
     ],
   },
   {
     id: "business",
     label: "Бизнес и инвестиции",
-    keywords: [
-      "funding", "investment", "raises", "billion", "ipo", "valuation",
-      "revenue", "acquisition", "acquires", "startup", "инвестиц",
-      "стартап", "окупац", "млрд", "миллиард", "оборот",
+    patterns: [
+      /(?:инвестиц|финансирован|раунд|привлек[лаи]?|вложил[аи]?|купил[аи]?|приобрел[аи]?|поглотил[аи]?|стартап|оценк[аи] компании|выручк[аи]|доход[аы]|миллиардн(?:ый|ая|ое) сделк)/i,
+      /(?:компани|стартап|сервис|платформ).{0,60}(?:инвестиц|финансирован|раунд|купил|приобрел|оценк|выручк|прибыл)/i,
+      /\b(?:ipo|funding|investment round|acquisition|valuation|raises? \$|billion investment)\b/i,
     ],
   },
   {
     id: "research",
     label: "Исследования",
-    keywords: [
-      "research", "paper", "study", "arxiv", "breakthrough",
-      "reinforcement learning", "interpretability", "benchmark",
-      "исследован", "статья", "прорыв",
+    patterns: [
+      /(?:учен(?:ые|ые)|исследовател|научн(?:ая|ое|ый)|лаборатори).{0,65}(?:открыли|выявили|обнаружили|доказали|разработали|создали|опубликовали|исследован|эксперимент)/i,
+      /(?:исследован|эксперимент|научн(?:ая|ое|ый) работ|препринт|публикац|arxiv|бенчмарк|датасет|обучени с подкреплением|интерпретируемост)/i,
+      /\b(?:arxiv|peer-reviewed|research paper|scientific study|reinforcement learning)\b/i,
     ],
   },
   {
     id: "policy",
     label: "Регулирование",
-    keywords: [
-      "regulation", "regulator", "law", "act", "policy", "eu", "senate",
-      "congress", "copyright", "lawsuit", "ban", "safety",
-      "закон", "запрет", "регул", "иск", "суд", "безопасн",
+    patterns: [
+      /(?:закон|законопроект|регулирован|регулятор|госдум|министерств|суд|иск против|штраф|запретил|запретят|авторск(?:ое право|их прав)|персональн(?:ые данные|ых данных)|лицензирован|заблокир|банит аккаунт)/i,
+      /(?:власти|правительств|евросоюз|еврокомисс|роскомнадзор|ркн).{0,55}(?:ии|искусственн(?:ого интеллекта|ому интеллекту)|нейросет|законе|запрет|регулир)/i,
+      /\b(?:eu ai act|ai regulation|copyright lawsuit|ai safety law|regulator)\b/i,
+    ],
+  },
+  {
+    id: "applications",
+    label: "Применение и инструменты",
+    patterns: [
+      /(?:внедрил[аи]?|применя|использу|автоматизир|помогает|помощник|ассистент|инструмент|сервис на базе|приложени|робот для|роботизир|оператор|генератор).{0,70}(?:ии|искусственн(?:ого интеллекта|ым интеллектом)|нейросет|модел|gpt|claude|gemini|алгоритм)/i,
+      /(?:ии|искусственн(?:ый интеллект|ого интеллекта)|нейросет|модел|gpt|claude|gemini).{0,70}(?:внедрил|применя|использу|автоматизир|помогает|помощник|ассистент|инструмент|сервис|приложени|робот)/i,
     ],
   },
 ];
 const DEFAULT_CATEGORY = "misc";
 
-// Generic news feeds are filtered so the dashboard remains about AI.
-const AI_TERMS = [
-  "искусственн", "нейросет", "нейронн", "машинн", "ии", "ai", "gpt", "chatgpt",
-  "llm", "large language", "openai", "anthropic", "claude", "gemini", "deepseek",
-  "yandexgpt", "гигачат", "кандинск", "генеративн", "робот", "алгоритм",
+// Boundaries prevent false matches such as "ии" inside "России" or "ai" in English words.
+const AI_PATTERNS = [
+  /искусственн(?:ый интеллект|ого интеллекта|ому интеллекту|ым интеллектом)/i,
+  /нейросет|нейронн(?:ая сеть|ые сети|ой сети)|машинн(?:ое обучение|ого обучения)/i,
+  /(?<![\p{L}\p{N}])ии(?![\p{L}\p{N}])/iu,
+  /(?<![\p{L}\p{N}])(?:ai|gpt|chatgpt|llm|openai|anthropic|claude|gemini|deepseek|yandexgpt|gigachat|llama|mistral)(?![\p{L}\p{N}])/iu,
+  /генеративн(?:ый|ая|ое) (?:ии|модел|нейросет)|языков(?:ая модель|ой модели)|компьютерное зрение/i,
+  /алгоритм(?: машинного обучения| ии)|обучени(?:е|я) с подкреплением/i,
 ];
 
 function isAiNews(news) {
-  const text = `${news.title} ${news.summary}`.toLowerCase();
-  return AI_TERMS.some((term) => text.includes(term));
+  const text = news.aiFocused ? `${news.title} ${news.summary}` : news.title;
+  return Boolean(news.aiFocused) || AI_PATTERNS.some((pattern) => pattern.test(text));
 }
 
 // ------------------------------------------------------------ utilities
@@ -191,6 +218,7 @@ function parseRss(xml, meta, type) {
       type, // "site" | "telegram"
       sourceUrl: meta.url,
       date: date ? date.toISOString() : null,
+      aiFocused: Boolean(meta.aiFocused),
     });
   }
   return news;
@@ -205,7 +233,7 @@ function parseTelegram(html, meta) {
   for (const msg of messages) {
     const textEl = msg.querySelector(".tgme_widget_message_text");
     if (!textEl) continue;
-    const text = textEl.textContent.trim();
+    const text = textEl.textContent.replace(/\u00a0/g, " ").replace(/\n{3,}/g, "\n\n").trim();
     if (text.length < 60) continue; // skip short posts / service messages
 
     const linkEl = msg.querySelector("a.tgme_widget_message_date");
@@ -214,17 +242,19 @@ function parseTelegram(html, meta) {
     const timeEl = msg.querySelector("time[datetime]");
     const date = timeEl ? new Date(timeEl.getAttribute("datetime")) : null;
 
-    // First sentence-ish chunk as title
-    const title = summarize(text, 100).replace(/…$/, "");
+    const paragraphs = text.split(/\n+/).map((part) => part.trim()).filter(Boolean);
+    const title = summarize(paragraphs[0] || text, 115).replace(/…$/, "");
+    const summaryText = paragraphs.length > 1 ? paragraphs.slice(1).join(" ") : text;
 
     posts.push({
       title,
-      summary: summarize(text, 220),
+      summary: summarize(summaryText, 220),
       link,
       source: meta.source,
       type: "telegram",
       sourceUrl: `https://t.me/${meta.channel}`,
       date: date && !isNaN(date.getTime()) ? date.toISOString() : null,
+      aiFocused: Boolean(meta.aiFocused),
     });
   }
   return posts;
@@ -233,20 +263,18 @@ function parseTelegram(html, meta) {
 // ---------------------------------------------------------- categorize
 
 function categorize(news) {
-  const haystack = `${news.title} ${news.summary}`.toLowerCase();
-  let best = null;
-  let bestScore = 0;
+  const title = news.title.toLowerCase();
+  const summary = news.summary.toLowerCase();
+  const titleMatches = [];
+  const summaryMatches = [];
   for (const cat of CATEGORY_RULES) {
-    let score = 0;
-    for (const kw of cat.keywords) {
-      if (haystack.includes(kw)) score += kw.length > 6 ? 2 : 1;
-    }
-    if (score > bestScore) {
-      bestScore = score;
-      best = cat.id;
-    }
+    if (cat.patterns.some((pattern) => pattern.test(title))) titleMatches.push(cat.id);
+    else if (cat.patterns.some((pattern) => pattern.test(summary))) summaryMatches.push(cat.id);
   }
-  return best || DEFAULT_CATEGORY;
+  if (titleMatches.length === 1) return titleMatches[0];
+  if (titleMatches.length > 1) return DEFAULT_CATEGORY;
+  if (summaryMatches.length === 1) return summaryMatches[0];
+  return DEFAULT_CATEGORY;
 }
 
 function dedupeKey(news) {
@@ -309,31 +337,24 @@ async function main() {
     deduped.push(n);
   }
 
-  // Round-robin across categories so every tab has content
-  const byCat = new Map();
-  for (const cat of [...CATEGORY_RULES.map((c) => c.id), DEFAULT_CATEGORY]) byCat.set(cat, []);
-  for (const n of deduped) byCat.get(n.category)?.push(n);
-
-  const selected = [];
-  let added = true;
-  while (selected.length < MAX_NEWS && added) {
-    added = false;
-    for (const cat of byCat.values()) {
-      if (selected.length >= MAX_NEWS) break;
-      const n = cat.shift();
-      if (n) {
-        selected.push(n);
-        added = true;
-      }
-    }
-  }
-
-  // Per-category list for the tabs: only the selected items, newest first
+  // Limit each tab independently; fresh items stay first within each category.
   const categories = {};
-  for (const n of selected) {
-    const { title, summary, link, source, type, sourceUrl, date } = n;
-    (categories[n.category] ??= []).push({ title, summary, link, source, type, sourceUrl, date });
+  for (const id of [...CATEGORY_RULES.map((c) => c.id), DEFAULT_CATEGORY]) {
+    categories[id] = deduped
+      .filter((n) => n.category === id)
+      .slice(0, MAX_PER_CATEGORY)
+      .map(({ title, summary, link, source, type, sourceUrl, date }) => ({
+        title,
+        summary,
+        link,
+        source,
+        type,
+        sourceUrl,
+        date,
+      }));
   }
+
+  const total = Object.values(categories).reduce((sum, list) => sum + list.length, 0);
 
   const output = {
     updatedAt: new Date().toISOString(),
@@ -346,13 +367,13 @@ async function main() {
       minute: "2-digit",
     }).format(new Date()),
     failedSources: failed,
-    total: selected.length,
+    total,
     categories: CATEGORY_RULES.map(({ id, label }) => ({
       id,
       label,
       items: categories[id] || [],
     })).concat(
-      selected.some((n) => n.category === DEFAULT_CATEGORY)
+      categories[DEFAULT_CATEGORY].length
         ? [{ id: DEFAULT_CATEGORY, label: "Разное", items: categories[DEFAULT_CATEGORY] || [] }]
         : []
     ),
@@ -361,7 +382,7 @@ async function main() {
   mkdirSync(dirname(OUT_PATH), { recursive: true });
   writeFileSync(OUT_PATH, JSON.stringify(output, null, 2), "utf-8");
   console.log(
-    `Wrote ${OUT_PATH}: ${output.total} news, ${output.categories.filter((c) => c.items.length).length} non-empty categories.` +
+      `Wrote ${OUT_PATH}: ${output.total} news, ${output.categories.filter((c) => c.items.length).length} non-empty categories.` +
       (failed.length ? ` Failed sources: ${failed.join(", ")}` : "")
   );
 }

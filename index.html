@@ -64,6 +64,15 @@
     .tab .count { opacity: .6; font-size: 12px; margin-left: 4px; }
 
     .empty { color: var(--muted); font-size: 14px; padding: 32px 0; text-align: center; }
+    .source-warning {
+      display: none;
+      margin: 10px 0 12px;
+      padding: 9px 12px;
+      border-left: 3px solid #d97706;
+      background: #fff7ed;
+      color: #854d0e;
+      font-size: 12px;
+    }
 
     ul.news { list-style: none; display: flex; flex-direction: column; gap: 10px; }
     article.card {
@@ -100,6 +109,7 @@
     </header>
 
     <nav class="tabs" id="tabs" aria-label="Категории"></nav>
+    <p class="source-warning" id="source-warning" role="status"></p>
     <main id="content"></main>
 
     <footer>Обновляется автоматически каждый час · источники: RSS-фиды и Telegram-каналы</footer>
@@ -116,6 +126,11 @@
 
       const upd = document.getElementById("updated");
       upd.textContent = "Обновление: " + (data.updatedAtLocal || data.updatedAt);
+      if (data.failedSources?.length) {
+        const warning = document.getElementById("source-warning");
+        warning.textContent = "Не удалось обновить часть источников: " + data.failedSources.join(", ");
+        warning.style.display = "block";
+      }
 
       const tabsEl = document.getElementById("tabs");
       const contentEl = document.getElementById("content");
