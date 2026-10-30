@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "Dockerfile"
+      - "nginx.conf"
       - "index.html"
       - "data/news.json"
       - ".github/workflows/publish-image.yml"
