@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-30T23:27:35.987Z",
-  "updatedAtLocal": "31 октября 2026 г. в 02:27",
+  "updatedAt": "2026-10-31T03:56:47.946Z",
+  "updatedAtLocal": "31 октября 2026 г. в 06:56",
   "failedSources": [
     "Интерфакс"
   ],
@@ -602,6 +602,46 @@
       "label": "Разное",
       "items": [
         {
+          "title": "Anthropic указала на странице тарифов недельные лимиты относительно Pro: у Max в 5 раз больше, у Ultra в 10",
+          "summary": "Anthropic указала на странице тарифов недельные лимиты относительно Pro: у Max в 5 раз больше, у Ultra в 10. До 30 октября цифры из названий тарифов 5x и 20x в справке были прямо привязаны к 5-часовой сессии, а…",
+          "link": "https://t.me/neuro_channel/3100",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-10-31T03:46:01.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Таджикистан планирует наладить с \"Яндексом\" сотрудничество в сфере ИИ",
+          "summary": "",
+          "link": "https://tass.ru/ekonomika/28273861",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-10-31T03:42:58.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Российские ИИ-модели должны будут соответствовать традиционным ценностям",
+          "summary": "",
+          "link": "https://ria.ru/20261031/ii-2128264941.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-10-31T02:57:11.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Anthropic предупредила инвесторов, что её ИИ может представлять угрозу для человечества",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/10/31/anthropic-predupredila-investorov-cto-ee-ii-mozet-predstavliat-ugrozu-dlia-celovecestva.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-10-30T23:22:00.000Z",
+          "category": "misc"
+        },
+        {
           "title": "Сэм Альтман рассказал, как OpenAI собирается автоматизировать строительство дата-центров и с помощью роботов резко удешевить вычислительные мощности",
           "summary": "",
           "link": "https://www.ixbt.com/news/2026/10/31/sem-altman-rasskazal-kak-openai-sobiraetsia-avtomatizirovat-stroitelstvo-data-centrov-i-s-pomoshhiu-robotov-rezko-udesevit-vycislitelnye-moshhnosti.html",
@@ -759,46 +799,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/neuro_channel",
           "date": "2026-10-30T14:59:04.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "ИИ-агент выбрал генную терапию и ввёл её в мозг мыши с эпилепсией",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/10/30/ii-agent-vybral-gennuiu-terapiiu-i-vvel-ee-v-mozg-mysi-s-epilepsiei.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-10-30T14:36:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Когда пользователь медсервиса — ИИ‑агент",
-          "summary": "За одну неделю: Gemini получил право записывать людей к врачу, семья из Сиэтла подала иск к OpenAI за советы ChatGPT, а нейросети, как выяснилось, рекомендуют из пяти лекарств одно — то, у которого лучше SEO…",
-          "link": "https://habr.com/ru/articles/1101590/?utm_campaign=1101590&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-10-30T14:00:33.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Фотосессия стоматологов без фотосессии за $3: FLUX.3 klein + ComfyUI + RunPod = 290 кадров",
-          "summary": "Я настраиваю платный трафик для стоматологических клиник (и не только). Для хороших креативов всегда нужны фото врачей: настоящее лицо врача в кабинете работает лучше стока…",
-          "link": "https://habr.com/ru/articles/1101804/?utm_campaign=1101804&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-10-30T13:52:18.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "💡 Сегодня в России празднуют День инженераС результатами труда тысяч инженеров человек сталкивается каждый день",
-          "summary": "💡 Сегодня в России празднуют День инженераС результатами труда тысяч инженеров человек сталкивается каждый день. Но их работу редко замечают, пока все исправно — зато как только что-то ломается, их ценность становится…",
-          "link": "https://t.me/hiaimedia/3790",
-          "source": "Hi, AI",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/hiaimedia",
-          "date": "2026-10-30T13:45:01.000Z",
           "category": "misc"
         }
       ]
