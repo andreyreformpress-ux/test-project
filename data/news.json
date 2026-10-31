@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-31T19:45:24.444Z",
-  "updatedAtLocal": "31 октября 2026 г. в 22:45",
+  "updatedAt": "2026-10-31T23:02:40.108Z",
+  "updatedAtLocal": "01 ноября 2026 г. в 02:02",
   "failedSources": [
     "Интерфакс"
   ],
@@ -12,7 +12,7 @@
       "label": "Модели и релизы",
       "items": [
         {
-          "title": "FAIRouter вышел на NuGet. Выбираем языковую модель под задачу в несколько строк на C#",
+          "title": "FAIRouter вышел на NuGet. Выбираем языковую модель под задачу в несколько строк на C#",
           "summary": "Наш open source маршрутизатор ИИ-моделей FAIRouter (C# версия) вышел на NuGet. Цель проекта обеспечить оптимальный баланс скорости, стоимости и качества, т.е. получать ответ достаточного качества быстрее и дешевле…",
           "link": "https://habr.com/ru/articles/1101942/?utm_campaign=1101942&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -426,7 +426,7 @@
           "category": "applications"
         },
         {
-          "title": "С такими технологиями вам можно все. Что дальше?",
+          "title": "С такими технологиями вам можно все. Что дальше?",
           "summary": "Эта статья о том, как сериалы предсказывали влияние ИИ на людей и мир вокруг них и что из этих прогнозов начинает сбываться. «Люди» , «Мир Дикого Запада» , «Измененный углерод» и «В поле зрения» показывают одну ключевую…",
           "link": "https://habr.com/ru/companies/ru_mts/articles/1101704/?utm_campaign=1101704&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -436,7 +436,7 @@
           "category": "applications"
         },
         {
-          "title": "Прототипируем игровые 3D-локации для уровней с помощью ИИ",
+          "title": "Прототипируем игровые 3D‑локации для уровней с помощью ИИ",
           "summary": "Мы видели как ИИ рисует персонажей, здания и ассеты (даже со спрайтами). А что насчет дизайн локаций и уровней? Для теста мы возьмем десять локаций выполненных для воображаемой 3D-РПГ в жанре фентези и со знатным…",
           "link": "https://habr.com/ru/companies/studyai/articles/1101390/?utm_campaign=1101390&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -536,6 +536,16 @@
           "category": "applications"
         },
         {
+          "title": "Как именно Claude и подобные компании банят аккаунты «за VPN» и «токсичный паспорт»",
+          "summary": "Интернет сильно шумит в последние несколько дней от новости, что Claude начал банить пользователей по причине предоставления ими для верификации «токсичных паспортов», хотя в правилах площадки нет ничего подобного…",
+          "link": "https://habr.com/ru/companies/aurorium/articles/1101594/?utm_campaign=1101594&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-10-30T10:06:25.000Z",
+          "category": "applications"
+        },
+        {
           "title": "Нейросеть будет оценивать царские сокровища в «Петергофе» — Сбер и музей-заповедник разрабатывают ИИ-сервис,",
           "summary": "Нейросеть будет оценивать царские сокровища в «Петергофе» — Сбер и музей-заповедник разрабатывают ИИ-сервис, который поможет изучать продажи на мировых аукционах, рассчитывать стоимость произведений искусства и…",
           "link": "https://t.me/neuraldvig/11875",
@@ -594,16 +604,6 @@
           "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
           "date": "2026-10-29T08:00:43.000Z",
           "category": "applications"
-        },
-        {
-          "title": "Как ИИ и телематика помогают распределять карьерные самосвалы",
-          "summary": "Представьте угольный разрез, по которому ездят более 200 самосвалов. Распределяют их работу диспетчеры по рации. Но человеку очень сложно обработать такое количество информации и не упустить, чтобы все было вовремя:…",
-          "link": "https://habr.com/ru/articles/1100962/?utm_campaign=1100962&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · Машинное обучение",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
-          "date": "2026-10-29T06:44:07.000Z",
-          "category": "applications"
         }
       ]
     },
@@ -611,6 +611,46 @@
       "id": "misc",
       "label": "Разное",
       "items": [
+        {
+          "title": "Asus выпустила 64-гигабайтную версию компьютера Ascent GX10 для локальной работы с ИИ",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/01/asus-vypustila-64-gigabaitnuiu-versiiu-kompiutera-ascent-gx10-dlia-lokalnoi-raboty-s-ii.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-10-31T21:53:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "В интернете новый тренд: закидываем ChatGPT первую фотку и просимЗаполни эту комнату всем, что ты обо мне знаешь,",
+          "summary": "В интернете новый тренд: закидываем ChatGPT первую фотку и просимЗаполни эту комнату всем, что ты обо мне знаешь, оставив только моё лицо. ПреувеличивайРезультат админа на втором фото 😁",
+          "link": "https://t.me/neuraldvig/11896",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-10-31T21:47:49.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Siemens и Nvidia научат ИИ искать дефекты на платах ещё до запуска производства",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/10/31/siemens-i-nvidia-naucat-ii-iskat-defekty-na-platax-eshhe-do-zapuska-proizvodstva.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-10-31T20:35:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Amazon отчиталась об оттоке $42,4 млрд и готовится вложить $220 млрд в ИИ",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/10/31/amazon-otcitalas-ob-ottoke-424-mlrd-i-gotovitsia-vlozit-220-mlrd-v-ii.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-10-31T19:46:00.000Z",
+          "category": "misc"
+        },
         {
           "title": "🧍 МОДЕЛЕЙ ПРОСЯТ ОТДАТЬ ЛИЦО, БЕСПЛАТНОЖурналисты опросили пятнадцать руководителей модельных агентств и",
           "summary": "🧍 МОДЕЛЕЙ ПРОСЯТ ОТДАТЬ ЛИЦО, БЕСПЛАТНОЖурналисты опросили пятнадцать руководителей модельных агентств и прочитали больше десятка контрактов, которые дают подписать перед съёмкой…",
@@ -632,23 +672,13 @@
           "category": "misc"
         },
         {
-          "title": "Программируем без IDE или применение qwen и qwen coder для написания софта",
+          "title": "Программируем без IDE или применение qwen и qwen coder для написания софта",
           "summary": "Сейчас мы попробуем быстро написать сканер ntfs alternate data streams потоков, на не совсем тривиальном стеке и архитектуре. Сделал я это в первую очередь для тестирования возможностей моделей семейства qwen…",
           "link": "https://habr.com/ru/articles/1102144/?utm_campaign=1102144&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-10-31T18:18:48.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Трамп опубликовал ИИ-фото с изображением Гренландии как базы ВВС США",
-          "summary": "Вместо острова на фото военная база с самолетами, ангарами, взлетно-посадочной полосой и американским флагом",
-          "link": "https://tass.ru/mezhdunarodnaya-panorama/28275125",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-10-31T17:46:34.000Z",
           "category": "misc"
         },
         {
@@ -689,16 +719,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-10-31T16:32:37.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Как я первый раз в жизни написал научную статью в LaTeX с помощью ИИ-Агента за полдня",
-          "summary": "Анонс для ленты Хабра Как я первый раз в жизни написал научную статью в LaTeX по всем строгим правилам с помощью ИИ-Агента в GigaCode за полдня Если вы когда-нибудь пытались оформить научную статью — знаете: самое…",
-          "link": "https://habr.com/ru/articles/1102114/?utm_campaign=1102114&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-10-31T15:48:56.000Z",
           "category": "misc"
         },
         {
@@ -789,26 +809,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/neuraldvig",
           "date": "2026-10-31T12:50:03.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "NASA потратит $1,3 миллиона на физический ИИ для поиска воды на Луне",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/10/31/nasa-potratit-13-milliona-na-fiziceskii-ii-dlia-poiska-vody-na-lune.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-10-31T12:49:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "tbook четыре месяца спустя: читалки, словари и v2 формата",
-          "summary": "В июле я рассказал , как искал себе читалку для книг на иностранном языке и в итоге родился TBook формат. Половина той статьи была о том, как заставить дешёвые LLM выдавать такое выравнивание без позиционного дрейфа…",
-          "link": "https://habr.com/ru/articles/1100334/?utm_campaign=1100334&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-10-31T12:45:21.000Z",
           "category": "misc"
         }
       ]
