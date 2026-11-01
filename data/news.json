@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-31T23:02:40.108Z",
-  "updatedAtLocal": "01 ноября 2026 г. в 02:02",
+  "updatedAt": "2026-11-01T04:13:11.916Z",
+  "updatedAtLocal": "01 ноября 2026 г. в 07:13",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 77,
+  "total": 78,
   "categories": [
     {
       "id": "models",
@@ -197,6 +197,16 @@
       "id": "business",
       "label": "Бизнес и инвестиции",
       "items": [
+        {
+          "title": "WSJ: OpenAI привлекла инвестиций втрое меньше запланированного",
+          "summary": "Компания смогла получить $11 млрд",
+          "link": "https://tass.ru/ekonomika/28275457",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-10-31T23:07:20.000Z",
+          "category": "business"
+        },
         {
           "title": "❗️ ИИ-агент провел операцию на мозге крысыОб этом рассказал основатель биотех стартапа Exin Therapeutics Габриэль",
           "summary": "❗️ ИИ-агент провел операцию на мозге крысыОб этом рассказал основатель биотех стартапа Exin Therapeutics Габриэль Окана-Сантеро. Ученые дали Sonnet 5 полный доступ к автоматизированной хирургической установке на базе…",
@@ -612,6 +622,16 @@
       "label": "Разное",
       "items": [
         {
+          "title": "Эксперт предупредила о рисках консультации с ИИ по теме здоровья",
+          "summary": "",
+          "link": "https://ria.ru/20261101/ii-2128396331.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-01T00:34:29.000Z",
+          "category": "misc"
+        },
+        {
           "title": "Asus выпустила 64-гигабайтную версию компьютера Ascent GX10 для локальной работы с ИИ",
           "summary": "",
           "link": "https://www.ixbt.com/news/2026/11/01/asus-vypustila-64-gigabaitnuiu-versiiu-kompiutera-ascent-gx10-dlia-lokalnoi-raboty-s-ii.html",
@@ -799,16 +819,6 @@
           "type": "site",
           "sourceUrl": "https://www.ixbt.com/export/news.rss",
           "date": "2026-10-31T13:00:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "«Что было невозможно полгода назад, уже может быть реальностью». Главные ИИ-инсайты с Kazan Digital Week — от",
-          "summary": "«Что было невозможно полгода назад, уже может быть реальностью». Главные ИИ-инсайты с Kazan Digital Week — от экспертов Альфа-Банка ⚡️ ⚡️В конце октября Казань превратилась в ИТ-столицу — здесь собрались 21+ тыс…",
-          "link": "https://t.me/neuraldvig/11890",
-          "source": "Нейродвиж",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuraldvig",
-          "date": "2026-10-31T12:50:03.000Z",
           "category": "misc"
         }
       ]
