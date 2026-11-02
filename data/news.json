@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-01T21:40:03.503Z",
-  "updatedAtLocal": "02 ноября 2026 г. в 00:40",
+  "updatedAt": "2026-11-02T01:14:43.012Z",
+  "updatedAtLocal": "02 ноября 2026 г. в 04:14",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 83,
+  "total": 84,
   "categories": [
     {
       "id": "models",
@@ -197,6 +197,16 @@
       "id": "business",
       "label": "Бизнес и инвестиции",
       "items": [
+        {
+          "title": "IPO Anthropic обнажило финансовую зависимость технологических гигантов друг от друга",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/02/ipo-anthropic-obnazilo-finansovuiu-zavisimost-texnologiceskix-gigantov-drug-ot-druga.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-01T23:45:00.000Z",
+          "category": "business"
+        },
         {
           "title": "Samsung поставила рекорд по выручке и прибыли благодаря памяти для ИИ — HBM4 не оставила шансов ПК-рынку",
           "summary": "",
@@ -466,6 +476,16 @@
       "label": "Применение и инструменты",
       "items": [
         {
+          "title": "Открытая ИИ-модель GLM 5.3 научилась вскрывать браузер Firefox, используя ещё не доехавшие до пользователей заплатки безопасности",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/02/otkrytaia-ii-model-glm-53-naucilas-vskryvat-brauzer-firefox-ispolzuia-eshhe-ne-doexavsie-do-polzovatelei-zaplatki-bezopasnosti.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-01T23:57:00.000Z",
+          "category": "applications"
+        },
+        {
           "title": "Менеджер Xbox заявил, что ИИ уже используют при создании игр, а затем удалил аккаунт",
           "summary": "",
           "link": "https://www.ixbt.com/news/2026/11/01/menedzer-xbox-zaiavil-cto-ii-uze-ispolzuiut-pri-sozdanii-igr-a-zatem-udalil-akkaunt.html",
@@ -483,16 +503,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-01T17:56:13.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "В Свердловской области рассказали о применении театрами ИИ в художественной деятельности",
-          "summary": "По словам министра культуры региона Ильи Маркова, искусственный интеллект используют при написании музыки и разработке сценографических решений",
-          "link": "https://tass.ru/kultura/28276499",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-01T17:08:07.000Z",
           "category": "applications"
         },
         {
@@ -672,6 +682,46 @@
       "label": "Разное",
       "items": [
         {
+          "title": "Microsoft запатентовала ИИ для изменения речи и лиц людей прямо во время трансляций",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/02/microsoft-zapatentovala-ii-dlia-izmeneniia-reci-i-lic-liudei-priamo-vo-vremia-transliacii.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-02T00:18:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "\"М.Видео\" планирует создать корпоративную ИИ-платформу",
+          "summary": "Для этого уже запущен чат-бот, который проходит тестирование в ограниченной группе пользователей, сообщили в компании",
+          "link": "https://tass.ru/ekonomika/28276863",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-02T00:03:27.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Anthropic начала массово блокировать платящих пользователей при попытках обучения или дообучения больших моделей",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/02/anthropic-nacala-massovo-blokirovat-platiashhix-polzovatelei-pri-popytkax-obuceniia-ili-doobuceniia-bolsix-modelei.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-01T23:30:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "ТОП: Андрей Карпаты устал от мусора на YouTube и за 2 часа собрал собственный аналог с помощью Claude Opus 5",
+          "summary": "ТОП: Андрей Карпаты устал от мусора на YouTube и за 2 часа собрал собственный аналог с помощью Claude Opus 5.5 😮Внутри HackerTube 6454 видео по 150 темам, которые пользователи Hacker News рекомендовали за последние 19…",
+          "link": "https://t.me/neuraldvig/11899",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-01T22:11:18.000Z",
+          "category": "misc"
+        },
+        {
           "title": "OpenAI сократила план привлечения до $20 миллиардов на фоне скепсиса инвесторов",
           "summary": "",
           "link": "https://www.ixbt.com/news/2026/11/01/openai-sokratila-plan-privleceniia-do-20-milliardov-na-fone-skepsisa-investorov.html",
@@ -829,46 +879,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-01T11:48:28.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Можно ли отказаться от Opus и Codex? Проверил MacBook, игровой ноутбук и DGX Spark на одной задаче с ловушками",
-          "summary": "В моём пет-проекте open-daimon давно есть роутинг между локальными моделями и облаком. Сразу оговорюсь: публично open-daimon не обновляется, потому что разработку я веду локально, так быстрее…",
-          "link": "https://habr.com/ru/articles/1100830/?utm_campaign=1100830&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-01T11:43:24.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Ор: Сэм Альтман считает УЖАСНЫМ, что у вас в компьютере есть оперативная память 😂 По мнению главы OpenAI, в",
-          "summary": "Ор: Сэм Альтман считает УЖАСНЫМ, что у вас в компьютере есть оперативная память 😂 По мнению главы OpenAI, в условиях всеобщего дефицита разумнее было бы отдать всю память корпорациям, чтобы они могли разрабатывать ИИ…",
-          "link": "https://t.me/neuraldvig/11898",
-          "source": "Нейродвиж",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuraldvig",
-          "date": "2026-11-01T11:27:44.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Anthropic и OpenAI предложили разные способы остановки опасных ИИ",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/01/anthropic-i-openai-predlozili-raznye-sposoby-ostanovki-opasnyx-ii.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-01T10:49:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Основы глубокого обучения. Часть 2",
-          "summary": "Всем привет! Эта статья является второй в серии статей про основы глубокого обучения. В прошлой части я рассказал много интересного и полезного новичкам, так что рекомендую перечитать тот пост…",
-          "link": "https://habr.com/ru/articles/1102076/?utm_campaign=1102076&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-01T10:37:59.000Z",
           "category": "misc"
         }
       ]
