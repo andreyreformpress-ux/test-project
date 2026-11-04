@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-03T22:52:38.046Z",
-  "updatedAtLocal": "04 ноября 2026 г. в 01:52",
+  "updatedAt": "2026-11-04T02:53:45.529Z",
+  "updatedAtLocal": "04 ноября 2026 г. в 05:53",
   "failedSources": [
     "Интерфакс"
   ],
@@ -682,7 +682,17 @@
       "label": "Разное",
       "items": [
         {
-          "title": "Настройка DGX Spark",
+          "title": "Диетолог Чунтонова предостерегла от подбора лечебного рациона с помощью ИИ",
+          "summary": "Врач отметила, что неправильно подобранное питание может привести к ухудшению состояния и потере времени",
+          "link": "https://tass.ru/obschestvo/28284531",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-04T02:10:20.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Базовая настройка DGX Spark",
           "summary": "Счастливым страдальцам владельцам Спарков посвящается... Перво-наперво — мега-респект героям китайского так называемого коммунистического труда (DeepSeek, Qwen, GLM, Kimi)…",
           "link": "https://habr.com/ru/articles/1103372/?utm_campaign=1103372&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -869,16 +879,6 @@
           "type": "site",
           "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
           "date": "2026-11-03T14:23:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Миллионы строк или миллионы параметров: как мы искали баланс для kazRush — открытой модели перевода «русский—казахский»",
-          "summary": "В задаче обучения модели машинного перевода есть приятный момент: вы находите несколько миллионов пар предложений и на секунду чувствуете, что самая трудная часть уже позади. Потом открываете случайную строку…",
-          "link": "https://habr.com/ru/companies/vk/articles/1103230/?utm_campaign=1103230&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-03T13:43:23.000Z",
           "category": "misc"
         }
       ]
