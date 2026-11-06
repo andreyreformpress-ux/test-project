@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-05T22:30:57.450Z",
-  "updatedAtLocal": "06 ноября 2026 г. в 01:30",
+  "updatedAt": "2026-11-06T03:07:07.054Z",
+  "updatedAtLocal": "06 ноября 2026 г. в 06:07",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 89,
+  "total": 90,
   "categories": [
     {
       "id": "models",
@@ -218,6 +218,16 @@
       "label": "Бизнес и инвестиции",
       "items": [
         {
+          "title": "Индекс Nikkei падает на 5,6% из-за опасений насчет инвестиций в ИИ",
+          "summary": "После открытия биржи показатель теряет 5,59% и впервые за полгода опускается до 57 662,63 пункта",
+          "link": "https://tass.ru/ekonomika/28290765",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-06T00:54:30.000Z",
+          "category": "business"
+        },
+        {
           "title": "Mercedes вместе со стартапом Liquid AI начала добавлять в некоторые из своих автомобилей локальные ИИ-модели — они могут работать без доступа к интернету",
           "summary": "Пока функция доступна только в Северной Америке.",
           "link": "https://vc.ru/transport/3237708-mercedes-vnedryaet-lokalnye-ii-modeli-ot-liquid-ai?from=rss",
@@ -314,7 +324,7 @@
           "category": "research"
         },
         {
-          "title": "LLM-беседа: Модель пользователя: Обзор экспериментальных исследований",
+          "title": "LLM‑беседа: Модель пользователя: Обзор экспериментальных исследований",
           "summary": "В теории LLM-бесед как лумановских смысловых систем нового типа (Krupkin, 2026) взаимодействие с пользователем опосредовано сопряжённой социальной системой, что вменяет чатам с LLM / ноосвиками возможность наличия в них…",
           "link": "https://habr.com/ru/articles/1103998/?utm_campaign=1103998&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -526,16 +536,6 @@
       "label": "Применение и инструменты",
       "items": [
         {
-          "title": "В обществе \"Знание\" сообщили о снижении интереса к инструкциям по нейросетям",
-          "summary": "В 2025 году для многих это была новая технология, сейчас инструменты искусственного интеллекта становятся частью повседневной жизни, отметил первый заместитель гендиректора общества Дмитрий Рыбальченко",
-          "link": "https://tass.ru/obschestvo/28290567",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-05T21:21:34.000Z",
-          "category": "applications"
-        },
-        {
           "title": "Как выбрать бизнес‑процесс, который стоит делегировать ИИ",
           "summary": "Найти пересечение боли бизнеса и возможности автоматизации - это выглядит легко! Но, к сожалению, существует множество подводных камней. Первый, самый жирный камень, об который вас ударит реальность - это... Читать далее",
           "link": "https://habr.com/ru/articles/1104192/?utm_campaign=1104192&utm_source=habrahabr&utm_medium=rss",
@@ -556,7 +556,7 @@
           "category": "applications"
         },
         {
-          "title": "От вопроса к данным за пять минут: как мы встроили корпоративные данные в ИИ-платформу",
+          "title": "От вопроса к данным за пять минут: как мы встроили корпоративные данные в ИИ‑платформу",
           "summary": "Бесконечные запросы на выгрузку данных, ожидание нужных отчетов, жаркие споры вокруг инициатив на планерках, не подкрепленных цифрами, — это признаки дефицита данных у менеджеров…",
           "link": "https://habr.com/ru/articles/1104110/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1104110",
           "source": "Хабр",
@@ -724,6 +724,16 @@
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-05T05:16:24.000Z",
           "category": "applications"
+        },
+        {
+          "title": "Мошенники под видом ИИ-сервисов для подбора стрижек крадут доступ к телефону",
+          "summary": "",
+          "link": "https://www.vedomosti.ru/society/news/2026/11/05/1242709-moshenniki-pod-vidom",
+          "source": "Ведомости",
+          "type": "site",
+          "sourceUrl": "https://www.vedomosti.ru/rss/news",
+          "date": "2026-11-05T03:27:47.000Z",
+          "category": "applications"
         }
       ]
     },
@@ -731,6 +741,36 @@
       "id": "misc",
       "label": "Разное",
       "items": [
+        {
+          "title": "В ЕР назвали информационные атаки с помощью ИИ проявлением неоколониализма",
+          "summary": "",
+          "link": "https://ria.ru/20261106/ii-2129581280.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-06T02:46:56.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "OpenAI взяла на себя расширенные социальные обязательства из-за критики",
+          "summary": "",
+          "link": "https://ria.ru/20261106/openai-2129579525.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-06T02:16:26.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Врач Чунтонова рассказала об опасности подбора питания для пациента через ИИ",
+          "summary": "Нейросеть не может оценить всю клиническую картину и правильно назначить диету, считает диетолог",
+          "link": "https://tass.ru/obschestvo/28290779",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-06T01:24:15.000Z",
+          "category": "misc"
+        },
         {
           "title": "Сам написал игру, знаю все спойлеры — и всё равно залипаю вместо тестов",
           "summary": "Запускаю Age of Poleis, чтобы проверить одну мелочь. Получилось ли у меня в онбординге передать смысл продолжать разведку или нет. И вот я уже исследую весь остров в поисках нужного для старта артефакта…",
@@ -752,7 +792,7 @@
           "category": "misc"
         },
         {
-          "title": "Вайбкодинг кончается хаосом: 637 мест, где ИИ сделал по-своему. Что такое архитектурный дрифт и чем я его вылечил",
+          "title": "Вайбкодинг кончается хаосом: 637 мест, где ИИ сделал по‑своему. Что такое архитектурный дрифт и чем я его вылечил",
           "summary": "«Создай точную копию этой картинки, ничего не меняй». Человек повторил эту просьбу ChatGPT 101 раз, и настоящее фото Дуэйна Джонсона превратилось в мультяшное месиво…",
           "link": "https://habr.com/ru/articles/1103890/?utm_campaign=1103890&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -762,7 +802,7 @@
           "category": "misc"
         },
         {
-          "title": "Управление рассуждением LRM в юридическом домене: адаптация архитектуры TG-RAG (часть 1)",
+          "title": "Управление рассуждением LRM в юридическом домене: адаптация архитектуры TG‑RAG (часть 1)",
           "summary": "Почему RAG даже после самых изощренных улучшений может плохо работать на ваших задачах в специализированном домене? Возможно, дело в представлении знаний, и вместо векторов стоит использовать графы…",
           "link": "https://habr.com/ru/articles/1104056/?utm_campaign=1104056&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -832,7 +872,7 @@
           "category": "misc"
         },
         {
-          "title": "Из чего состоит ваш ИИ: разбираемся, что такое AIBOM и MLBOM",
+          "title": "Из чего состоит ваш ИИ: разбираемся, что такое AIBOM и MLBOM",
           "summary": "В программный продукт наряду с собственным кодом попадает и сторонний код через зависимости, которые могут содержать уязвимости и накладывать лицензионные ограничения…",
           "link": "https://habr.com/ru/companies/codescoring/articles/1104096/?utm_campaign=1104096&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -899,36 +939,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/AI_Chad",
           "date": "2026-11-05T13:34:29.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Самая дорогая компания в мире зажала деньги на нейросети для создателей iPhone. Слишком много тратят",
-          "summary": "Apple сокращает внутренние бюджеты на использование ИИ в рамках мер по снижению расходов. При этом она остается самой дорогой компанией в мире – Apple стоит около $5 трлн, и это абсолютный рекорд…",
-          "link": "https://www.cnews.ru/news/top/2026-11-05_samaya_dorogaya_kompaniya_v",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-05T13:20:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Пять крупнейших кибератак 2026 года: от взлома Binance на $6,3 млрд до утечки данных Nike",
-          "summary": "В 2026 году число кибератак продолжает набирать обороты, а ущерб от них растёт. По прогнозу Cybersecurity Ventures, мировые потери от киберпреступлений вырастут с $10,5 трлн в 2025 году до $12,2 трлн к 2031 году…",
-          "link": "https://habr.com/ru/companies/finam_broker/articles/1103994/?utm_campaign=1103994&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-05T13:00:39.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Gemini заело: Android Auto бесконечно переспрашивает, кому позвонить",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/05/gemini-zaelo-android-auto-beskonecno-peresprasivaet-komu-pozvonit.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-05T12:43:00.000Z",
           "category": "misc"
         }
       ]
