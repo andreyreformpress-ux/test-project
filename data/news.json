@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-06T23:38:12.851Z",
-  "updatedAtLocal": "07 ноября 2026 г. в 02:38",
+  "updatedAt": "2026-11-07T04:31:38.073Z",
+  "updatedAtLocal": "07 ноября 2026 г. в 07:31",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 91,
+  "total": 90,
   "categories": [
     {
       "id": "models",
@@ -217,16 +217,6 @@
       "id": "business",
       "label": "Бизнес и инвестиции",
       "items": [
-        {
-          "title": "OpenAI продолжит инвестиции в ИИ-инфраструктуру",
-          "summary": "",
-          "link": "https://ria.ru/20261106/openai-2129856777.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-06T19:49:29.000Z",
-          "category": "business"
-        },
         {
           "title": "🔍 Какао выращивают в биореакторахБостонский биотех-стартап Galy разработал технологию выращивания какао в",
           "summary": "🔍 Какао выращивают в биореакторахБостонский биотех-стартап Galy разработал технологию выращивания какао в биореакторах. Клетки из кусочка какао-боба помещают в стерильные резервуары, похожие на пивоваренные танки…",
@@ -696,16 +686,6 @@
           "category": "applications"
         },
         {
-          "title": "Skill Hub: как превратить AI-автоматизации в управляемые компоненты рабочих процессов",
-          "summary": "В статье разбираем архитектуру Skill Hub: как привязать AI-навык к процессу, роли и разрешённым действиям; что включать в версию; как проверять рекомендации и фактические изменения в системе; когда требовать…",
-          "link": "https://habr.com/ru/companies/agima/articles/1104082/?utm_campaign=1104082&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-05T15:00:56.000Z",
-          "category": "applications"
-        },
-        {
           "title": "🔴 Создавайте гифки с GPT Image 2.6 в @GPT4TelegrambotМы добавили в наш бот новый генератор картинок от OpenAI",
           "summary": "🔴 Создавайте гифки с GPT Image 2.6 в @GPT4TelegrambotМы добавили в наш бот новый генератор картинок от OpenAI. GPT Image 2.6 создает картинки в два раза быстрее, а также умеет делать GIF-анимации: можно попросить…",
           "link": "https://t.me/hiaimedia/3801",
@@ -744,6 +724,16 @@
           "sourceUrl": "https://t.me/AI_Chad",
           "date": "2026-11-05T09:33:47.000Z",
           "category": "applications"
+        },
+        {
+          "title": "GreenData добавила генерацию интерфейсов корпоративных приложений с помощью ИИ-агента",
+          "summary": "GreenData, разработчик ИИ-платформы для корпоративных приложений, добавила возможность создавать и редактировать...",
+          "link": "https://www.cnews.ru/news/line/2026-11-05_greendata_dobavila_generatsiyu",
+          "source": "CNews",
+          "type": "site",
+          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
+          "date": "2026-11-05T09:25:00.000Z",
+          "category": "applications"
         }
       ]
     },
@@ -751,6 +741,86 @@
       "id": "misc",
       "label": "Разное",
       "items": [
+        {
+          "title": "С прошлого обзора на OpenRouter приехала новая пачка моделей. Gemini Omni 1.2 Flash и GPT Image 2",
+          "summary": "С прошлого обзора на OpenRouter приехала новая пачка моделей. Gemini Omni 1.2 Flash и GPT Image 2.6 я разбирал отдельно, здесь остальное интересное…",
+          "link": "https://t.me/neuro_channel/3124",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-07T04:10:10.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Вы просили AI-помощника исправить баг…",
+          "summary": "В какой момент можно спокойно принять работу AI-помощника? Обычно после просмотра правки и запуска тестов. Лишнего не поменял, ошибку исправил, проект работает. Кажется, на этом можно заканчивать…",
+          "link": "https://habr.com/ru/articles/1104786/?utm_campaign=1104786&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-07T04:04:27.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Маск считает, что ИИ в будущем сможет удовлетворить все запросы человека",
+          "summary": "Это сделает экономику Земли \"причудливой\", отметил он",
+          "link": "https://tass.ru/ekonomika/28294103",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-07T03:57:51.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Эксперт Никифоров назвал ВКР необходимыми даже при развитии ИИ",
+          "summary": "Распространение нейросетей повлияло на критерии защиты диплома, отметил гендиректор Edtech-компании \"Лань\"",
+          "link": "https://tass.ru/obschestvo/28294063",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-07T03:24:10.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Производитель направляющих для кухонных ящиков контролирует до 90% рынка комплектующих для ИИ-серверов",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/07/proizvoditel-napravliaiushhix-dlia-kuxonnyx-iashhikov-kontroliruet-do-90-rynka-komplektuiushhix-dlia-ii-serverov.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-07T02:22:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "ИИ вытесняет чипы из картриджей Nintendo",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/07/ii-vytesniaet-cipy-iz-kartridzei-nintendo.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-07T02:13:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "OpenAI оплатит электричество своих дата-центров",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/07/openai-oplatit-elektricestvo-svoix-data-centrov.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-07T02:09:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Маск предложил перенести вычислительные центры ИИ в космос",
+          "summary": "",
+          "link": "https://ria.ru/20261107/mask-2129874271.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-07T00:24:16.000Z",
+          "category": "misc"
+        },
         {
           "title": "Подозреваемый в прослушке офиса OpenAI в США не признает себя виновным",
           "summary": "",
@@ -769,26 +839,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-06T22:01:37.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "В России проработают внедрение ИИ в программы реабилитации инвалидов",
-          "summary": "",
-          "link": "https://ria.ru/20261106/rossija-2129861527.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-06T20:49:43.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "В ФРГ с помощью ИИ получили изображение подозреваемого по делу о дроне в Галле",
-          "summary": "К атаке может быть причастен еще один человек, чья личность пока не установлена, пишет агентство DPA",
-          "link": "https://tass.ru/proisshestviya/28293661",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-06T19:35:34.000Z",
           "category": "misc"
         },
         {
@@ -889,66 +939,6 @@
           "type": "site",
           "sourceUrl": "https://www.vedomosti.ru/rss/news",
           "date": "2026-11-06T14:45:43.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Быстрые «руки», медленный «мозг»: Particle-1 и GPT-6 Luna Pro собирают поиск для Tilda на n8n+PostgreSQL в Docker",
-          "summary": "Всем привет!) Про топовые модели пишут много. Мне стало интересно другое: что будет, если отдать реальную задачу быстрой модели без громкого имени, а рассуждающую модель подключать только тогда, когда первая упирается…",
-          "link": "https://habr.com/ru/articles/1104662/?utm_campaign=1104662&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-06T14:42:57.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Место и роль Joomla в эпоху ИИ",
-          "summary": "Заголовок статьи – одновременно и вопрос и утверждение, а на место слова «Joomla», скорее всего, можно поставить почти любой цифровой продукт…",
-          "link": "https://habr.com/ru/articles/1104650/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1104650",
-          "source": "Хабр",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
-          "date": "2026-11-06T14:21:46.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Как я скрестил RAG, LLM и RandomForest: архитектура торгового сигнала с доказательствами",
-          "summary": "В первой части я рассказывал, как собрал RAG-систему с LangGraph-агентом на локальных LLM. Она умела искать новости, отвечать на вопросы и извлекать сущности…",
-          "link": "https://habr.com/ru/articles/1104642/?utm_campaign=1104642&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-06T14:11:11.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Кто открывает ваш сайт, когда растёт посещаемость?",
-          "summary": "Посещаемость сайта растёт, а конверсия падает или остаётся на месте. Возможно, часть новых посетителей — AI‑агенты и headless‑браузеры, которые успешно проходят JavaScript‑счётчики и попадают в отчёты как обычные…",
-          "link": "https://habr.com/ru/companies/otus/articles/1099254/?utm_campaign=1099254&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-06T14:05:24.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "45% наших ИИ-отчетов получали тройку и ниже: как мы считали метрики и что нашли",
-          "summary": "Когда мы впервые посмотрели на автоматические оценки ИИ-отчетов по рабочим встречам (по пятибалльной шкале), оказалось, что 45% из них получают тройку и ниже…",
-          "link": "https://habr.com/ru/companies/atom/articles/1104602/?utm_campaign=1104602&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-06T13:28:08.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Китайцы готовят свой РОЛЛС-РОЙС — крупнейший производитель электрокаров BYD затизерил модель Yangwang Altior",
-          "summary": "Китайцы готовят свой РОЛЛС-РОЙС — крупнейший производитель электрокаров BYD затизерил модель Yangwang Altior.Ультралюксовая тачка составит конкуренцию Rolls-Royce Ghost и Mercedes-Maybach S-класса…",
-          "link": "https://t.me/AI_Chad/7728",
-          "source": "Chad GPT",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/AI_Chad",
-          "date": "2026-11-06T13:15:34.000Z",
           "category": "misc"
         }
       ]
