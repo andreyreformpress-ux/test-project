@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-08T20:09:35.758Z",
-  "updatedAtLocal": "08 ноября 2026 г. в 23:09",
+  "updatedAt": "2026-11-09T00:30:09.532Z",
+  "updatedAtLocal": "09 ноября 2026 г. в 03:30",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 96,
+  "total": 98,
   "categories": [
     {
       "id": "models",
       "label": "Модели и релизы",
       "items": [
         {
-          "title": "Как обойти Llama-3 70B моделью в 600 раз меньше: Теорема Платона, JEPA и революция Моделей Мира",
+          "title": "Как обойти Llama-3 70B моделью в 600 раз меньше: Теорема Платона, JEPA и революция Моделей Мира",
           "summary": "Новое исследование Рэнделла Балестриеро и Яна ЛеКуна «Proving and Improving the Platonic Representation Hypothesis with JEPAs» , подкрепленное публичными выступлениями ЛеКуна, доказывает: стремление достичь…",
           "link": "https://habr.com/ru/articles/1105086/?utm_campaign=1105086&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -29,16 +29,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/neuro_channel",
           "date": "2026-11-07T18:46:41.000Z",
-          "category": "models"
-        },
-        {
-          "title": "Claude Code без Anthropic: заводим агента на GLM-5.3 и Qwen через свой шлюз и собираем грабли",
-          "summary": "Из Беларуси Claude Code официально не работает. Мы делаем ZuBrIQ (zubriq.ai) — шлюз к моделям на LiteLLM с оплатой в BYN — и заставили Claude Code, Codex и OpenCode работать на открытых моделях: GLM-5…",
-          "link": "https://habr.com/ru/articles/1104826/?utm_campaign=1104826&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-07T09:17:00.000Z",
           "category": "models"
         },
         {
@@ -209,6 +199,16 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/ai_newz",
           "date": "2026-10-23T17:39:57.000Z",
+          "category": "models"
+        },
+        {
+          "title": "Нейродайджест за неделю (#135)LLM- Gemini 4 Argon — модель вышла в платный API и чат для Pro/Ultra",
+          "summary": "Нейродайджест за неделю (#135)LLM- Gemini 4 Argon — модель вышла в платный API и чат для Pro/Ultra. До 30 ноября — $2/$10 за миллион входных/выходных токенов, затем $4/$20.- DeepSeek V4…",
+          "link": "https://t.me/ai_newz/4812",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-10-19T15:49:26.000Z",
           "category": "models"
         }
       ]
@@ -490,6 +490,26 @@
       "label": "Регулирование",
       "items": [
         {
+          "title": "Турция внедрит ИИ-систему для мониторинга ТВ и интернет-ресурсов",
+          "summary": "Система Via+ также будет готовить предварительные отчеты при обнаружении нарушений законодательства, а затем направлять их на согласование ответственным специалистам",
+          "link": "https://tass.ru/obschestvo/28296785",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-09T00:06:37.000Z",
+          "category": "policy"
+        },
+        {
+          "title": "Вайбкодинг закончился, когда пришёл второй пользователь",
+          "summary": "Друг принёс Telegram-бота, собранного с помощью ИИ: видео обрабатываются, кнопки работают, осталось арендовать сервер. Потом выяснилось, что параллельное приложение умеет параллельно ждать одну блокировку, а двенадцать…",
+          "link": "https://habr.com/ru/articles/1101952/?utm_campaign=1101952&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-08T21:55:25.000Z",
+          "category": "policy"
+        },
+        {
           "title": "Агент закончил работу, а Telegram недоступен: как я сделал очередь доставки ответов",
           "summary": "Агент выполнил задачу, проверил результат и написал ответ. Но в этот момент Telegram недоступен. С точки зрения агента работа закончена, а в Telegram не пришло ни результата, ни сообщения об ошибке…",
           "link": "https://habr.com/ru/articles/1105014/?utm_campaign=1105014&utm_source=habrahabr&utm_medium=rss",
@@ -596,7 +616,7 @@
       "label": "Применение и инструменты",
       "items": [
         {
-          "title": "Почему Claude Code нарушает правила из CLAUDE.md и почему вам точн онужны разрешения и хуки",
+          "title": "Почему Claude Code нарушает правила из CLAUDE.md и почему вам точно нужны разрешения и хуки",
           "summary": "Claude Code читает CLAUDE.md в начале каждой сессии, но запрет из этого файла агент всё равно может нарушить. По словам автора issue #46779 , Claude Code раз за разом удалял данные сверх запроса, хотя запреты в CLAUDE…",
           "link": "https://habr.com/ru/articles/1105196/?utm_campaign=1105196&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -646,7 +666,7 @@
           "category": "applications"
         },
         {
-          "title": "«ИИ не научит вас делать лучшие макеты»: как нейросети изменили работу продуктового дизайнера",
+          "title": "«ИИ не научит вас делать лучшие макеты»: как нейросети изменили работу продуктового дизайнера",
           "summary": "Системы ИИ уже прижились во многих сферах, в том числе и в продуктовом дизайне — они помогают специалистам создавать прототипы и тестировать идеи…",
           "link": "https://habr.com/ru/companies/profi_ru/articles/1104064/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1104064",
           "source": "Хабр",
@@ -802,6 +822,36 @@
       "label": "Разное",
       "items": [
         {
+          "title": "\"Мошеловка\" предупредила о новой уловке мошенников с ИИ-знахарями",
+          "summary": "Как отметила замруководителя платформы Александра Пожарская, реальных псевдоцелителей возможно вычислить и привлечь к ответственности, тогда как сгенерированные персонажи анонимны и не имеют ни имен, ни адресов, ни…",
+          "link": "https://tass.ru/obschestvo/28296787",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-08T23:00:34.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Клонируем любой голос за пару кликов — имбовая тулза VoxCPM2 обновилась 😮Поддерживает до 30 языков, а для",
+          "summary": "Клонируем любой голос за пару кликов — имбовая тулза VoxCPM2 обновилась 😮Поддерживает до 30 языков, а для клонирования достаточно короткой записи в пару секунд…",
+          "link": "https://t.me/neuraldvig/11927",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-08T21:21:18.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "AI для PHP‑разработчиков. Часть 8: Свёрточные нейронные сети: ищем границы на изображениях с помощью чистого PHP",
+          "summary": "Компьютер не видит фотографию так, как её видит человек. Для него изображение – это набор чисел, описывающих яркость и цвет отдельных пикселей…",
+          "link": "https://habr.com/ru/articles/1105232/?utm_campaign=1105232&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-08T21:17:35.000Z",
+          "category": "misc"
+        },
+        {
           "title": "Абляционный анализ компонентов StyleGAN-NADA: от ансамбля CLIP до Gradient Clipping",
           "summary": "Введение Генеративные модели, такие как StyleGAN2, способны создавать изображения лиц. Однако для управления ими обычно требуется либо оптимизация латентного представления, поступающего на вход генератора, либо обучение…",
           "link": "https://habr.com/ru/articles/1105220/?utm_campaign=1105220&utm_source=habrahabr&utm_medium=rss",
@@ -832,8 +882,8 @@
           "category": "misc"
         },
         {
-          "title": "Гига Писарь в Google Play и как не словить бан",
-          "summary": "Привет, Хабр! Короткая новость: Гига Писарь для Android теперь ставится из Google Play Ссылка: https://play.google.com/store/apps/details?id=ru.gigapisar …",
+          "title": "Гига Писарь в Google Play и как не словить бан",
+          "summary": "Привет, Хабр! Короткая новость: Гига Писарь для Android теперь ставится из Google Play Ссылка Версия с GitHub никуда не делась, обновляется сама и живёт параллельно, но большинству проще из магазина…",
           "link": "https://habr.com/ru/companies/gigapisar/articles/1105184/?utm_campaign=1105184&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
           "type": "site",
@@ -842,7 +892,7 @@
           "category": "misc"
         },
         {
-          "title": "От предложений LLM к управляемому исполнению: опыт разработки AI-агента",
+          "title": "От предложений LLM к управляемому исполнению: опыт разработки AI‑агента",
           "summary": "Подключить AI-агента к инструментам - лишь часть задачи. Гораздо сложнее организовать его работу там, где недостаточно уверенного ответа модели и необходимо соблюдать ограничения, контролировать действия и проверять…",
           "link": "https://habr.com/ru/articles/1105178/?utm_campaign=1105178&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -852,17 +902,7 @@
           "category": "misc"
         },
         {
-          "title": "Турция запустит ИИ-систему для контроля телеэфира и цифровых платформ",
-          "summary": "",
-          "link": "https://ria.ru/20261108/turtsija-2130162368.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-08T16:52:49.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Акции ИИ-компаний рухнули: помешает ли это масштабированию медицинского ИИ в России",
+          "title": "Акции ИИ‑компаний рухнули: помешает ли это масштабированию медицинского ИИ в России",
           "summary": "Данные Bessemer и Bain, российская специфика и схема перехода от работающей модели к поддерживаемому медицинскому продукту. Читать далее",
           "link": "https://habr.com/ru/articles/1105162/?utm_campaign=1105162&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -882,7 +922,7 @@
           "category": "misc"
         },
         {
-          "title": "Нейросетевая чертовщина 2026 года и странные артефакты машинного разума",
+          "title": "Нейросетевая чертовщина 2026 года и странные артефакты машинного разума",
           "summary": "Десять лет назад поиск аномалий в сети был уделом исследователей и безопасников: они сканировали диапазоны IP-адресов, искали забытые ханипоты, анализировали утечки из баз данных и разбирали городские легенды даркнета…",
           "link": "https://habr.com/ru/articles/1105146/?utm_campaign=1105146&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -902,8 +942,8 @@
           "category": "misc"
         },
         {
-          "title": "Как я пишу агента для оценки и выбора модели под свои задачи/агентов",
-          "summary": "В прошлый раз я писал про \"Как я пишу почти автономного агента для разработки своих пет-проектов\" , а сейчас я хочу сместить фокус на выбор модели под конкретные задачи…",
+          "title": "Как я пишу агента для оценки и выбора модели под свои задачи/агентов",
+          "summary": "В прошлый раз я писал про «Как я пишу почти автономного агента для разработки своих пет‑проектов» , а сейчас я хочу сместить фокус на выбор модели под конкретные задачи…",
           "link": "https://habr.com/ru/articles/1104780/?utm_campaign=1104780&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
           "type": "site",
@@ -922,7 +962,7 @@
           "category": "misc"
         },
         {
-          "title": "Подписка или оплата за запросы: как считать цену генераций на примере Syntx и BotHub",
+          "title": "Подписка или оплата за запросы: как считать цену генераций на примере Syntx и BotHub",
           "summary": "Подписка с токенами или пакет, из которого списывается каждый запрос? На примере Syntx и BotHub считаю, сколько в рублях стоит одна картинка и один ответ языковой модели, при каком объёме выгоднее подписка и что…",
           "link": "https://habr.com/ru/companies/bothub/articles/1105126/?utm_campaign=1105126&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · Машинное обучение",
@@ -979,26 +1019,6 @@
           "type": "site",
           "sourceUrl": "https://www.vedomosti.ru/rss/news",
           "date": "2026-11-08T13:09:23.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Компания TSMC рассматривает возможность выхода на рынок микросхем памяти для искусственного интеллекта по запросу Nvidia",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/08/kompaniia-tsmc-rassmatrivaet-vozmoznost-vyxoda-na-rynok-mikrosxem-pamiati-dlia-iskusstvennogo-intellekta-po-zaprosu-nvidia.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-08T13:02:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Устаревшее шифрование раскрыто за секунды: ИИ-агенты Google DeepMind ускорили криптоанализ в 1600 раз",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/08/ustarevsee-sifrovanie-raskryto-za-sekundy-ii-agenty-google-deepmind-uskorili-kriptoanaliz-v-1600-raz.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-08T12:48:00.000Z",
           "category": "misc"
         }
       ]
