@@ -1,16 +1,26 @@
 {
-  "updatedAt": "2026-11-10T22:48:45.835Z",
-  "updatedAtLocal": "11 ноября 2026 г. в 01:48",
+  "updatedAt": "2026-11-11T02:30:09.641Z",
+  "updatedAtLocal": "11 ноября 2026 г. в 05:30",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 93,
+  "total": 92,
   "categories": [
     {
       "id": "models",
       "label": "Модели и релизы",
       "items": [
+        {
+          "title": "США и КНР создают канал связи для предупреждения об инцидентах с ИИ",
+          "summary": "Вашингтон рассчитывает на обмен лучшими практиками в области оценки и тестирования передовых моделей перед их выпуском, отметил американский министр финансов Скотт Бессент",
+          "link": "https://tass.ru/mezhdunarodnaya-panorama/28304739",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-11T02:26:13.000Z",
+          "category": "models"
+        },
         {
           "title": "Google открыла Gemini 4 Carbon всем: модель gemini-4-carbon уже в Gemini API и Google AI Studio на платном тарифе,",
           "summary": "Google открыла Gemini 4 Carbon всем: модель gemini-4-carbon уже в Gemini API и Google AI Studio на платном тарифе, бесплатного уровня нет…",
@@ -200,16 +210,6 @@
           "sourceUrl": "https://t.me/neuro_channel",
           "date": "2026-11-04T20:18:28.000Z",
           "category": "models"
-        },
-        {
-          "title": "Moonshot выпустили K3.1 Pro Она основана на той же базовой модели что и K3, но похоже Moonshot сложно инференсить",
-          "summary": "Moonshot выпустили K3.1 Pro Она основана на той же базовой модели что и K3, но похоже Moonshot сложно инференсить модель такого размера и мы скоро увидим модельку поменьше…",
-          "link": "https://t.me/ai_newz/4830",
-          "source": "эйай ньюз",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/ai_newz",
-          "date": "2026-11-04T16:08:12.000Z",
-          "category": "models"
         }
       ]
     },
@@ -304,7 +304,7 @@
       "label": "Исследования",
       "items": [
         {
-          "title": "Как агент улучшил себя, не тронув ни одного веса: разбираем The Trinity",
+          "title": "Как агент улучшил себя, не тронув ни одного веса: разбираем The Trinity",
           "summary": "26 октября на arXiv вышла работа The Trinity: Capability-Driven Recursive Self-Improvement for Multimodal Agents . Авторов 21, на странице Hugging Face указан Национальный университет Сингапура…",
           "link": "https://habr.com/ru/articles/1106306/?utm_campaign=1106306&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -440,16 +440,6 @@
       "label": "Регулирование",
       "items": [
         {
-          "title": "Медведев обсудил проблемы использования технологий ИИ в обучении",
-          "summary": "",
-          "link": "https://ria.ru/20261110/medvedev-2130750801.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-10T19:17:00.000Z",
-          "category": "policy"
-        },
-        {
           "title": "Anthropic начала раскатывать в Claude три новых типа артефактов для командной работы: Whiteboards, Sheets и Data",
           "summary": "Anthropic начала раскатывать в Claude три новых типа артефактов для командной работы: Whiteboards, Sheets и Data. На доске Claude раскладывает план, который с ним обсудили, и дальше её правит вся команда…",
           "link": "https://t.me/neuro_channel/3137",
@@ -460,7 +450,7 @@
           "category": "policy"
         },
         {
-          "title": "Есть ли жизнь после блокировки Claude Code? Первая неделя на локальных Qwen и DeepSeek",
+          "title": "Есть ли жизнь после блокировки Claude Code? Первая неделя на локальных Qwen и DeepSeek",
           "summary": "TL;DR. Anthropic в очередной раз заблокировал мой аккаунт, и Claude Code стал недоступен. Я попробовал заменить его локальными Qwen 3.8 Flash Next (1 × DGX Spark) и DeepSeek-V4.1-Flash-1017 (2 × DGX Spark)…",
           "link": "https://habr.com/ru/articles/1106276/?utm_campaign=1106276&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -566,7 +556,7 @@
       "label": "Применение и инструменты",
       "items": [
         {
-          "title": "Путь из кодера в спек-драйвера",
+          "title": "Путь из кодера в спек‑драйвера",
           "summary": "2026 год изменил мой подход к разработке и отношение к ИИ-инструментам на 180 градусов. Хочешь этого или нет, постоянно прорываются сюжеты про использование искусственного интеллекта и попадают прямо в мозг, раздражая и…",
           "link": "https://habr.com/ru/companies/betboom/articles/1105736/?utm_campaign=1105736&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -576,7 +566,7 @@
           "category": "applications"
         },
         {
-          "title": "Как рисовать BPMN диаграммы для процессов LLM оптимизации",
+          "title": "Как рисовать BPMN диаграммы для процессов LLM оптимизации",
           "summary": "Я работаю в Альфа-Банке в команде, которая пытается оптимизировать валютный контроль. За время проекта я отрисовал страшно много диаграмм, и вот пара лайфхаков, которые я для себя выделил. Читать далее",
           "link": "https://habr.com/ru/articles/1106274/?utm_campaign=1106274&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · Машинное обучение",
@@ -772,7 +762,47 @@
       "label": "Разное",
       "items": [
         {
-          "title": "Поймай меня, если с прокси",
+          "title": "В Якутии в 2027 году начнут строительство центра обработки данных ИИ",
+          "summary": "",
+          "link": "https://tass.ru/ekonomika/28304725",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-11T02:18:15.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Живая карта мозга нейросети: 48 слоёв, 512 экспертов, одна GTX 1070 + Strata + Qwen3.8-Flash-Next",
+          "summary": "В прошлых двух статьях я рассказывал, как запустить Qwen3.8-Flash-Next (125 млрд параметров) на старом железе и как снять программный потолок FP16 на видеокартах…",
+          "link": "https://habr.com/ru/articles/1106322/?utm_campaign=1106322&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · Машинное обучение",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
+          "date": "2026-11-11T01:38:17.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Антропики дали ещё один полный сброс лимитов всем Pro, Max, Ultra, и Team аккаунтам",
+          "summary": "Антропики дали ещё один полный сброс лимитов всем Pro, Max, Ultra, и Team аккаунтам. Использовать надо до 10 декабря.И на этот раз полный сброс, не только Fable…",
+          "link": "https://t.me/neuro_channel/3139",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-10T23:52:29.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Про обиженных криэйторов, или Кто кому должен за нейросеть",
+          "summary": "Читаю очередную волну возмущения. Владельцы сайтов, художники, музыканты, фотографы — все те, кого объединяет емкое слово «криэйторы», — требуют сатисфакции. ИИ, видите ли, обучался возможно на их контенте…",
+          "link": "https://habr.com/ru/articles/1106318/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1106318",
+          "source": "Хабр",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
+          "date": "2026-11-10T23:46:26.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Поймай меня, если с прокси",
           "summary": "Фрэнк Эбегнейл был гениальным мошенником за счет своей феноменальной наблюдательности и досконального (причем, приобретенного самостоятельно) знания чековых операций…",
           "link": "https://habr.com/ru/articles/1106198/?utm_campaign=1106198&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -792,17 +822,7 @@
           "category": "misc"
         },
         {
-          "title": "В России разработали компактную ИИ-модель для оценки ответов нейросетей",
-          "summary": "Нейросеть можно использовать для анализа диалогов, RAG-систем и ИИ-агентов",
-          "link": "https://tass.ru/nauka/28304427",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-10T21:02:53.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Я написала промпт по-русски. Два агента перестали искать решение в интернете",
+          "title": "Я написала промпт по‑русски. Два агента перестали искать решение в интернете",
           "summary": "Я всегда общалась с ИИ на английском, разве что мне надо было составить какое-то очень специфическое сообщение, или вообще перевести мой текст на испанский…",
           "link": "https://habr.com/ru/articles/1106298/?utm_campaign=1106298&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -842,7 +862,7 @@
           "category": "misc"
         },
         {
-          "title": "Какое качество реально достижимо в LLM проектах?",
+          "title": "Какое качество реально достижимо в LLM проектах?",
           "summary": "Главная мысль автора заключается в том, что на проде вам вряд ли удастся добиться качества ответов всей системы выше 90%. Почему это так, читайте в статье: Читать далее",
           "link": "https://habr.com/ru/articles/1106278/?utm_campaign=1106278&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -939,36 +959,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/ai_newz",
           "date": "2026-11-10T15:35:42.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Создатель Cyanogen бросил вызов Windows: представлен Linux с ИИ-агентами на уровне операционной системы",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/10/sozdatel-cyanogen-brosil-vyzov-windows-predstavlen-linux-s-ii-agentami-na-urovne-operacionnoi-sistemy.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-10T14:57:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "TSMC вложит до $1 млрд в создателей ChatGPT и Claude",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/10/tsmc-vlozit-do-1-mlrd-v-sozdatelei-chatgpt-i-claude.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-10T14:51:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "🤖 Топ нейронка Gemini Pro на 24 месяца за 800₽!Вместо 39.000₽ — всего 800₽ ($9.9) за 2 года",
-          "summary": "🤖 Топ нейронка Gemini Pro на 24 месяца за 800₽!Вместо 39.000₽ — всего 800₽ ($9.9) за 2 года. По акции сейчас это 33₽ в месяц, в 48 раз выгоднее!➡Argon 4…",
-          "link": "https://t.me/ai_newz/4835",
-          "source": "эйай ньюз",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/ai_newz",
-          "date": "2026-11-10T14:35:36.000Z",
           "category": "misc"
         }
       ]
