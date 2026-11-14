@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-13T20:18:38.626Z",
-  "updatedAtLocal": "13 ноября 2026 г. в 23:18",
+  "updatedAt": "2026-11-14T01:15:57.737Z",
+  "updatedAtLocal": "14 ноября 2026 г. в 04:15",
   "failedSources": [
     "Интерфакс"
   ],
@@ -676,7 +676,7 @@
       "label": "Применение и инструменты",
       "items": [
         {
-          "title": "Сто комментариев на пул-реквест: почему ИИ-агент пишет слоп и что с этим делать",
+          "title": "Сто комментариев на пул‑реквест: почему ИИ‑агент пишет слоп и что с этим делать",
           "summary": "Пару дней назад я опубликовал в LinkedIn пост про ИИ-разработку и получил довольно неожиданный комментарий от одного руководителя разработки — мол, к ИИ-разработке он относится крайне скептически…",
           "link": "https://habr.com/ru/articles/1107616/?utm_campaign=1107616&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -686,7 +686,7 @@
           "category": "applications"
         },
         {
-          "title": "Сметчик завода считал КП целый рабочий день. Мы свели это к 30 секундам: почему ChatGPT тут бесполезен",
+          "title": "Сметчик завода считал КП целый рабочий день. Мы свели это к 30 секундам: почему ChatGPT тут бесполезен",
           "summary": "Снабженец строительного объекта отправляет ведомость металлопроката одновременно в 4-5 заводов и заказывает у того, кто первым прислал точный расчет…",
           "link": "https://habr.com/ru/articles/1107610/?utm_campaign=1107610&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -776,7 +776,7 @@
           "category": "applications"
         },
         {
-          "title": "Как я с ИИ собрал семейное древо до XVIII века и разрушил легенду деда",
+          "title": "Как я с ИИ собрал семейное древо до XVIII века и разрушил легенду деда",
           "summary": "Пока готовил эту статью и сомневался, выкладывать ли её вообще, интернет начал обсуждать любовные похождения бывшего главы Nvidia. Тут я понял, что истории про семью сейчас как никогда кстати. История такая…",
           "link": "https://habr.com/ru/articles/1107484/?utm_campaign=1107484&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -882,6 +882,66 @@
       "label": "Разное",
       "items": [
         {
+          "title": "Для школьников разработали 27 занятий по ИИ и кибербезопасности",
+          "summary": "Школьники смогут ознакомиться с базовыми понятиями в доступной и наглядной форме, сообщил руководитель Института содержания и методов обучения им. В. С. Леднева Минпросвещения РФ Максим Костенко",
+          "link": "https://tass.ru/obschestvo/28317029",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-13T23:14:24.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Claude научит вас чему угодно с помощью интерактивных курсов — кодер создал самый полезный скилл для ваших",
+          "summary": "Claude научит вас чему угодно с помощью интерактивных курсов — кодер создал самый полезный скилл для ваших ИИ-агентов.Работает просто: закидываете любой учебник или обучалку и получаете персональный сайт с…",
+          "link": "https://t.me/neuraldvig/11972",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-13T22:14:02.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "В США изучают связь сбоя оборудования с внедрением ИИ в системы авиадиспетчеров",
+          "summary": "Этот вопрос относится к Агентству по обеспечению инфраструктурной и кибербезопасности при МВБ, отметил министр внутренней безопасности Соединенных Штатов Маркуэйн Маллин",
+          "link": "https://tass.ru/ekonomika/28316961",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-13T22:12:51.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Vibe‑hacking Wi‑Fi камеры с помощью Claude",
+          "summary": "Однажды мне захотелось организовать на своем участке видеонаблюдение. С этими мыслями я забрел на известный китайский сайт и нашел там вот такую камеру. Читать далее",
+          "link": "https://habr.com/ru/articles/1107726/?utm_campaign=1107726&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-13T21:54:42.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Клодизмы. Часть 1. Классификация ошибок, которые языковая модель допускает в связном тексте",
+          "summary": "Я преподаю английский язык с 1989 года и веду сайт e-repa.ru : упражнения для русскоязычных учеников, построенные на собственных js-движках. О самих js-движках я писал в отдельной серии ( часть 1 , часть 2 )…",
+          "link": "https://habr.com/ru/articles/1107710/?utm_campaign=1107710&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-13T20:28:23.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Три месяца я задавал нейросетям одни и те же 61 вопрос: доля ответов со ссылкой на мои статьи выросла с 3 до 51%",
+          "summary": "С середины лета я раз в несколько недель задаю нейросетям с веб-поиском одни и те же вопросы про франшизы и производство одежды и записываю, на какие страницы они ссылаются…",
+          "link": "https://habr.com/ru/articles/1107706/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1107706",
+          "source": "Хабр",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
+          "date": "2026-11-13T20:17:04.000Z",
+          "category": "misc"
+        },
+        {
           "title": "Google подключила кошелёк к Gemini: ИИ научился анализировать расходы, искать забытые подписки и составлять бюджет",
           "summary": "",
           "link": "https://www.ixbt.com/news/2026/11/13/google-podkliucila-koselek-k-gemini-ii-naucilsia-analizirovat-rasxody-iskat-zabytye-podpiski-i-sostavliat-biudzet.html",
@@ -909,26 +969,6 @@
           "type": "site",
           "sourceUrl": "https://www.ixbt.com/export/news.rss",
           "date": "2026-11-13T18:07:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "ИИ мало знает о буддийской философии, считает глава буддистов Калмыкии",
-          "summary": "",
-          "link": "https://ria.ru/20261113/glava-2131458216.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-13T17:41:38.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Эксперт призвал компании сделать свои предложения доступными для ИИ-агентов",
-          "summary": "",
-          "link": "https://ria.ru/20261113/ii-2131456656.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-13T17:26:18.000Z",
           "category": "misc"
         },
         {
@@ -982,7 +1022,7 @@
           "category": "misc"
         },
         {
-          "title": "Claude, VPN и KYC: что показали 193 анкеты пользователей",
+          "title": "Claude, VPN и KYC: что показали 193 анкеты пользователей",
           "summary": "Собственный VPS, постоянный IP, DNS-утечки, рейтинги доверия и проверка личности. Собрал ответы пользователей Claude и Claude Code и попробовал разобраться, какие из популярных объяснений блокировок действительно…",
           "link": "https://habr.com/ru/articles/1107662/?utm_campaign=1107662&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -1002,7 +1042,7 @@
           "category": "misc"
         },
         {
-          "title": "OpenAI поддержала ограничения на поставки ИИ-чипов в Китай после отставки Дженсена Хуанга",
+          "title": "OpenAI поддержала ограничения на поставки ИИ‑чипов в Китай после отставки Дженсена Хуанга",
           "summary": "Как пишет Bloomberg, OpenAI поддержала инициативу Конгресса США по ограничению поставок в Китай ИИ-чипов и оборудования для их производства…",
           "link": "https://habr.com/ru/articles/1107650/?utm_campaign=1107650&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -1039,46 +1079,6 @@
           "type": "site",
           "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
           "date": "2026-11-13T14:33:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Атака вышла за пределы GitHub: хакеры атаковали 8000 репозиториев ради ключей OpenAI, Anthropic и облачных сервисов",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/13/ataka-vysla-za-predely-github-xakery-atakovali-8000-repozitoriev-radi-kliucei-openai-anthropic-i-oblacnyx-servisov.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-13T14:20:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "🤪 Босс по борьбе с ИИ-эйчарами: в сети вирусятся ролики с парнем, который устраивает настоящий цирк на",
-          "summary": "🤪 Босс по борьбе с ИИ-эйчарами: в сети вирусятся ролики с парнем, который устраивает настоящий цирк на собеседованиях с ИИ-рекрутерами…",
-          "link": "https://t.me/gptpublic/6735",
-          "source": "ChatGPT · Нейросети",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/gptpublic",
-          "date": "2026-11-13T14:18:28.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Агент, который сам разбирает рабочие документы и собирает отчётС 12 ноября действует уточнённая политика Anthropic",
-          "summary": "Агент, который сам разбирает рабочие документы и собирает отчётС 12 ноября действует уточнённая политика Anthropic. В ней прямо прописано, что ограничения для российских компаний распространяются и на их сотрудников за…",
-          "link": "https://t.me/ai_newz/4841",
-          "source": "эйай ньюз",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/ai_newz",
-          "date": "2026-11-13T14:18:01.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "27B-модель на четырёх V100 в 2026 году: форк vLLM, INT4 на Volta и контекст 262K",
-          "summary": "Четыре Tesla V100 2017 года тянут в проде плотную Qwen3.8-27B в INT4 с окном 262 тысячи токенов — это модель zubr в ZuBrIQ (zubriq.ai), запросы к которой не покидают Беларусь…",
-          "link": "https://habr.com/ru/articles/1104832/?utm_campaign=1104832&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-13T14:13:58.000Z",
           "category": "misc"
         }
       ]
