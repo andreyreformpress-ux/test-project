@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-14T20:23:01.914Z",
-  "updatedAtLocal": "14 ноября 2026 г. в 23:23",
+  "updatedAt": "2026-11-15T00:43:48.727Z",
+  "updatedAtLocal": "15 ноября 2026 г. в 03:43",
   "failedSources": [
     "Интерфакс"
   ],
@@ -686,8 +686,38 @@
       "label": "Применение и инструменты",
       "items": [
         {
-          "title": "НАУЧИТЬ AI ПОНИМАТЬ СТРОИТЕЛЬНЫЙ ОБЪЕКТ",
-          "summary": "Строительная отрасль уже давно активно цифровизируется в проектах применяются информационные модели, цифровые документы, ведомости, сметы, системы управления замечаниями, планированием, согласованиями и т.д.…",
+          "title": "Одно приложение, чтобы знать все новости — китайцы собрали ИИ-сервис Horizon, который умеет парсить все самое",
+          "summary": "Одно приложение, чтобы знать все новости — китайцы собрали ИИ-сервис Horizon, который умеет парсить все самое важное 😮Умеет читать Telegram, Твиттер, GitHub, Reddit и Hacker News — нейронка автоматически сортирует…",
+          "link": "https://t.me/neuraldvig/11975",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-14T23:44:02.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Почему с ИИ мы всё ещё пишем плохой софт",
+          "summary": "ИИ помогает искать баги и делать рефакторинг. Но к пятнице снова нужна новая фича, а разбор старого кода откладывают. После стрима про качество кода я решил разобраться, почему мы так используем болванчика…",
+          "link": "https://habr.com/ru/articles/1107946/?utm_campaign=1107946&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-14T22:42:26.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Важнейшая «фишка» One UI 9.5: в смартфонах Samsung Galaxy появится продвинутый ИИ-ассистент, который сможет выполнять многие функции самостоятельно",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/15/vazneisaia-fiska-one-ui-95-v-smartfonax-samsung-galaxy-poiavitsia-prodvinutyi-ii-assistent-kotoryi-smozet-vypolniat-mnogie-funkcii-samostoiatelno.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-14T21:47:00.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Научить AI понимать строительный объект",
+          "summary": "Строительная отрасль уже давно активно цифровизируется в проектах применяются информационные модели, цифровые документы, ведомости, сметы, системы управления замечаниями, планированием, согласованиями и так далее…",
           "link": "https://habr.com/ru/articles/1107928/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1107928",
           "source": "Хабр",
           "type": "site",
@@ -786,16 +816,6 @@
           "category": "applications"
         },
         {
-          "title": "Сто комментариев на пул‑реквест: почему ИИ‑агент пишет слоп и что с этим делать",
-          "summary": "Пару дней назад я опубликовал в LinkedIn пост про ИИ-разработку и получил довольно неожиданный комментарий от одного руководителя разработки — мол, к ИИ-разработке он относится крайне скептически…",
-          "link": "https://habr.com/ru/articles/1107616/?utm_campaign=1107616&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-13T14:20:35.000Z",
-          "category": "applications"
-        },
-        {
           "title": "Сметчик завода считал КП целый рабочий день. Мы свели это к 30 секундам: почему ChatGPT тут бесполезен",
           "summary": "Снабженец строительного объекта отправляет ведомость металлопроката одновременно в 4-5 заводов и заказывает у того, кто первым прислал точный расчет…",
           "link": "https://habr.com/ru/articles/1107610/?utm_campaign=1107610&utm_source=habrahabr&utm_medium=rss",
@@ -864,26 +884,6 @@
           "sourceUrl": "https://t.me/neuro_channel",
           "date": "2026-11-13T08:55:16.000Z",
           "category": "applications"
-        },
-        {
-          "title": "Bell Integrator fabricaONE.AI приняла участие в реализации проекта по созданию цифровой платформы грузовых перевозок для нефтяной компании",
-          "summary": "Компания Bell Integrator fabricaONE.AI (акционер - ГК Softline) приняла участие в разработке и запуске цифровой платформы для автоматизации...",
-          "link": "https://www.cnews.ru/news/line/2026-11-13_bell_integrator_fabricaoneai_prinyala",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-13T07:39:00.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Ladcraft запускает «Фабрику ИИ-процессов» для трансформации бизнеса",
-          "summary": "Российский разработчик harness-платформы автономных ИИ-агентов для бизнеса Ladcraft представил решение, которое помогает...",
-          "link": "https://www.cnews.ru/news/line/2026-11-13_ladcraft_zapuskaet_fabriku",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-13T07:27:00.000Z",
-          "category": "applications"
         }
       ]
     },
@@ -891,6 +891,46 @@
       "id": "misc",
       "label": "Разное",
       "items": [
+        {
+          "title": "Эксперт Костенко назвал главный принцип нового курса по ИИ для школьников",
+          "summary": "Программа учит ответственности за принятые по советам нейросети решения, рассказал руководитель Института содержания и методов обучения им. В. С. Леднева Минпросвещения",
+          "link": "https://tass.ru/obschestvo/28318505",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-14T23:24:19.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Пополнять карту «Тройка» теперь можно через чат с «Алисой AI»",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/15/popolniat-kartu-troika-teper-mozno-cerez-cat-s-alisoi-ai.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-14T21:55:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Gemini 4 Carbon за два часа превратила iPhone Duo в ноутбук с Windows 11 — даже джейлбрейк не понадобился",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/15/gemini-4-carbon-za-dva-casa-prevratila-iphone-duo-v-noutbuk-s-windows-11-daze-dzeilbreik-ne-ponadobilsia.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-14T21:50:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Уганда настроена внедрить российские технологии искусственного интеллекта",
+          "summary": "Ученым двух стран стоит работать вместе, заявил угандийский министр по вопросам науки, технологий и инноваций Азиимве Джонард",
+          "link": "https://tass.ru/ekonomika/28318451",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-14T21:33:21.000Z",
+          "category": "misc"
+        },
         {
           "title": "🧠 ПАПА ПОДКЛЮЧИЛ ИИ К ТЕЛЕВИЗОРУ - И СДЕЛАЛ ЕГО УЧИТЕЛЕМОдин находчивый папа из Китая, видимо, устал повторять",
           "summary": "🧠 ПАПА ПОДКЛЮЧИЛ ИИ К ТЕЛЕВИЗОРУ - И СДЕЛАЛ ЕГО УЧИТЕЛЕМОдин находчивый папа из Китая, видимо, устал повторять сыну «иди делай уроки» и просто… автоматизировал воспитание…",
@@ -1049,46 +1089,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-14T11:55:35.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "КОНТЕНТ ПЛАН, КОТОРЫЙ ТОЧНО ЗАЛЕТИТ! ✅Суббота - прекрасный день, чтобы поработать над своим контентом!Все хотят,",
-          "summary": "КОНТЕНТ ПЛАН, КОТОРЫЙ ТОЧНО ЗАЛЕТИТ! ✅Суббота - прекрасный день, чтобы поработать над своим контентом!Все хотят, чтобы их Reels набирали просмотры…",
-          "link": "https://t.me/chatgpt_try/324",
-          "source": "TryChatGPT.ru",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/chatgpt_try",
-          "date": "2026-11-14T11:23:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Мы думали, что в скоринге важен размер выборки. Оказалось, что дело в числе дефолтов",
-          "summary": "Что важнее для кредитного скоринга: 50 000 заявок или 500 реальных дефолтов? Я сравнил TabPFN-2.5 и CatBoost на 3 млн обезличенных банковских заявок…",
-          "link": "https://habr.com/ru/articles/1107838/?utm_campaign=1107838&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-14T11:19:32.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Индекс поисковика Brave — отдельный вход в ответы нейросетей: как за несколько минут проверить, есть ли в нём ваш сайт",
-          "summary": "Индекс поисковика Brave — отдельный вход в ответы нескольких нейросетей: Brave продаёт доступ к нему ИИ-компаниям и сам называет Perplexity среди клиентов…",
-          "link": "https://habr.com/ru/articles/1107834/?utm_campaign=1107834&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-14T11:12:48.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Торвальдс: исправление ошибок в ядре Linux с помощью ИИ становится нормой",
-          "summary": "Исправление ошибок с помощью ИИ становится всё более распространённой практикой при разработке ядра Linux, заявил основатель проекта Линус Торвальдс. Он отмечает, что в только что выпущенной версии 7…",
-          "link": "https://habr.com/ru/articles/1107820/?utm_campaign=1107820&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-14T11:07:31.000Z",
           "category": "misc"
         }
       ]
