@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-15T20:47:46.759Z",
-  "updatedAtLocal": "15 ноября 2026 г. в 23:47",
+  "updatedAt": "2026-11-16T00:43:28.466Z",
+  "updatedAtLocal": "16 ноября 2026 г. в 03:43",
   "failedSources": [
     "Интерфакс"
   ],
@@ -706,7 +706,7 @@
           "category": "applications"
         },
         {
-          "title": "Ускоряем AI модель на процессоре Qwen3.8-Flash-Next Gyro",
+          "title": "Ускоряем AI модель на процессоре Qwen3.8-Flash‑Next Gyro",
           "summary": "Существует много различных проектов и вариантов по ускорению генерации AI. Но в большинстве случаев они используют тюнинг модели, а так же использование внешней видео карты…",
           "link": "https://habr.com/ru/articles/1108016/?utm_campaign=1108016&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -766,7 +766,7 @@
           "category": "applications"
         },
         {
-          "title": "Живое ТЗ и храповик: как заставить ИИ-агента не ломать то, что работает",
+          "title": "Живое ТЗ и храповик: как заставить ИИ‑агента не ломать то, что работает",
           "summary": "TL;DR. Пять месяцев ИИ-агент пишет производственное планирование для завода, который раньше жил в Excel. Я не читаю код построчно, контроль вынесен в ядро, автоматические проверки и приёмку, а зоны риска регулярно…",
           "link": "https://habr.com/ru/articles/1107842/?utm_campaign=1107842&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -796,22 +796,12 @@
           "category": "applications"
         },
         {
-          "title": "Анимируем динамичные ассеты (GPT Image 2 + Gemini Omni 1.2 Flash)",
-          "summary": "Протестим GPT Image 2 и Gemini Omni 1.2 Flash в паре для генерации динамичных ассетов в стиле пиксельарт, которые нужно анимировать. Читать далее",
-          "link": "https://habr.com/ru/companies/studyai/articles/1107600/?utm_campaign=1107600&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-14T08:00:15.000Z",
-          "category": "applications"
-        },
-        {
           "title": "Почему «momentum»-сэмплер для ComfyUI рисует синюю кляксу на flow-модели и какой momentum на самом деле помогает",
           "summary": "Почему «momentum»-сэмплер для ComfyUI рисует синюю кляксу на flow-модели и какой momentum на самом деле помогает Читать далее",
           "link": "https://habr.com/ru/articles/1107778/?utm_campaign=1107778&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
+          "source": "Хабр · Машинное обучение",
           "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
           "date": "2026-11-14T07:48:18.000Z",
           "category": "applications"
         },
@@ -864,6 +854,16 @@
           "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
           "date": "2026-11-13T10:56:00.000Z",
           "category": "applications"
+        },
+        {
+          "title": "SpaceXAI представила ИИ‑помощников для команд Grok Bot 1.0",
+          "summary": "Компания xAI официально представила Grok Bot 1.0 — систему ИИ‑помощников, способных работать в составе команды, отслеживать ход проектов и проявлять инициативу без постоянных указаний со стороны человека. Читать далее",
+          "link": "https://habr.com/ru/articles/1107416/?utm_campaign=1107416&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · Машинное обучение",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
+          "date": "2026-11-13T08:57:41.000Z",
+          "category": "applications"
         }
       ]
     },
@@ -871,6 +871,66 @@
       "id": "misc",
       "label": "Разное",
       "items": [
+        {
+          "title": "В ВОЗ рассказали о роли ИИ в раннем обнаружении вспышек инфекций",
+          "summary": "",
+          "link": "https://ria.ru/20261116/voz-2131746924.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-16T00:15:08.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Хватит жечь токены на поиск файлов: как QMD помогает кодинг-агентам экономить до 40%",
+          "summary": "Я заметил что кодинг агенты перед выполнением задачи запускают \"find, rg --files, glob\" для поиска файлов и нужных классов и модулей. Потом поиск по содержимому файлов через \"rg, grep\". И на это сжигается много токенов…",
+          "link": "https://habr.com/ru/articles/1108142/?utm_campaign=1108142&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-16T00:00:14.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Айтишники, плохие новости: нейросети уже заняли работу плиточником 😣",
+          "summary": "Айтишники, плохие новости: нейросети уже заняли работу плиточником 😣",
+          "link": "https://t.me/neuraldvig/11980",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-15T22:21:28.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Тихая делегация: карта рисков агентного ИИ на реальных примерах",
+          "summary": "Кому: руководителям, принимающим решения, специалистам по управлению рисками и всем, кто понимает, что технологические угрозы редко выглядят как в кино. Читать далее",
+          "link": "https://habr.com/ru/articles/1108122/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1108122",
+          "source": "Хабр",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
+          "date": "2026-11-15T22:06:19.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Наблюдаем, как Windows XP разговаривает с железом: эмулятор x86 в одном HTML-файле",
+          "summary": "Ранее я уже рассказывал о своих проектах для изучения низкого уровня, выполненных в виде одного HTML-файла и работающих офлайн: дизассемблер (5 платформ), ассемблер с поддержкой HLA64 и эмулятор процессора с пошаговой…",
+          "link": "https://habr.com/ru/articles/1108150/?utm_campaign=1108150&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-15T21:52:06.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "AI Resist List: список тех, кто бросает вызов ИИ",
+          "summary": "20 мая 2026 года Карен Хао, журналистка и автор книги «Империя ИИ», совместно с исследователями и правозащитниками представила AI Resist List — проект, который рассказывает об актах сопротивления существующей модели…",
+          "link": "https://habr.com/ru/articles/1108152/?utm_campaign=1108152&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-15T21:44:59.000Z",
+          "category": "misc"
+        },
         {
           "title": "☝️ Татуировка мечты - без боли!Воскресенье - день фантазий! А что, если визуализировать идеальную татуировку,",
           "summary": "☝️ Татуировка мечты - без боли!Воскресенье - день фантазий! А что, если визуализировать идеальную татуировку, прежде чем идти в салон?Больше никаких «мне казалось, будет по-другому»…",
@@ -889,16 +949,6 @@
           "type": "site",
           "sourceUrl": "https://tass.ru/rss/v2.xml",
           "date": "2026-11-15T19:22:48.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "FT: производители ИИ-инфраструктуры с июня потеряли около $4,2 трлн",
-          "summary": "Это связано с падением интереса со стороны инвесторов",
-          "link": "https://tass.ru/ekonomika/28319611",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-15T18:53:07.000Z",
           "category": "misc"
         },
         {
@@ -939,16 +989,6 @@
           "type": "site",
           "sourceUrl": "https://www.ixbt.com/export/news.rss",
           "date": "2026-11-15T17:16:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Михалков назвал ИИ дьявольским из-за рисков от малоуправляемости",
-          "summary": "В качестве примера режиссер привел сбой в центрах управления воздушным движением в США",
-          "link": "https://tass.ru/obschestvo/28319479",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-15T16:41:13.000Z",
           "category": "misc"
         },
         {
@@ -1029,46 +1069,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-15T12:39:52.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "ИИ в команде: что мы ожидаем друг от друга",
-          "summary": "С нейронками мы можем быстрее выполнять задачи, глубже разбираться в проблемах и находить решения, которые раньше упустили бы. А можем перекладывать недоделанную работу на коллег, бесконечно улучшать результат и…",
-          "link": "https://habr.com/ru/articles/1108042/?utm_campaign=1108042&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-15T12:27:54.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Справочник по параметрам llama.cpp (llama cli, completion, server)",
-          "summary": "Справочник по основным командам и параметрам llama.cpp . Затрагиваются основные утилиты для инференса: llama-cli , llama-completion , llama-server …",
-          "link": "https://habr.com/ru/articles/1107998/?utm_campaign=1107998&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-15T12:20:33.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Четыре SIM-карты и связь со спутниками: Huawei раскрыла подробности о модеме Balong AI в составе флагманской мобильной платформы Kirin 9050",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/15/cetyre-sim-karty-i-sviaz-so-sputnikami-huawei-raskryla-podrobnosti-o-modeme-balong-ai-v-sostave-flagmanskoi-mobilnoi-platformy-kirin-9050.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-15T11:26:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Рынок этики живых и электронных систем",
-          "summary": "В 2018 году Amazon и Google с разницей в две недели научили своих голосовых помощников — Alexa и Google Assistant — благодарить детей за «пожалуйста»…",
-          "link": "https://habr.com/ru/companies/ru_mts/articles/1107048/?utm_campaign=1107048&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-15T10:30:04.000Z",
           "category": "misc"
         }
       ]
