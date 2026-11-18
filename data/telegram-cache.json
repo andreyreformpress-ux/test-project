@@ -1,8 +1,48 @@
 {
   "channels": {
     "neuro_channel": {
-      "fetchedAt": "2026-11-17T19:35:29.032Z",
+      "fetchedAt": "2026-11-18T02:04:17.750Z",
       "posts": [
+        {
+          "title": "Ладно, может быть с Astra мне просто не повезло. Врубил Sol 6.2 high, получается гораздо лучше",
+          "summary": "Ладно, может быть с Astra мне просто не повезло. Врубил Sol 6.2 high, получается гораздо лучше. Несколько задач довёл сам до конца, чётко и понятно отчитался. Предыдущий Sol 6…",
+          "link": "https://t.me/neuro_channel/3177",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-17T22:41:58.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "Несколько ранних тестеров резко раскритиковали GPT-6.2, ведущий подкаста ThursdAI Алекс Волков собрал три таких",
+          "summary": "Несколько ранних тестеров резко раскритиковали GPT-6.2, ведущий подкаста ThursdAI Алекс Волков собрал три таких отзыва.Тео Браун назвал Astra худшей моделью OpenAI…",
+          "link": "https://t.me/neuro_channel/3176",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-17T22:01:35.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "В Coding Agent Index GPT-6.2 Astra набрала 53 балла, Sol на max упала с 52 до 49: просел тест вопросов по коду",
+          "summary": "В Coding Agent Index GPT-6.2 Astra набрала 53 балла, Sol на max упала с 52 до 49: просел тест вопросов по коду SWE-Atlas-QnA-AA (минус 14 баллов)…",
+          "link": "https://t.me/neuro_channel/3175",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-17T21:56:05.000Z",
+          "aiFocused": true
+        },
+        {
+          "title": "⚡️ OpenAI таки выпустила сегодня GPT-6.2 Astra и GPT-6.2 Sol, обе уже в Codex, ChatGPT Work и API",
+          "summary": "⚡️ OpenAI таки выпустила сегодня GPT-6.2 Astra и GPT-6.2 Sol, обе уже в Codex, ChatGPT Work и API.Новая Astra на 20% дешевле прошлой: $8 за миллион входных токенов и $40 за выходные, а чтение кэша подешевело на 60%, до…",
+          "link": "https://t.me/neuro_channel/3174",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-17T20:03:35.000Z",
+          "aiFocused": true
+        },
         {
           "title": "Gemini 4 Argon чаще всех моделей объясняет через аналогии и образы: в рейтинге «метафоричности» от Artificial",
           "summary": "Gemini 4 Argon чаще всех моделей объясняет через аналогии и образы: в рейтинге «метафоричности» от Artificial Analysis у неё 100. Внизу почти одни модели OpenAI: у GPT-6.1 Sol 18, у GPT-6 Luna 3…",
@@ -462,51 +502,11 @@
           "sourceUrl": "https://t.me/neuro_channel",
           "date": "2026-11-07T18:46:41.000Z",
           "aiFocused": true
-        },
-        {
-          "title": "Тибо написал «It's Friday», и после его марафона сбросов это читалось как намёк на очередной сброс лимитов Codex",
-          "summary": "Тибо написал «It's Friday», и после его марафона сбросов это читалось как намёк на очередной сброс лимитов Codex. Через несколько часов он процитировал этот твит со словами «Вытащите меня из подвала» и ссылкой на…",
-          "link": "https://t.me/neuro_channel/3125",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-07T18:22:19.000Z",
-          "aiFocused": true
-        },
-        {
-          "title": "С прошлого обзора на OpenRouter приехала новая пачка моделей. Gemini Omni 1.2 Flash и GPT Image 2",
-          "summary": "С прошлого обзора на OpenRouter приехала новая пачка моделей. Gemini Omni 1.2 Flash и GPT Image 2.6 я разбирал отдельно, здесь остальное интересное…",
-          "link": "https://t.me/neuro_channel/3124",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-07T04:10:10.000Z",
-          "aiFocused": true
-        },
-        {
-          "title": "Что нового у харнессов: OpenCode научился работать через аккаунт Claude Code, у Crush появились субагенты, а Kimi",
-          "summary": "Что нового у харнессов: OpenCode научился работать через аккаунт Claude Code, у Crush появились субагенты, а Kimi Code переносит к себе сессии из Claude Code и Codex.🔘 OpenCode 2.2…",
-          "link": "https://t.me/neuro_channel/3123",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-06T19:10:22.000Z",
-          "aiFocused": true
-        },
-        {
-          "title": "В Cursor теперь можно собрать и развернуть веб-приложение прямо из облачного агента и поделиться ссылкой",
-          "summary": "В Cursor теперь можно собрать и развернуть веб-приложение прямо из облачного агента и поделиться ссылкой. По промпту агент пишет код, сам поднимает хостинг и при необходимости Postgres, а ключи к внешним сервисам вы…",
-          "link": "https://t.me/neuro_channel/3122",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-06T18:45:17.000Z",
-          "aiFocused": true
         }
       ]
     },
     "AI_Chad": {
-      "fetchedAt": "2026-11-17T19:35:28.925Z",
+      "fetchedAt": "2026-11-18T02:04:17.646Z",
       "posts": [
         {
           "title": "OpenAI изобрела Google — в ChatGPT начали тестировать обычную поисковую выдачу со ссылками на сайты",
@@ -1011,7 +1011,7 @@
       ]
     },
     "ai_newz": {
-      "fetchedAt": "2026-11-17T19:35:28.610Z",
+      "fetchedAt": "2026-11-18T02:04:17.390Z",
       "posts": [
         {
           "title": "Мы получили GPT-6.2 до GTA 6! Сразу две модели, Astra и Sol: https://openai",
@@ -1366,7 +1366,7 @@
       ]
     },
     "GPTMainNews": {
-      "fetchedAt": "2026-11-17T19:35:27.262Z",
+      "fetchedAt": "2026-11-18T02:04:16.653Z",
       "posts": [
         {
           "title": "Рассказ про \"взломы\" шифров с помощью искусственного интеллекта. В сентябре 2026 года GPT-6 Astra помогла",
@@ -1541,7 +1541,7 @@
       ]
     },
     "ml_product": {
-      "fetchedAt": "2026-11-17T19:35:29.253Z",
+      "fetchedAt": "2026-11-18T02:04:17.910Z",
       "posts": [
         {
           "title": "APOD: 26 августа 2025 года – Протуберанец на Солнце с утечкой (APOD: 2025 August 26 – A Leaky Solar",
@@ -1746,7 +1746,7 @@
       ]
     },
     "hiaimedia": {
-      "fetchedAt": "2026-11-17T19:35:27.629Z",
+      "fetchedAt": "2026-11-18T02:04:16.954Z",
       "posts": [
         {
           "title": "🙂 OpenAI выпустили GPT-6.2 Astra и SolGPT-6.2 Astra — флагманская нейросеть для самых сложных проектов",
@@ -2251,7 +2251,7 @@
       ]
     },
     "gptpublic": {
-      "fetchedAt": "2026-11-17T19:35:28.376Z",
+      "fetchedAt": "2026-11-18T02:04:17.008Z",
       "posts": [
         {
           "title": "❗️Покупку VPN через Telegram-ботов банковскими картами могут запретить — мессенджер начал рассылать владельцам",
@@ -2736,7 +2736,7 @@
       ]
     },
     "neuraldvig": {
-      "fetchedAt": "2026-11-17T19:35:27.894Z",
+      "fetchedAt": "2026-11-18T02:04:17.163Z",
       "posts": [
         {
           "title": "ИИ в медстраховании хотят взять под контроль — чтобы нейронки помогали клиентам, а не решали их судьбу по одному",
@@ -3241,7 +3241,7 @@
       ]
     },
     "chatgpt_try": {
-      "fetchedAt": "2026-11-17T19:35:28.330Z",
+      "fetchedAt": "2026-11-18T02:04:17.283Z",
       "posts": [
         {
           "title": "👾Ребёнок не слушается? ИИ поможет разобратьсяЭтот пост - для всех родителей, которые хотя бы раз чувствовали себя",
@@ -3696,11 +3696,11 @@
       ]
     },
     "neurobureau": {
-      "fetchedAt": "2026-11-17T19:35:27.433Z",
+      "fetchedAt": "2026-11-18T02:04:16.782Z",
       "posts": []
     },
     "StableDiffusionBest": {
-      "fetchedAt": "2026-11-17T19:35:28.657Z",
+      "fetchedAt": "2026-11-18T02:04:17.504Z",
       "posts": [
         {
           "title": "Возвращение легенды: самый востребованный практикум Зерокодера по Claude Code снова пройдёт в ноябре",
