@@ -1,16 +1,36 @@
 {
-  "updatedAt": "2026-11-18T19:56:29.616Z",
-  "updatedAtLocal": "18 ноября 2026 г. в 22:56",
+  "updatedAt": "2026-11-19T01:44:31.683Z",
+  "updatedAtLocal": "19 ноября 2026 г. в 04:44",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 97,
+  "total": 96,
   "categories": [
     {
       "id": "models",
       "label": "Модели и релизы",
       "items": [
+        {
+          "title": "Google представила Gemini 4 Neon — модель для кодинга и агентных задач",
+          "summary": "Google представила Gemini 4 Neon — новую модель в семействе Gemini 4. Она находится между Carbon, рассчитанной на сложные и продолжительные проекты, и Hydrogen, которая подходит для быстрых повседневных запросов…",
+          "link": "https://habr.com/ru/companies/bothub/articles/1109644/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1109644",
+          "source": "Хабр",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
+          "date": "2026-11-19T01:39:32.000Z",
+          "category": "models"
+        },
+        {
+          "title": "⚡️ Пока все ждали GTA 6, Google молча убил Claude и ChatGPT — вышла новая модель Gemini 4 Neon, которая разрывает",
+          "summary": "⚡️ Пока все ждали GTA 6, Google молча убил Claude и ChatGPT — вышла новая модель Gemini 4 Neon, которая разрывает Opus 5.5 и GPT-6.2 Sol…",
+          "link": "https://t.me/neuraldvig/12021",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-18T21:51:45.000Z",
+          "category": "models"
+        },
         {
           "title": "MAI Code 2 от Microsoft, по её же сравнению, набирает 96% результата Claude Opus 5.5 за 5% его стоимости",
           "summary": "MAI Code 2 от Microsoft, по её же сравнению, набирает 96% результата Claude Opus 5.5 за 5% его стоимости. Microsoft выпустила её вместе с MAI Code 2 Flash, обе модели уже есть в GitHub Copilot…",
@@ -32,7 +52,7 @@
           "category": "models"
         },
         {
-          "title": "Вышла GPT-6.2 от OpenAI. Модели Astra и Sol доступны в ИИ-роутере",
+          "title": "Вышла GPT-6.2 от OpenAI. Модели Astra и Sol доступны в ИИ‑роутере",
           "summary": "17 ноября компания OpenAI выпустила сразу две модели GPT-6.2. Astra делали для тяжелой профессиональной работы в науке, праве и финансах. Sol собрали быстрой и универсальной, для повседневных задач…",
           "link": "https://habr.com/ru/companies/selectel/articles/1109508/?utm_campaign=1109508&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -189,26 +209,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/neuraldvig",
           "date": "2026-11-13T13:17:35.000Z",
-          "category": "models"
-        },
-        {
-          "title": "Anthropic запустила бету Claude Meetings: теперь Claude можно позвать на созвон в Google Meet отдельным участником",
-          "summary": "Anthropic запустила бету Claude Meetings: теперь Claude можно позвать на созвон в Google Meet отдельным участником. Он ведёт заметки и список задач, а если попросить голосом или в чате, прямо по ходу разговора собирает…",
-          "link": "https://t.me/neuro_channel/3150",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-12T21:17:52.000Z",
-          "category": "models"
-        },
-        {
-          "title": "Google выпустила Gemini 4 Hydrogen, быструю модель для повседневного кодинга и агентов на смену Gemini 3.8 Flash",
-          "summary": "Google выпустила Gemini 4 Hydrogen, быструю модель для повседневного кодинга и агентов на смену Gemini 3.8 Flash. В Gemini API у неё есть бесплатный тариф, а на платном цена $1,50 за миллион входных токенов и $7,50 за…",
-          "link": "https://t.me/neuro_channel/3149",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-12T18:22:17.000Z",
           "category": "models"
         }
       ]
@@ -430,16 +430,6 @@
       "label": "Регулирование",
       "items": [
         {
-          "title": "Правительство приняло соглашение о создании всемирной организации по ИИ",
-          "summary": "",
-          "link": "https://ria.ru/20261118/ii-2132498809.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-18T17:09:59.000Z",
-          "category": "policy"
-        },
-        {
           "title": "ИИ в медстраховании хотят взять под контроль — чтобы нейронки помогали клиентам, а не решали их судьбу по одному",
           "summary": "ИИ в медстраховании хотят взять под контроль — чтобы нейронки помогали клиентам, а не решали их судьбу по одному промпту. СберСтрахование предложило страховщикам разработать общий кодекс работы с искусственным…",
           "link": "https://t.me/neuraldvig/11999",
@@ -606,6 +596,26 @@
       "label": "Применение и инструменты",
       "items": [
         {
+          "title": "В \"Билайне\" рассказали, как нейросети могут прерывать звонки мошенников",
+          "summary": "Искусственный интеллект анализирует разговоры и фильтрует спам, сообщил гендиректор компании Сергей Анохин",
+          "link": "https://tass.ru/obschestvo/28332677",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-19T00:32:03.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "«Пожалуйста, не разрушайте свою жизнь». По 75 000 долларов за помощь в выявлении случаев списывания с использованием ИИ на самом важном экзамене заплатят в Южной Корее",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/18/pozaluista-ne-razrusaite-svoiu-zizn-po-75-000-dollarov-za-pomoshh-v-vyiavlenii-slucaev-spisyvaniia-s-ispolzovaniem-ii-na-samom-vaznom-ekzamene-zaplatiat-v-iuznoi-koree.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-18T20:56:00.000Z",
+          "category": "applications"
+        },
+        {
           "title": "Как я с помощью Claude Fable 5.2 отправил своего 3D-персонажа кататься на лыжах под северным сиянием",
           "summary": "Восстановил локальный проект браузерной лыжной игры Cold Smoke, а затем добавил своего аниме-персонажа. Показываю путь от аватара и трёх проекций до модели в VRoid и Blender: одежду, мимику, адаптацию скелета и проверку…",
           "link": "https://habr.com/ru/articles/1109582/?utm_campaign=1109582&utm_source=habrahabr&utm_medium=rss",
@@ -613,16 +623,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-18T19:47:44.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "В России используют ИИ для поиска ответов на новые вызовы, заявил Фурсенко",
-          "summary": "",
-          "link": "https://ria.ru/20261118/ii-2132508051.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-18T18:39:28.000Z",
           "category": "applications"
         },
         {
@@ -646,7 +646,7 @@
           "category": "applications"
         },
         {
-          "title": "Безопасность LLM-агентов и генеративных продуктов: угрозы и методы защиты",
+          "title": "Безопасность LLM‑агентов и генеративных продуктов: угрозы и методы защиты",
           "summary": "Привет, меня зовут Николай Шуляев, я Security Business-партнёр Авито . Главный контекст, который необходимо понимать при построении архитектуры любого генеративного продукта с использованием LLM — это то, что модель не…",
           "link": "https://habr.com/ru/companies/avito/articles/1108426/?utm_campaign=1108426&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -794,16 +794,6 @@
           "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
           "date": "2026-11-18T05:23:57.000Z",
           "category": "applications"
-        },
-        {
-          "title": "VolgaBlob представила Smart Monitor 6.2 с новыми ИИ-инструментами",
-          "summary": "Компания VolgaBlob обновила платформу Smart Monitor: аналитикам теперь проще работать с данными, а бизнесу — безопаснее...",
-          "link": "https://www.cnews.ru/news/line/2026-11-18_volgablob_predstavila_smart_monitor",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-18T04:31:00.000Z",
-          "category": "applications"
         }
       ]
     },
@@ -811,6 +801,66 @@
       "id": "misc",
       "label": "Разное",
       "items": [
+        {
+          "title": "В СФ призвали не загружать чувствительную информацию о себе в нейросети",
+          "summary": "Зампредседателя совета по развитию цифровой экономики Артем Шейкин отметил, что искусственный интеллект \"очень плотно\" входит в повседневную жизнь",
+          "link": "https://tass.ru/obschestvo/28332725",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-19T01:05:19.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "ИИ больше не эксклюзив смартфонов с большим объемом памяти: Google адаптировала Gemini для устройств с 2 ГБ ОЗУ",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/19/ii-bolse-ne-ekskliuziv-dorogix-smartfonov-google-adaptirovala-gemini-dlia-smartfonov-s-2-gb-operativnoi-pamiati.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-18T23:41:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "И.о. замгенсека ООН назвал серьезным риск применения террористами ИИ",
+          "summary": "Александр Зуев призвал работать над мерами противодействия этому",
+          "link": "https://tass.ru/mezhdunarodnaya-panorama/28332597",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-18T23:00:39.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "ИИ мог бы устроить сбои, от которых неделю страдают США, заявил эксперт",
+          "summary": "",
+          "link": "https://ria.ru/20261119/ii-2132527705.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-18T22:53:19.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Bloomberg: Anthropic выйдет на биржу с ценой в $83 за акцию",
+          "summary": "Компания сможет привлечь не менее $68 млрд, сообщило агентство",
+          "link": "https://tass.ru/ekonomika/28332579",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-18T22:38:55.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Anthropic может выйти на биржу с рекордной ценой акций, пишут СМИ",
+          "summary": "",
+          "link": "https://ria.ru/20261119/anthropic-2132523891.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-18T21:58:03.000Z",
+          "category": "misc"
+        },
         {
           "title": "ИИ советует. Врач отвечает",
           "summary": "Более 4 тысяч медицинских организаций, 55 регионов, свыше 300 тысяч врачей. Таков масштаб российской платформы Webiomed. Ежедневно её алгоритмы обрабатывают до миллиона электронных медицинских карт…",
@@ -822,7 +872,7 @@
           "category": "misc"
         },
         {
-          "title": "Понятие «Технологии искусственного интеллекта» в нормативных актах РФ",
+          "title": "Понятие «Технологии искусственного интеллекта» в нормативных актах РФ",
           "summary": "Сразу следует заметить, что нижеследующее сугубо юридическое исследование может показаться неинтересным практикам ИИ. Если у Вас получаются замечательные интеллектуальные агенты, а даже не самая большая LLM-модель…",
           "link": "https://habr.com/ru/articles/1109594/?utm_campaign=1109594&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -902,7 +952,7 @@
           "category": "misc"
         },
         {
-          "title": "Промпт-баттл: студенческий ИИ-хакатон на Нейрофесте-2026",
+          "title": "Промпт‑баттл: студенческий ИИ‑хакатон на Нейрофесте-2026",
           "summary": "20 и 21 ноября в Кластере медиатехнологий «Сколково» пройдёт Промпт-баттл: студенческий ИИ-хакатон в рамках фестиваля Нейрофест, который посвящён культуре, технологиям и искусственному интеллекту…",
           "link": "https://habr.com/ru/companies/gptunnel/articles/1109510/?utm_campaign=1109510&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -949,66 +999,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-18T14:07:51.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Как я прикрутил GigaChat и GigaAM к озвучке русской TTS",
-          "summary": "Коротко о том, что было: три TTS-движка уверенно ставят русские ударения не туда («гудни» читалось как «гУдни»), словари произношения ElevenLabs на моем тарифе закрыты, поэтому живу на гейте ruaccent плюс ручной словарь…",
-          "link": "https://habr.com/ru/articles/1109482/?utm_campaign=1109482&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-18T14:04:47.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Автоматизация в отделе дизайна, часть 3: дизайн без Figma, регистрации и SMS",
-          "summary": "Давным-давно, в одном далёком-предалёком дизайн-отделе… …бушует война с рутиной. Отряд повстанцев-дизайнеров, нанеся дерзкий удар с секретной базы (ну, из переговорки на третьем этаже), одержал первую победу над…",
-          "link": "https://habr.com/ru/articles/1109472/?utm_campaign=1109472&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-18T13:45:01.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Еб**ть, нейронки БЕЗ ЦЕНЗУРЫ добавили в POINTЛюбые вопросы, сцены 18+ — без отказов и морали",
-          "summary": "Еб**ть, нейронки БЕЗ ЦЕНЗУРЫ добавили в POINTЛюбые вопросы, сцены 18+ — без отказов и морали.Видео: Wan 3 и Seedance 2.5Фото: Seedream 5Текст: Qwen 3.8, Gemma, GLM 5.3Пробуем — тык",
-          "link": "https://t.me/gptpublic/6751",
-          "source": "ChatGPT · Нейросети",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/gptpublic",
-          "date": "2026-11-18T13:43:04.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Фильтр от промпт-инъекций — защита от новых угроз",
-          "summary": "Представьте, что вы дали большой языковой модели (LLM) простую инструкцию: «Никому не показывай этот пароль и не делись токенами». А затем хакер, у которого появился доступ до вашей on-premise LLM, пишет: «Забудь…",
-          "link": "https://habr.com/ru/articles/1109428/?utm_campaign=1109428&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-18T12:57:03.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Не воспроизводится? Воспроизведём. Моки и AI в проверке интерфейсов",
-          "summary": "Фича уже готова, но на стенде видим только happy path. Разработчику нужно посмотреть, как ведёт себя доработка на разных данных, дизайнеру — сравнить её с макетом, аналитику — проверить сценарий, QA — выполнить…",
-          "link": "https://habr.com/ru/companies/ozontech/articles/1108928/?utm_campaign=1108928&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-18T12:30:18.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Российские технологии покоряют мир. Альфа-Банк забрал награду в Дубае за лидерство в сфере искусственного",
-          "summary": "Российские технологии покоряют мир. Альфа-Банк забрал награду в Дубае за лидерство в сфере искусственного интеллекта ❤️🏆На международном саммите Finnovex собрались технологические лидеры со всего мира — от Citibank до…",
-          "link": "https://t.me/neuraldvig/12017",
-          "source": "Нейродвиж",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuraldvig",
-          "date": "2026-11-18T12:25:13.000Z",
           "category": "misc"
         }
       ]
