@@ -1,16 +1,76 @@
 {
-  "updatedAt": "2026-11-19T09:50:45.214Z",
-  "updatedAtLocal": "19 ноября 2026 г. в 12:50",
+  "updatedAt": "2026-11-19T18:50:08.682Z",
+  "updatedAtLocal": "19 ноября 2026 г. в 21:50",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 105,
+  "total": 106,
   "categories": [
     {
       "id": "models",
       "label": "Модели и релизы",
       "items": [
+        {
+          "title": "Пишет ли локальная модель бэкенд по правилам проекта: 4 модели, 2 харнесса, 24 прогона",
+          "summary": "Локальные модели с открытыми весами всё чаще предлагают как замену облачным в агентной разработке, поскольку код не уходит наружу, а цена не зависит от чужих тарифов…",
+          "link": "https://habr.com/ru/companies/airi/articles/1102720/?utm_campaign=1102720&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T15:32:01.000Z",
+          "category": "models"
+        },
+        {
+          "title": "В России собрали собственного конкурента Claude Code с топовыми нейронками на борту",
+          "summary": "В России собрали собственного конкурента Claude Code с топовыми нейронками на борту. ИИ-агент Kodacode умеет сам работать за компьютером, внутри есть модельки от Claude, GPT и Gemini, и собственные модели Koda и Koda…",
+          "link": "https://t.me/neuraldvig/12032",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-19T14:44:01.000Z",
+          "category": "models"
+        },
+        {
+          "title": "Вышел Gemini 4 Neon. Золотая середина, по мнению Google",
+          "summary": "18 ноября 2026 года Google представила Gemini 4 Neon — по сути, недостающее звено в своей новой линейке. До этого момента приходилось выбирать между быстрой моделью Hydrogen для простых скриптов и рутины и мощной, но…",
+          "link": "https://habr.com/ru/companies/selectel/articles/1109880/?utm_campaign=1109880&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T14:00:31.000Z",
+          "category": "models"
+        },
+        {
+          "title": "Втрое быстрее и на 60% дешевле: Google представила ИИ-модель Gemini 4 Neon",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/19/vtroe-bystree-i-na-60-desevle-google-predstavila-ii-model-gemini-4-neon.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-19T10:43:00.000Z",
+          "category": "models"
+        },
+        {
+          "title": "Вот табличка чтобы быстро разобраться что за Neon нам представили сегодня и как он с другими моделями гугла",
+          "summary": "Вот табличка чтобы быстро разобраться что за Neon нам представили сегодня и как он с другими моделями гугла соотносится.Ощущение, что карбон больше не нужен…",
+          "link": "https://t.me/neuro_channel/3186",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-19T10:36:21.000Z",
+          "category": "models"
+        },
+        {
+          "title": "Gemini 4 Neon по средней цене задачи в кодинге почти вдвое дешевле Opus 5.5: $6,86 против $12,61",
+          "summary": "Gemini 4 Neon по средней цене задачи в кодинге почти вдвое дешевле Opus 5.5: $6,86 против $12,61. Google выпустила её этой ночью, в Antigravity модель раскатывают подписчикам Google AI Pro и Ultra…",
+          "link": "https://t.me/neuro_channel/3185",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-19T10:26:08.000Z",
+          "category": "models"
+        },
         {
           "title": "Google представил Gemini 4 Neon — четвёртую модель семейства Gemini 4",
           "summary": "Google выпустил Gemini 4 Neon. Это уже четвёртая модель в линейке Gemini 4, и Google позиционирует её как баланс глубины и эффективности: Carbon — для самых сложных проектов, Hydrogen — для быстрой повседневной работы,…",
@@ -75,9 +135,9 @@
           "title": "Вышла GPT-6.2 от OpenAI. Модели Astra и Sol доступны в ИИ‑роутере",
           "summary": "17 ноября компания OpenAI выпустила сразу две модели GPT-6.2. Astra делали для тяжелой профессиональной работы в науке, праве и финансах. Sol собрали быстрой и универсальной, для повседневных задач…",
           "link": "https://habr.com/ru/companies/selectel/articles/1109508/?utm_campaign=1109508&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
+          "source": "Хабр · Машинное обучение",
           "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
           "date": "2026-11-18T14:48:54.000Z",
           "category": "models"
         },
@@ -150,66 +210,6 @@
           "sourceUrl": "https://t.me/neuro_channel",
           "date": "2026-11-17T16:03:50.000Z",
           "category": "models"
-        },
-        {
-          "title": "Открыли веса модели LongCat-2.5 на 1,6 трлн параметров, которую разворачивают не на NVIDIA",
-          "summary": "Китайская платформа доставки Meituan открыла веса мультимодальной MoE-модели LongCat-2.5 примерно на 1,6 трлн параметров, из которых около 48 млрд активны на токен, под свободной лицензией MIT…",
-          "link": "https://habr.com/ru/companies/selectel/articles/1108958/?utm_campaign=1108958&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · Машинное обучение",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
-          "date": "2026-11-17T14:40:59.000Z",
-          "category": "models"
-        },
-        {
-          "title": "OpenAI удваивает число бесплатных подписок на ChatGPT для учёных до 200 тысяч, но теперь предлагает им ChatGPT Plus",
-          "summary": "В июле текущего года OpenAI запустила программу «ChatGPT для академических исследователей» (ChatGPT for Academic Researchers), которая предоставляет бесплатный доступ к ChatGPT 100 тыс…",
-          "link": "https://habr.com/ru/articles/1108960/?utm_campaign=1108960&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · Машинное обучение",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
-          "date": "2026-11-17T14:34:47.000Z",
-          "category": "models"
-        },
-        {
-          "title": "Вышла Tencent Hy4 flash. Модель на 224B с памятью Engram уже доступна в ИИ-роутере Selectel",
-          "summary": "В ИИ-роутере Selectel, который дает единый доступ к моделям через OpenAI-совместимый API с оплатой за токены, появилась Hy4 flash. Это младшая модель семейства Hy4 китайской компании Tencent, представленная 16 ноября…",
-          "link": "https://habr.com/ru/companies/selectel/articles/1108910/?utm_campaign=1108910&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · Машинное обучение",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
-          "date": "2026-11-17T13:35:52.000Z",
-          "category": "models"
-        },
-        {
-          "title": "🔍 Что читать об ИИ, чтобы ничего не упускать?В мире ИИ все меняется слишком быстро",
-          "summary": "🔍 Что читать об ИИ, чтобы ничего не упускать?В мире ИИ все меняется слишком быстро. GPT-4 вышла в 2023-м и оставалась лучшей в мире моделью почти год. А только за последний месяц лидер индустрии сменился дважды…",
-          "link": "https://t.me/hiaimedia/3843",
-          "source": "Hi, AI",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/hiaimedia",
-          "date": "2026-11-17T11:17:38.000Z",
-          "category": "models"
-        },
-        {
-          "title": "В открытом проекте smolmaxxing модель на 80 млрд параметров запустили на телефоне",
-          "summary": "В открытом проекте smolmaxxing модель на 80 млрд параметров запустили на телефоне. На OnePlus Nord CE 2 2022 года Qwen3-Next-80B-A3B выдаёт 2,6–3,1 токена в секунду при пике около 5 ГБ памяти, Qwen3.6-35B-A3B 4,9–5,7…",
-          "link": "https://t.me/neuro_channel/3167",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-16T16:44:01.000Z",
-          "category": "models"
-        },
-        {
-          "title": "Вышел llama․cpp 1.0.0, а вместе с ним ggml 1.0.0. Версия 1.0.0 означает обещание: ломающие изменения публичного C",
-          "summary": "Вышел llama․cpp 1.0.0, а вместе с ним ggml 1.0.0. Версия 1.0.0 означает обещание: ломающие изменения публичного C API и ABI теперь меняют мажорную версию, а минорная растёт от новых моделей, бэкендов и функций…",
-          "link": "https://t.me/neuro_channel/3165",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-16T15:58:01.000Z",
-          "category": "models"
         }
       ]
     },
@@ -217,6 +217,56 @@
       "id": "business",
       "label": "Бизнес и инвестиции",
       "items": [
+        {
+          "title": "Anthropic вышли на IPO Акции компании уже торгуются на бирже по цене в районе $100",
+          "summary": "Anthropic вышли на IPO Акции компании уже торгуются на бирже по цене в районе $100. Компания привлекла 81 миллиард долларов в ходе IPO и ещё 26 миллиардов от приватной продажи акций большим инвесторам…",
+          "link": "https://t.me/ai_newz/4851",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-11-19T18:09:30.000Z",
+          "category": "business"
+        },
+        {
+          "title": "«Т-инвестиции» запустили торги неоактивом на акции Anthropic",
+          "summary": "",
+          "link": "https://www.vedomosti.ru/investments/news/2026/11/19/1413526-t-investitsii-zapustili",
+          "source": "Ведомости",
+          "type": "site",
+          "sourceUrl": "https://www.vedomosti.ru/rss/news",
+          "date": "2026-11-19T17:45:47.000Z",
+          "category": "business"
+        },
+        {
+          "title": "Anthropic вышли на IPOАкции компании уже торгуются на бирже по цене в районе $100",
+          "summary": "Anthropic вышли на IPOАкции компании уже торгуются на бирже по цене в районе $100. Компания привлекла 81 миллиард долларов в ходе IPO и ещё 26 миллиардов от приватной продажи акций большим инвесторам…",
+          "link": "https://t.me/ai_newz/4850",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-11-19T17:27:55.000Z",
+          "category": "business"
+        },
+        {
+          "title": "AMD купила разработчика ИИ-чипов Taalas: компания намерена ускорить инференс без традиционной высокоскоростной памяти",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/19/amd-kupila-razrabotcika-ii-cipov-taalas-kompaniia-namerena-uskorit-inferens-bez-tradicionnoi-vysokoskorostnoi-pamiati.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-19T11:58:00.000Z",
+          "category": "business"
+        },
+        {
+          "title": "Исторический рекорд: Anthropic выходит на IPO с оценкой в $1,5 трлн",
+          "summary": "Разработчик семейств больших языковых моделей Claude, компания Anthropic, официально готовится к первичному размещению акций (IPO). Заявленная цена размещения составила $83 за ценную бумагу, что оценивает бизнес в…",
+          "link": "https://habr.com/ru/articles/1109832/?utm_campaign=1109832&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T10:43:56.000Z",
+          "category": "business"
+        },
         {
           "title": "🌥 Anthropic привлекла $81,3 млрд в ходе крупнейшего IPO в историиПо цене размещения разработчика Claude оценили в",
           "summary": "🌥 Anthropic привлекла $81,3 млрд в ходе крупнейшего IPO в историиПо цене размещения разработчика Claude оценили в $1,5 трлн — примерно на уровне Tesla.Всего Anthropic разместила 980 млн акций по $83 за штуку…",
@@ -245,16 +295,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-19T08:07:00.000Z",
-          "category": "business"
-        },
-        {
-          "title": "Anthropic провела крупнейшее IPO в истории: разработчика Claude оценили в $1,5 трлн",
-          "summary": "Помимо IPO на $81,3 млрд, Anthropic привлекает ещё $26 млрд в частном размещении. Общий объём сделки — $107,3 млрд. Рассказываю, почему это важно. И удивительно. Официальные условия IPO Anthropic",
-          "link": "https://habr.com/ru/articles/1109708/?utm_campaign=1109708&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T07:50:48.000Z",
           "category": "business"
         },
         {
@@ -334,6 +374,46 @@
       "label": "Исследования",
       "items": [
         {
+          "title": "Неанонсированная модель Gestalt первой обошла живых дизайнеров в новом бенчмарке сайтов: Elo 1931 против 1739 у",
+          "summary": "Неанонсированная модель Gestalt первой обошла живых дизайнеров в новом бенчмарке сайтов: Elo 1931 против 1739 у эталонных работ людей. Чья Gestalt, авторы не говорят…",
+          "link": "https://t.me/neuro_channel/3191",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-19T18:26:04.000Z",
+          "category": "research"
+        },
+        {
+          "title": "Код нагенерили, а до релиза дошло только 24%. Изучаем результаты исследования",
+          "summary": "Код с помощью ИИ генерируется за считаные минуты, а обещанного ускорения команда может так и не увидеть. После генерации остаются проверка, исправления, тестирование и выпуск, на которые разработчики тратят часы…",
+          "link": "https://habr.com/ru/companies/simpleone/articles/1109878/?utm_campaign=1109878&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T12:38:25.000Z",
+          "category": "research"
+        },
+        {
+          "title": "Исследование ИТ-холдинга «Т1» и TProger: 42% разработчиков сложно разобраться в коде от ИИ",
+          "summary": "Трудности с пониманием кода, сгенерированного ИИ, оказались самой распространенной проблемой при использовании...",
+          "link": "https://www.cnews.ru/news/line/2026-11-19_issledovanie_it-holdinga",
+          "source": "CNews",
+          "type": "site",
+          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
+          "date": "2026-11-19T11:34:00.000Z",
+          "category": "research"
+        },
+        {
+          "title": "Исследование Axenix: российские финансовые организации потратят до 20 млрд рублей на ИИ-агентов в 2026 году",
+          "summary": "Компания Axenix выпустила исследование «Мультиагентные системы в финансовом секторе: от изолированных пилотов...",
+          "link": "https://www.cnews.ru/news/line/2026-11-19_issledovanie_axenix_rossijskie",
+          "source": "CNews",
+          "type": "site",
+          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
+          "date": "2026-11-19T10:20:00.000Z",
+          "category": "research"
+        },
+        {
           "title": "Как научить BERT «понимать» науку: гибридная классификация научно‑технических текстов с графами знаний",
           "summary": "Научных публикаций становится экспоненциально больше. Вручную рубрицировать и индексировать их уже невозможно, поэтому острая потребность в автоматической классификации очевидна…",
           "link": "https://habr.com/ru/articles/1109736/?utm_campaign=1109736&utm_source=habrahabr&utm_medium=rss",
@@ -364,16 +444,6 @@
           "category": "research"
         },
         {
-          "title": "Mnemosyne: Kubernetes, который пишет симфонии и прозу",
-          "summary": "Понятно, что с нейросетями каждый сам себе автор и художник. Но захотелось поставить эксперимент, сможет ли Kubernetes стать генератором событий, которые бы порождали творцов, критиков, влияли на условия для их…",
-          "link": "https://habr.com/ru/articles/1109580/?utm_campaign=1109580&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-18T18:03:17.000Z",
-          "category": "research"
-        },
-        {
           "title": "ИИ-модели OpenAI, Anthropic и Google при тестировании наводили дроны на скорую, сдающихся солдат и гражданских, их отмечали как военные цели",
           "summary": "Исследование Vals AI показало, что ведущие ИИ-модели (GPT-6, Claude, Gemini, Grok, DeepSeek и другие) почти не имеют ограничений на использование в автономном оружии…",
           "link": "https://www.cnews.ru/news/top/2026-11-18_ii-modeli_openaianthropic_i_google",
@@ -381,16 +451,6 @@
           "type": "site",
           "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
           "date": "2026-11-18T12:46:00.000Z",
-          "category": "research"
-        },
-        {
-          "title": "27% ИБ-специалистов считают ИИ в средствах защиты переоцененным трендом",
-          "summary": "По результатам исследования «Контур.Эгиды» и Staffcop «ИБ на пороге 2027 года», 27% ИБ-специалистов назвали применение...",
-          "link": "https://www.cnews.ru/news/line/2026-11-18_27_ib-spetsialistov_schitayut",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-18T09:08:00.000Z",
           "category": "research"
         },
         {
@@ -414,16 +474,6 @@
           "category": "research"
         },
         {
-          "title": "[Перевод] Qwen3.8 Flash на RTX 4090. Лучше обычного 27В?",
-          "summary": "В одном из экспериментов Kwangju Shin запустил Qwen3.8-27B примерно со 100 токенами в секунду. Для ускорения использовалась DFlash2, технология спекулятивного декодирования, которая позволяет небольшой вспомогательной…",
-          "link": "https://habr.com/ru/articles/1108870/?utm_campaign=1108870&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · Машинное обучение",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
-          "date": "2026-11-17T12:21:17.000Z",
-          "category": "research"
-        },
-        {
           "title": "GitHub взломан — под удар попали сразу 61 000 репозиториев. Масштабы ущерба до сих пор оценивают",
           "summary": "GitHub взломан — под удар попали сразу 61 000 репозиториев. Масштабы ущерба до сих пор оценивают.Атака началась 10 ноября. Исследователи обнаружили массовую утечку паролей, токенов и ключей доступа…",
           "link": "https://t.me/AI_Chad/7768",
@@ -431,16 +481,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/AI_Chad",
           "date": "2026-11-14T05:56:08.000Z",
-          "category": "research"
-        },
-        {
-          "title": "Бенчмарк, который мы не заслуживаем: LLM AssBench проверяет, насколько красивую попу может создать модель в",
-          "summary": "Бенчмарк, который мы не заслуживаем: LLM AssBench проверяет, насколько красивую попу может создать модель в 3D-редакторе 😂😁 — Opus 5.5🔥 — Carbon 4❤️ — Astra 6",
-          "link": "https://t.me/neuraldvig/11938",
-          "source": "Нейродвиж",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuraldvig",
-          "date": "2026-11-09T21:02:01.000Z",
           "category": "research"
         },
         {
@@ -497,16 +537,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-19T07:59:12.000Z",
-          "category": "policy"
-        },
-        {
-          "title": "Антифрод на два миллиарда: как Anthropic зарабатывает на клиентах, которых потом блокирует",
-          "summary": "За девять месяцев 2026 года Anthropic заработала до $2,33 млрд на клиентах, чьи аккаунты позднее заблокировала. И проблема не в \"неправильных российских прокси\": точно так же без доступа и возврата $200 остаются…",
-          "link": "https://habr.com/ru/articles/1109660/?utm_campaign=1109660&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T05:43:03.000Z",
           "category": "policy"
         },
         {
@@ -610,26 +640,6 @@
           "category": "policy"
         },
         {
-          "title": "Anthropic начала раскатывать в Claude три новых типа артефактов для командной работы: Whiteboards, Sheets и Data",
-          "summary": "Anthropic начала раскатывать в Claude три новых типа артефактов для командной работы: Whiteboards, Sheets и Data. На доске Claude раскладывает план, который с ним обсудили, и дальше её правит вся команда…",
-          "link": "https://t.me/neuro_channel/3137",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-10T18:24:01.000Z",
-          "category": "policy"
-        },
-        {
-          "title": "Топ трендов HuggingFace за неделю — что приехало в опенсорсTL;DRНовое: Ripple-65B обучена с нуля и сильна в",
-          "summary": "Топ трендов HuggingFace за неделю — что приехало в опенсорсTL;DRНовое: Ripple-65B обучена с нуля и сильна в терминале. Arete-27B отучает Qwen от государственного фрейминга. TwIL-8B для олимпиадной математики…",
-          "link": "https://t.me/neuro_channel/3133",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-09T19:44:03.000Z",
-          "category": "policy"
-        },
-        {
           "title": "🔍 Жена пыталась отравить мужа по советам ChatGPTЖитель Северной Каролины Джеймс Гейтс подал в суд на OpenAI и CEO",
           "summary": "🔍 Жена пыталась отравить мужа по советам ChatGPTЖитель Северной Каролины Джеймс Гейтс подал в суд на OpenAI и CEO стартапа Сэма Альтмана, утверждая, что чат-бот компании помогал его жене Шерил спланировать его…",
           "link": "https://t.me/hiaimedia/3804",
@@ -686,6 +696,176 @@
       "label": "Применение и инструменты",
       "items": [
         {
+          "title": "Город, который читают машины: как я сделал API для нейросетей на одном PHP-файле",
+          "summary": "Привет, Хабр. Меня зовут Максим, я писатель и энтузиаст, а не профессиональный разработчик. Несколько месяцев назад я задумался над простым вопросом: почти все сайты в интернете сделаны для людей, а ботов и нейросетей…",
+          "link": "https://habr.com/ru/articles/1110046/?utm_campaign=1110046&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T17:41:28.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Профессор Фортран в SVG: как ИИ-агент нарисовал иллюстрации к моей книге на Python",
+          "summary": "Как-то в детстве мне в руки попалась невероятно яркая книжка — «Энциклопедия профессора Фортрана». Я зачитывался ею, подолгу разглядывал рисунки и до сих пор помню каждого героя — профессора Фортрана, кота Икса, Воробья…",
+          "link": "https://habr.com/ru/articles/1110036/?utm_campaign=1110036&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T17:08:11.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Яндекс Диск вернул доступ к 99,55% данных после сбоя — инженеры восстановили все основные функции сервиса",
+          "summary": "Яндекс Диск вернул доступ к 99,55% данных после сбоя — инженеры восстановили все основные функции сервиса.Снова работают автозагрузка фотографий с мобильных устройств, скачивание файлов и папок архивом и воспроизведение…",
+          "link": "https://t.me/neuraldvig/12035",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-19T15:55:03.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Преодолевая звуковой барьер в разработке ПО с ИИ",
+          "summary": "В статье рассматривается, как организовать разработку программного обеспечения с ИИ-помощниками, чтобы ускорение реализации не приводило к потере управляемости проекта…",
+          "link": "https://habr.com/ru/articles/1108644/?utm_campaign=1108644&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T15:54:29.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Ор: в Китае система пожаротушения с ИИ ошибочно определила вывеску ресторана, как огонь и щедро залила его водой",
+          "summary": "Ор: в Китае система пожаротушения с ИИ ошибочно определила вывеску ресторана, как огонь и щедро залила его водой.Нейросети оставят нас без работы, говорили они 😂",
+          "link": "https://t.me/neuraldvig/12034",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-19T15:50:01.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "[Перевод] Как проверить индексы PostgreSQL после генерации ИИ‑агентом и избежать лишней нагрузки на запись",
+          "summary": "ИИ‑агенты умеют создавать сложные индексы PostgreSQL: с GIN и GiST, условиями WHERE и составными ключами. Но когда каждый новый запрос получает собственный индекс, общая нагрузка на базу может заметно вырасти…",
+          "link": "https://habr.com/ru/companies/otus/articles/1107938/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1107938",
+          "source": "Хабр",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
+          "date": "2026-11-19T14:45:22.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Директ, Метрика и Wordstat в ChatGPT через Sites. Как это устроено и где подвох",
+          "summary": "По моей оценке, около 70% рабочего дня я провожу в ИИ-инструментах. С каждым новым подключением mcp-инструментов поводов открывать другие интерфейсы - всё меньше…",
+          "link": "https://habr.com/ru/companies/infostart/articles/1109958/?utm_campaign=1109958&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T14:14:43.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "«К2Тех» автоматизировала рутину 600 сотрудников с помощью ИИ-платформы SamurAI",
+          "summary": "AIDA tech завершила внедрение SamurAI Platform в «К2Тех». Платформа позволяет создавать в защищенном контуре компании неограниченное...",
+          "link": "https://www.cnews.ru/news/line/2026-11-19_k2teh_avtomatizirovala",
+          "source": "CNews",
+          "type": "site",
+          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
+          "date": "2026-11-19T13:53:00.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Suno стал клипмейкером: популярный генератор музыки научили создавать клипы к ИИ-песням",
+          "summary": "Suno стал клипмейкером: популярный генератор музыки научили создавать клипы к ИИ-песням.Персонаж в ролике поет в такт и попадает губами в слова…",
+          "link": "https://t.me/AI_Chad/7793",
+          "source": "Chad GPT",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/AI_Chad",
+          "date": "2026-11-19T13:15:36.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "[Перевод] Европа тормозит на входе, Россия буксует на выходе: почему 95% корпоративных ИИ-пилотов дают ноль в P&L",
+          "summary": "За последний год индустрия научилась виртуозно жонглировать двумя цифрами. В одном отчёте вам расскажут, что 64% продакт-менеджеров уже видят от ИИ рост продуктовых метрик…",
+          "link": "https://habr.com/ru/articles/1109892/?utm_campaign=1109892&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T12:30:27.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Я обеими руками за цифровизацию, но заменять живых людей нейронками пока рано",
+          "summary": "Главная беда в том, что рынок использует LLM абсолютно диким образом . Люди берут готовые модели «как есть», вообще не обогащают их контекстом из своих репозиториев, сливают в них неструктурированную кашу из Конфлуэнса,…",
+          "link": "https://habr.com/ru/companies/h3llo_cloud/articles/1109868/?utm_campaign=1109868&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T12:01:22.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Роботы приходят на заводы России — с поддержкой Лаборатории роботизации от Альфа-Банка 😍 ⚡️Роботизация —",
+          "summary": "Роботы приходят на заводы России — с поддержкой Лаборатории роботизации от Альфа-Банка 😍 ⚡️Роботизация — МЕГАТРЕНД в российской промышленности: согласно нацпроекту, к 2030-му парк индустриальных роботов в стране должен…",
+          "link": "https://t.me/neuraldvig/12029",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-19T11:40:01.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Код пишет ИИ. Кто будет думать?",
+          "summary": "Использование ИИ облегчает жизнь IT-специалиста. Мы становимся продуктивнее и экономим время. Почему же многие теперь устают сильнее, чем раньше? Кажется, что ИИ должен разгружать, и он действительно разгружает…",
+          "link": "https://habr.com/ru/companies/reksoft/articles/1109784/?utm_campaign=1109784&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T11:00:17.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Artezio и Comindware объединят экспертизу в области ИИ для автоматизации и безопасности",
+          "summary": "Artezio (входит в группу «Ланит») и российский разработчик low-code-платформы для управления бизнес-процессами Comindware...",
+          "link": "https://www.cnews.ru/news/line/2026-11-19_artezio_i_comindware_obedinyat_ekspertizu",
+          "source": "CNews",
+          "type": "site",
+          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
+          "date": "2026-11-19T10:16:00.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "«Антиплагиат» обновил систему расчета показателей: самоцитирование и ИИ-генерация стали частью оригинальности",
+          "summary": "Компания «Антиплагиат» обновила систему расчета ключевых показателей. Теперь текст оценивается по трем основным...",
+          "link": "https://www.cnews.ru/news/line/2026-11-19_antiplagiat_obnovil_sistemu",
+          "source": "CNews",
+          "type": "site",
+          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
+          "date": "2026-11-19T10:10:00.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "В Directum ESM появился ИИ-помощник",
+          "summary": "В системе для управления услугами Directum ESM теперь можно создавать и обрабатывать обращения в сервисные службы...",
+          "link": "https://www.cnews.ru/news/line/2026-11-19_v_directum_esm_poyavilsya_ii-pomoshchnik",
+          "source": "CNews",
+          "type": "site",
+          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
+          "date": "2026-11-19T10:03:00.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Генерируем ассеты для FPS в стиле С.Т.А.Л.К.Е.Р. С помощью Nano Banana 2 Lite",
+          "summary": "Мы знаем как нейро-генераторы справляются с пиксельартом. А как себя покажет такая модель в генерации ассетов для игры в духе “шутер из нулевых”? За основу возьмём иконичный тайтл той эпохи S.T.A.L.K.E.R…",
+          "link": "https://habr.com/ru/companies/studyai/articles/1109500/?utm_campaign=1109500&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T10:01:12.000Z",
+          "category": "applications"
+        },
+        {
           "title": "Разговоры с СТО: вайб-кодинг в банке или почему мы не уволим разработчиков и не отдадим всё ИИ",
           "summary": "Продолжаю разговоры с СТО и публикации рассуждений об автоматизации и ИИ в банковской разработке. Ранее мы с Максимом Гречихо, техническим директором Своего Банка , уже разбирали роль новых технологий и трансформацию…",
           "link": "https://habr.com/ru/companies/svoi_ru/articles/1109790/?utm_campaign=1109790&utm_source=habrahabr&utm_medium=rss",
@@ -706,16 +886,6 @@
           "category": "applications"
         },
         {
-          "title": "Почтовый AI-ассистент на Python: текст, фото и голос через одного провайдера",
-          "summary": "Разбираем основные механики ИИ-агентов на Python на примере почтового ассистента с веб-интерфейсом на FastAPI и OpenAI Agents SDK. Подключаем текст, изображения, распознавание и синтез речи через одного провайдера…",
-          "link": "https://habr.com/ru/articles/1109558/?utm_campaign=1109558&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T09:16:08.000Z",
-          "category": "applications"
-        },
-        {
           "title": "Оплата ИИ-сервисов — без сложных схемНейросети давно помогают в работе, учёбе и быту: пишут тексты, проверяют код,",
           "summary": "Оплата ИИ-сервисов — без сложных схемНейросети давно помогают в работе, учёбе и быту: пишут тексты, проверяют код, подкидывают идеи. Но когда дело доходит до оплаты, начинается квест, который совсем не хочется…",
           "link": "https://t.me/neuraldvig/12023",
@@ -723,166 +893,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/neuraldvig",
           "date": "2026-11-19T08:00:01.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Агентный RAG на JVM: как устроен Смысл.ИИ",
-          "summary": "Разбор B2B-системы Смысл.ИИ: агентный RAG на Kotlin/JVM. Вопрос по корпоративным документам — ответ с опорой на материалы и источники…",
-          "link": "https://habr.com/ru/articles/1109712/?utm_campaign=1109712&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T07:55:48.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Тесты как промпт: подход TDD при работе с ИИ-агентом",
-          "summary": "Всем привет. Меня зовут Егор Гурин, я Go-разработчик из МТС Web Services. В предыдущем тексте я рассказывал о Document Driven Development…",
-          "link": "https://habr.com/ru/companies/ru_mts/articles/1108716/?utm_campaign=1108716&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T07:32:57.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "[Перевод] Торстен Балл: Как я работаю с ИИ-агентами",
-          "summary": "Торстен Балл — автор популярных книг по написанию компиляторов и интерпретаторов на Go, бывший инженер редактора Zed и сооснователь ИИ-агента Amp — опубликовал свод своих правил работы с языковыми моделями…",
-          "link": "https://habr.com/ru/companies/hexlet/articles/1109610/?utm_campaign=1109610&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T07:28:56.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "[Перевод] Как ИИ-нагрузки меняют автомасштабирование в Kubernetes",
-          "summary": "Kubernetes обеспечивает работу значительной части контейнеризованного ПО в мире благодаря разделению обязанностей между двумя циклами управления, которым прежде редко требовалось взаимодействовать…",
-          "link": "https://habr.com/ru/companies/vktech/articles/1109358/?utm_campaign=1109358&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · Машинное обучение",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
-          "date": "2026-11-19T06:24:22.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Кажется, GTA 6 — последний цифровой продукт, сделанный людьми, а не нейросетями",
-          "summary": "Кажется, это последний крупный релиз цифрового продукта, который в большей степени сделали люди, а не промпты. Сейчас мы слышим только «Claude, Claude, Claude», и как будто из‑за ИИ совсем начали обесценивать всё…",
-          "link": "https://habr.com/ru/articles/1109586/?utm_campaign=1109586&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T06:00:49.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Ozon: только 9% россиян всерьез рассматривают смену профессии ради работы с ИИ",
-          "summary": "Ozon опросил более 1500 россиян в возрасте от 18 до 55 лет и выяснил, как они оценивают влияние искусственного интеллекта...",
-          "link": "https://www.cnews.ru/news/line/2026-11-19_ozon_tolko_9_rossiyan_vserez",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-19T05:05:00.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Как я с помощью Claude Fable 5.2 отправил своего 3D-персонажа кататься на лыжах под северным сиянием",
-          "summary": "Восстановил локальный проект браузерной лыжной игры Cold Smoke, а затем добавил своего аниме-персонажа. Показываю путь от аватара и трёх проекций до модели в VRoid и Blender: одежду, мимику, адаптацию скелета и проверку…",
-          "link": "https://habr.com/ru/articles/1109582/?utm_campaign=1109582&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-18T19:47:44.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Кто стоит за роботизацией в России: реестр интеграторов промышленных роботов",
-          "summary": "Представьте типичный бизнес‑квест: вы руководите производством и планируете запустить автоматизацию процессов. Здесь нужен проверенный подрядчик‑интегратор, который погрузится в ваши процессы и спроектирует решение…",
-          "link": "https://habr.com/ru/specials/1109296/?utm_campaign=1109296&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-18T14:41:23.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Positive Technologies адаптировала инструменты безопасной разработки к работе с ИИ-агентами",
-          "summary": "Positive Technologies обновила бесплатные плагины PT Application Inspector, которые помогают находить и исправлять уязвимости прямо...",
-          "link": "https://www.cnews.ru/news/line/2026-11-18_positive_technologies_adaptirovala",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-18T13:28:00.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Безопасность LLM‑агентов и генеративных продуктов: угрозы и методы защиты",
-          "summary": "Привет, меня зовут Николай Шуляев, я Security Business-партнёр Авито . Главный контекст, который необходимо понимать при построении архитектуры любого генеративного продукта с использованием LLM — это то, что модель не…",
-          "link": "https://habr.com/ru/companies/avito/articles/1108426/?utm_campaign=1108426&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-18T13:07:27.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "В рекомендательную ленту зашита политфилософия. И её можно прочитать в исходниках",
-          "summary": "Вторая статья цикла «Человек в мире современных технологий». Изначальная статья, самая интересная на мой вкус Зияющие алгоритмы, или Обезьяна с гранатой: почему нам нужен манометр, а не запрет ИИ , Вторая — о…",
-          "link": "https://habr.com/ru/articles/1109026/?utm_campaign=1109026&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-18T13:01:57.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Мышеловка, коробок и трубкозуб: как учить мультимодальный ИИ мыслить по‑человечески в 66 измерениях",
-          "summary": "Начнем с небольшого эксперимента. Перед вами три картинки: мышеловка, спичечный коробок и трубкозуб. Какая из них лишняя? Задачка на пару секунд: первые два предмета сделал человек, а третий — живое существо…",
-          "link": "https://habr.com/ru/companies/ru_mts/articles/1107090/?utm_campaign=1107090&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-18T12:44:55.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "ИИ-сервис федерального масштаба на «Ред ОС»: платформа Webiomed связала тысячи медорганизаций в единую сеть",
-          "summary": "Серверная инфраструктура платформы Webiomed работает на «Ред ОС». К аналитической системе подключены более 4 тыс....",
-          "link": "https://www.cnews.ru/news/line/2026-11-18_ii-servis_federalnogo_masshtaba",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-18T12:26:00.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Сбербанк предложил вузам пять решений для поддержания знаний студентов, которые используют ИИ",
-          "summary": "Центр макроэкономических исследований (ЦМИ) Сбербанка и экономический факультет МГУ предложили вузам пять решений...",
-          "link": "https://www.cnews.ru/news/line/2026-11-18_sberbank_predlozhil_vuzam",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-18T10:32:00.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "🐚 Ищут лекарства, проверяют сочинения ЕГЭ и выбирают машину. Это — про ИИ-помощников на базе моделей Yandex AI",
-          "summary": "🐚 Ищут лекарства, проверяют сочинения ЕГЭ и выбирают машину. Это — про ИИ-помощников на базе моделей Yandex AI Studio. Как их применяют другие компании — объясняем на четырёх примерах…",
-          "link": "https://t.me/neuraldvig/12001",
-          "source": "Нейродвиж",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuraldvig",
-          "date": "2026-11-18T08:00:01.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Что такое сознание и почему «сознательный ИИ» никогда не будет построен",
-          "summary": "Хабр, настало время для действительно серьезного разговора. Хватит переливать из пустого в порожнее одни и те же темы: а вот какое определение у сознания, а вот мышление оно как код, а вот завтра AGI, а вот ИИ‑агенты…",
-          "link": "https://habr.com/ru/companies/ddosguard/articles/1109004/?utm_campaign=1109004&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · Машинное обучение",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
-          "date": "2026-11-18T05:23:57.000Z",
           "category": "applications"
         }
       ]
@@ -892,203 +902,203 @@
       "label": "Разное",
       "items": [
         {
-          "title": "Вторая модель проверяет ответ ИИ-консультанта до отправки: как это устроено и чем за это платишь",
-          "summary": "В Konsul, моём ИИ-консультанте по сайту компании, ответ можно пропускать через вторую модель. Она сверяет каждое утверждение о компании с найденными источниками…",
-          "link": "https://habr.com/ru/articles/1109788/?utm_campaign=1109788&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T09:35:15.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Создатель The Sims показал свою новую игру на базе ИИ: она создает локации и NPC из воспоминаний игрока",
-          "summary": "Создатель The Sims показал свою новую игру на базе ИИ: она создает локации и NPC из воспоминаний игрока.В MyMems от Уилла Райта нужно будет вспоминать людей, которые могли бы помочь с головоломкой или выиграть мини-игру…",
-          "link": "https://t.me/AI_Chad/7792",
-          "source": "Chad GPT",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/AI_Chad",
-          "date": "2026-11-19T09:33:31.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "В Дубае открылся Форум будущего: роботы, ИИ и новые сценарии жизни",
-          "summary": "",
-          "link": "https://ria.ru/20261119/dubay-2132638012.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-19T09:28:56.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Участники АТЭС договорились развивать цифровые технологии и ИИ",
-          "summary": "",
-          "link": "https://tass.ru/ekonomika/28334613",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-19T09:24:46.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Более 40% ответов нейросетей о банках ссылаются на финансовые маркетплейсы",
-          "summary": "Финансовый маркетплейс «Сравни» и сервис ИИ-мониторинга «Киберкошка» IT-Agency выяснили, на какие сайты ссылается...",
-          "link": "https://www.cnews.ru/news/line/2026-11-19_bolee_40_otvetov_nejrosetej",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-19T09:20:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Экран на 360 градусов, ИИ внутри: представлен ноутбук-трансформер Tecno Megabook T15 360 Pro",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/19/ekran-na-360-gradusov-ii-vnutri-predstavlen-noutbuk-transformer-tecno-megabook-t15-360-pro.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-19T09:15:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Что почистить в Claude Code после того, как вас забанили",
-          "summary": "Разбираю структуру файлов Claude Code: что хранится в ~/.claude.json (userID, machineID, oauthAccount), где лежат токены доступа и резервные копии…",
-          "link": "https://habr.com/ru/articles/1109732/?utm_campaign=1109732&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T09:04:05.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "ИИ-агенты с нуля: бесплатные курсы и демо, чтобы собрать первого агента",
-          "summary": "Собрали семь бесплатных входов в ИИ-агентов: пять демо по пять дней и два курса в своём темпе. Внутри — что такое агент и чем он отличается от чат-бота, как собрать первого в Nodul, не написав ни строки кода, и что…",
-          "link": "https://habr.com/ru/companies/netologyru/articles/1109754/?utm_campaign=1109754&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T08:50:45.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Жизнь после бана от Anthropic",
-          "summary": "Утром письмо от Anthropic о блокировке. Вечером первое сообщение агенту на новом аккаунте. Между ними 13 часов, за которые решалось, придется ли объяснять все заново…",
-          "link": "https://habr.com/ru/articles/1109724/?utm_campaign=1109724&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T08:29:35.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Трактат о применении машинного разума в функциональном тестировании на примере Warhammer 40 000",
-          "summary": "Приветствую, адепты машинного разума! Меня зовут Роман Поляков — я инженер по тестированию в «Т1 Иннотех». Возможно, вы уже знакомы с моей предыдущей работой « Путь QA-самурая…",
-          "link": "https://habr.com/ru/companies/T1Holding/articles/1105508/?utm_campaign=1105508&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T08:21:40.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "«Ъ»: МТС и VisionLabs столкнулись с прекращением услуг по разметке данных от «Яндекса»",
-          "summary": "«Яндекс» объявил о приостановке оказания услуг «Яндекс Заданий» по разметке данных под ключ для внешних заказчиков. С этим столкнулись «дочки» МТС MWS AI и VisionLabs…",
-          "link": "https://habr.com/ru/articles/1109730/?utm_campaign=1109730&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T08:14:05.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "SL Soft fabricaONE.AI представила новый модуль Robovoice «Управление качеством коммуникаций»",
-          "summary": "Компания SL Soft fabricaONE.AI (акционер – ГК Softline) представила новый модуль «Управление качеством коммуникаций» платформы...",
-          "link": "https://www.cnews.ru/news/line/2026-11-19_sl_soft_fabricaoneai_predstavila",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-19T08:11:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Банковские руководители и АНБ представили в Конгрессе объяснение массовых сбоев, связанное с новой проблемой ИИ",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/19/bankovskie-rukovoditeli-i-anb-predstavili-v-kongresse-obieiasnenie-massovyx-sboev-sviazannoe-s-novoi-problemoi-ii.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-19T08:10:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Жаловаться на дождь можно, ссориться нельзя: «Яндекс» запустил городские чаты с ИИ-модерацией",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/19/zalovatsia-na-dozd-mozno-ssoritsia-nelzia-iandeks-zapustil-gorodskie-caty-s-ii-moderaciei.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-19T08:09:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Свой ИИ-агент: пошаговое руководство для новичков",
-          "summary": "LLM стали привычным инструментом: кто-то использует их как продвинутый поиск, кто-то просит объяснить сложную тему, написать код или накидать идей…",
-          "link": "https://habr.com/ru/companies/selectel/articles/1109694/?utm_campaign=1109694&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T08:01:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Автоматические аннотации типов в Python — и даже без LLM",
-          "summary": "Всем привет! Наверное, каждый разработчик на своём пути рано или поздно приходит к тому, что писать аннотированный код становится предпочтительным…",
-          "link": "https://habr.com/ru/companies/domclick/articles/1098776/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1098776",
+          "title": "Аудит ИИ-агентов: два подхода к проверке надежности",
+          "summary": "Как проверять агентов, которые действуют: записывают, бронируют, начисляют, отгружают Пока языковая модель только отвечает на вопросы, ее ошибка остается текстом. Человек читает ответ, сомневается, перепроверяет…",
+          "link": "https://habr.com/ru/articles/1110066/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1110066",
           "source": "Хабр",
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
-          "date": "2026-11-19T08:00:59.000Z",
+          "date": "2026-11-19T18:39:03.000Z",
           "category": "misc"
         },
         {
-          "title": "Фанатка Гарри Поттера хотела сделать милую фотку с ChatGPT, но что-то пошло не так 😂",
-          "summary": "Фанатка Гарри Поттера хотела сделать милую фотку с ChatGPT, но что-то пошло не так 😂",
-          "link": "https://t.me/neuraldvig/12022",
-          "source": "Нейродвиж",
+          "title": "Какая же Имба 😎GTA6 шаблоны завезли в POINT всего за 1р Лутаем просмотры новыми трендами - тык",
+          "summary": "Какая же Имба 😎GTA6 шаблоны завезли в POINT всего за 1р Лутаем просмотры новыми трендами - тык",
+          "link": "https://t.me/gptpublic/6756",
+          "source": "ChatGPT · Нейросети",
           "type": "telegram",
-          "sourceUrl": "https://t.me/neuraldvig",
-          "date": "2026-11-19T07:54:44.000Z",
+          "sourceUrl": "https://t.me/gptpublic",
+          "date": "2026-11-19T18:12:22.000Z",
           "category": "misc"
         },
         {
-          "title": "Обвинённый в использовании ИИ для списывания студент скончался в Южной Корее",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/19/obvinennyi-v-ispolzovanii-ii-dlia-spisyvaniia-student-skoncalsia-v-iuznoi-koree.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-19T07:52:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "«СерчИнформ КИБ» защищает отправку сообщений и файлов в «Алиса AI»",
-          "summary": "В системе защиты от утечек информации (DLP) «СерчИнформ КИБ» появились расширенные опции контроля для нейросети...",
-          "link": "https://www.cnews.ru/news/line/2026-11-19_serchinform_kib_zashchishchaet",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-19T07:51:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "От MCP Server до MCP Apps: как встроить своё приложение в AI",
-          "summary": "MCP позволяет предоставлять AI-клиентам доступ к возможностям существующих приложений, а MCP Apps дополняет эту интеграцию интерактивными интерфейсами…",
-          "link": "https://habr.com/ru/articles/1109696/?utm_campaign=1109696&utm_source=habrahabr&utm_medium=rss",
+          "title": "Еще одна звонилка или как я создал Nimbo",
+          "summary": "Хотел просто играть с друзьями, а в итоге с ИИ собрал свою говорилку. По дороге пришлось кормить шумодав яблоком, разбираться, почему клиент держит начинает кушать ОЗУ после выключения камеры больше, и отправлять…",
+          "link": "https://habr.com/ru/articles/1110052/?utm_campaign=1110052&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-19T07:32:39.000Z",
+          "date": "2026-11-19T18:06:16.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Google тизерит новые модели Gemini 4: инженер DeepMind Омар Сансевьеро выложил ролик с подписью «Shipping will",
+          "summary": "Google тизерит новые модели Gemini 4: инженер DeepMind Омар Сансевьеро выложил ролик с подписью «Shipping will continue». Модели Gemini 4 названы химическими элементами, и на таблице Менделеева в ролике сначала горят…",
+          "link": "https://t.me/neuro_channel/3190",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-19T17:51:24.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Цена ошибки: паддинг, чекпоинты на сетевом диске и сторож, который гасил здоровое обучение",
+          "summary": "Ошибки бывают в любой настоящей работе. Обычно о них пишут одной строкой где-то между графиками с результатами, а я решил сделать наоборот: собрать наши промахи в одну статью и разобрать их по-инженерному, то есть что…",
+          "link": "https://habr.com/ru/articles/1110050/?utm_campaign=1110050&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T17:47:19.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Акции Anthropic взлетели на треть после выхода на биржу",
+          "summary": "В первые минуты торгов цена подскочила до $111,68 за бумагу",
+          "link": "https://tass.ru/ekonomika/28337273",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-19T17:22:31.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Европейский облачный провайдер выпустил 55 новых ИИ-продуктов и расширяет инфраструктуру на Blackwell и Rubin",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/19/evropeiskii-oblacnyi-provaider-vypustil-55-novyx-ii-produktov-i-rassiriaet-infrastrukturu-na-blackwell-i-rubin.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-19T17:05:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "ИИ-модель запустили на оптическом процессоре: немецкая компания Q.ANT представила фотонный процессор NPU Gen 2+",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/19/ii-model-zapustili-na-opticeskom-processore-nemeckaia-kompaniia-qant-predstavila-fotonnyi-processor-npu-gen-2.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-19T16:48:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Бизнес обяжут платить по 50 рублей за каждый запрос к МВД: как теперь проверять паспорта клиентов",
+          "summary": "Российский бизнес может получить новый счет за борьбу с мошенничеством. По данным материала Forbes, правительство поддержало плату за обращения к базам МВД – 50 рублей за каждый завершенный сеанс обмена информацией…",
+          "link": "https://habr.com/ru/companies/smartengines/articles/1110026/?utm_campaign=1110026&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T16:40:36.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Вау: энтузиаст превратил iPad в ПРИБОРНУЮ ПАНЕЛЬ в стиле Tesla. Проект называется GlassDash",
+          "summary": "Вау: энтузиаст превратил iPad в ПРИБОРНУЮ ПАНЕЛЬ в стиле Tesla. Проект называется GlassDash. Планшет встаёт вместо штатного дисплея автомобиля и показывает интерфейс, а iPhone в этот момент работает как камера:…",
+          "link": "https://t.me/AI_Chad/7796",
+          "source": "Chad GPT",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/AI_Chad",
+          "date": "2026-11-19T16:32:19.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Карта сайта для ИИ-агента: Markdown, граф ссылок и первые замеры",
+          "summary": "ИИ-агенту может потребоваться несколько страниц, чтобы найти ответ на простой вопрос. Можно ли дать ему более короткий маршрут? Разбираю карту сайта из связанных Markdown-заметок: оглавление, карточки страниц, отдельные…",
+          "link": "https://habr.com/ru/articles/1109612/?utm_campaign=1109612&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T16:31:55.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "ChatGPT попросили придумать концепты самых безумных товаров для дома на Алике и вот что из этого вышло",
+          "summary": "ChatGPT попросили придумать концепты самых безумных товаров для дома на Алике и вот что из этого вышло 😂Движущаяся дорожка до холодильника нам реально нужна 😂",
+          "link": "https://t.me/neuraldvig/12036",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-19T16:25:02.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Рандомные AI факты вам от меня",
+          "summary": "Написал 21 случайную AI мысль Вот вам несколько, остальные в посте 💌 Если вы пытаетесь воссоздать оргструктуру из AI агентов, то либо вы гений и очень хорошо понимаете, зачем это нужно и как работает…",
+          "link": "https://habr.com/ru/articles/1110008/?utm_campaign=1110008&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T16:13:41.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Анекдот дня: самой популярной игрой на конкурсе по созданию игр с ИИ оказалась игра, сделанная вообще без",
+          "summary": "Анекдот дня: самой популярной игрой на конкурсе по созданию игр с ИИ оказалась игра, сделанная вообще без нейросетей 😂Epic Games устроила AI MegaJam при поддержке OpenAI, Google, Anthropic и NVIDIA…",
+          "link": "https://t.me/neuraldvig/12033",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-19T15:17:20.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "GTA 6 вышла: $1+ млрд, почти 5000 человек и 13 лет разработки. Разбираем, что внутри",
+          "summary": "Игровую индустрию в 2026 году трясло: закрытия студий, сокращения… И тут выходит игра за $1+ млрд, которую 13 лет делали почти 5000 человек …",
+          "link": "https://habr.com/ru/companies/gptunnel/articles/1109986/?utm_campaign=1109986&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T15:10:26.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "⚡️ Claude и ChatGPT банят россиян, белорусов и китайцев. Банят всех за VPN. Банят за “опасные вопросы”",
+          "summary": "⚡️ Claude и ChatGPT банят россиян, белорусов и китайцев. Банят всех за VPN. Банят за “опасные вопросы”.Модель вычисляет вашу реальную локацию по вашим же диалогам: часовой пояс, упомянутые города, бытовые детали,…",
+          "link": "https://t.me/ai_newz/4849",
+          "source": "эйай ньюз",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/ai_newz",
+          "date": "2026-11-19T15:03:01.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Бот, который ищет учеников для репетиторов: архитектура за 1187 ₽ в месяц",
+          "summary": "Я сделал бота, который находит в соцсетях сообщения вида «посоветуйте репетитора по химии» и пересылает их репетиторам. Главная сложность оказалась не в сборе данных, а в фильтрации: на один настоящий запрос приходится…",
+          "link": "https://habr.com/ru/articles/1109966/?utm_campaign=1109966&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · Машинное обучение",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
+          "date": "2026-11-19T14:26:56.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "🤖 Искусственные мышцы позволили роботам играть на пианино и двигать глазамиИнженеры из Пенсильванского",
+          "summary": "🤖 Искусственные мышцы позволили роботам играть на пианино и двигать глазамиИнженеры из Пенсильванского университета изобрели искусственные мышцы CoilLCE для роботов…",
+          "link": "https://t.me/hiaimedia/3860",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-11-19T14:17:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Краткая история интеллекта. От зарубки на кости до LLM",
+          "summary": "Человечество не сразу построило компьютер, и не сразу придумало искусственный интеллект. Прежде чем машина научилась писать текст, похожий на мысль, был проделан путь длиной в десятки тысяч лет, и ни один его этап…",
+          "link": "https://habr.com/ru/articles/1109858/?utm_campaign=1109858&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-19T13:57:13.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "В «Сколково» открылась студия виртуального производства с технологиями ИИ",
+          "summary": "В Кластере медиатехнологий «Сколково» открылась студия виртуального производства с технологиями искусственного...",
+          "link": "https://www.cnews.ru/news/line/2026-11-19_v_skolkovo_otkrylas_studiya_1",
+          "source": "CNews",
+          "type": "site",
+          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
+          "date": "2026-11-19T13:46:00.000Z",
           "category": "misc"
         }
       ]
