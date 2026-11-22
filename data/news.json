@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-21T21:29:41.047Z",
-  "updatedAtLocal": "22 ноября 2026 г. в 00:29",
+  "updatedAt": "2026-11-22T01:53:12.273Z",
+  "updatedAtLocal": "22 ноября 2026 г. в 04:53",
   "failedSources": [
     "Интерфакс"
   ],
@@ -404,7 +404,7 @@
       "label": "Исследования",
       "items": [
         {
-          "title": "[Перевод] Дообучаем на Mac малую языковую модель для RAG в браузере",
+          "title": "[Перевод] Дообучаем на Mac малую языковую модель для RAG в браузере",
           "summary": "Задача выглядела довольно простой: дообучить Qwen3-0.6B отвечать на вопросы по фрагментам текста, найденным семантическим поиском. Но первые эксперименты дали обратный эффект: модель стала чаще выдумывать подробности,…",
           "link": "https://habr.com/ru/companies/otus/articles/1106704/?utm_campaign=1106704&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -676,7 +676,7 @@
           "category": "applications"
         },
         {
-          "title": "Как дать ИИ доступ к серверным логам по SSH и не давать доступ к SSH ключу",
+          "title": "Как дать ИИ доступ к серверным логам по SSH и не давать доступ к SSH ключу",
           "summary": "«Посмотри последние двадцать строк лога checkout» — для дежурного это просьба на минуту. С ИИ-ассистентом возникает встречный вопрос: какие права я ему для этого выдам? По соседству с нужным файлом лежит журнал…",
           "link": "https://habr.com/ru/articles/1110756/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1110756",
           "source": "Хабр",
@@ -696,7 +696,7 @@
           "category": "applications"
         },
         {
-          "title": "Что я попробовал на этой неделе #2. ИИ-менеджер для бизнеса — нот гуд",
+          "title": "Что я попробовал на этой неделе #2. ИИ‑менеджер для бизнеса — нот гуд",
           "summary": "В 2026 году легко представить себе разговор о новом проекте: «А зачем нам ещё один менеджер? Давайте сначала подключим ИИ». Можно собрать агента самим или взять готового у подрядчика…",
           "link": "https://habr.com/ru/companies/raketa_pay/articles/1110720/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1110720",
           "source": "Хабр",
@@ -726,7 +726,7 @@
           "category": "applications"
         },
         {
-          "title": "Забудьте про платные чистильщики для MacOS",
+          "title": "Забудьте про платные чистильщики для MacOS",
           "summary": "Простая идея: поручить Claude последовательно установить более 900 популярных приложений на «чистую» виртуальную машину с macOS (нескольких версий)…",
           "link": "https://habr.com/ru/articles/1110656/?utm_campaign=1110656&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -872,6 +872,26 @@
       "label": "Разное",
       "items": [
         {
+          "title": "Как научить AI-агента проверять Windows-приложение через настоящий GUI: архитектура Deskcheck",
+          "summary": "«Я просто хотел, чтобы AI проверял свой код. Что могло пойти не так?» — техническая история GUI-тестирования двух Delphi-продуктов и двенадцати открытых приложений. Меня зовут Игорь Белых…",
+          "link": "https://habr.com/ru/articles/1110776/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1110776",
+          "source": "Хабр",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
+          "date": "2026-11-21T23:57:50.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Чтобы избежать бана в Claude, нужен простой советский паспорт жителя Индии 😂Китайцы поделились лайфхаком — просто",
+          "summary": "Чтобы избежать бана в Claude, нужен простой советский паспорт жителя Индии 😂Китайцы поделились лайфхаком — просто закидываешь фотку в любой китайский генератор картинок без скрытых вотерок (подойдёт Qwen Image) и…",
+          "link": "https://t.me/neuraldvig/12058",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-21T21:31:51.000Z",
+          "category": "misc"
+        },
+        {
           "title": "«Наши две флагманские языковые модели входят в число лучших в мире». Проверяем по открытому рейтингу",
           "summary": "«Входят в число лучших в мире»: сверяем заявление с открытым рейтингом Есть простой способ проверить громкие заявления о нейросетях — открытый рейтинг, в котором реальные пользователи вслепую выбирают лучший ответ из…",
           "link": "https://habr.com/ru/articles/1110766/?utm_campaign=1110766&utm_source=habrahabr&utm_medium=rss",
@@ -892,7 +912,7 @@
           "category": "misc"
         },
         {
-          "title": "ИИ-агенты, работающие в России",
+          "title": "ИИ‑агенты, работающие в России",
           "summary": "В этой статье я собрала ИИ-агенты, которые работают из России без плясок с бубнами. Разумеется, если у вас есть возможность настроить себе топовый агент (Claude, Codex, Cursor), лучше именно так и сделать…",
           "link": "https://habr.com/ru/articles/1110764/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1110764",
           "source": "Хабр",
@@ -972,7 +992,7 @@
           "category": "misc"
         },
         {
-          "title": "Kuber Conf 2026: Kubernetes, AI-SRE и State of Cloud Native Russia",
+          "title": "Kuber Conf 2026: Kubernetes, AI‑SRE и State of Cloud Native Russia",
           "summary": "Привет, Хабр! Меня зовут Сергей Киселев, я председатель программного комитета Kuber Conf и член Экспертного совета АОТ. Уже в этот понедельник, 23 ноября, конференция пройдет во второй раз — в Москве, на площадке…",
           "link": "https://habr.com/ru/companies/open-aot/articles/1110444/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1110444",
           "source": "Хабр",
@@ -1049,26 +1069,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/neuro_channel",
           "date": "2026-11-21T11:52:27.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Теперь можно объединять несколько ПК по USB4 для работы с большими ИИ-моделями. Microsoft реализовала работу RDMA новым способом",
-          "summary": "",
-          "link": "https://www.ixbt.com/news/2026/11/21/teper-mozno-obieediniat-neskolko-pk-po-usb4-dlia-raboty-s-bolsimi-ii-modeliami-microsoft-realizovala-rabotu-rdma-novym-sposobom.html",
-          "source": "iXBT",
-          "type": "site",
-          "sourceUrl": "https://www.ixbt.com/export/news.rss",
-          "date": "2026-11-21T11:12:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Почему сплит-туннелинг в Android-клиентах течет",
-          "summary": "Белые списки приложений и галочка автозапуска в VPN-клиентах на Android создают иллюзию безопасности. Проверьте сами: прибейте клиент через force-stop, и следующий запрос молча улетит с вашего домашнего IP…",
-          "link": "https://habr.com/ru/articles/1110632/?utm_campaign=1110632&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-21T10:36:07.000Z",
           "category": "misc"
         }
       ]
