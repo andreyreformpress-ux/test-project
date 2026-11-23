@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-22T23:12:15.615Z",
-  "updatedAtLocal": "23 ноября 2026 г. в 02:12",
+  "updatedAt": "2026-11-23T05:38:36.568Z",
+  "updatedAtLocal": "23 ноября 2026 г. в 08:38",
   "failedSources": [
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 101,
+  "total": 103,
   "categories": [
     {
       "id": "models",
@@ -374,6 +374,26 @@
       "label": "Исследования",
       "items": [
         {
+          "title": "Большинство россиян сочли угрозу потери контроля над ИИ реальной — исследование",
+          "summary": "Большинство россиян назвали обоснованными опасения, что дальнейшее развитие искусственного интеллекта может выйти из-под контроля человека…",
+          "link": "https://naked-science.ru/article/hi-tech/ugroza-poteri-kontrolya-nad-ii",
+          "source": "Naked Science",
+          "type": "site",
+          "sourceUrl": "https://naked-science.ru/feed",
+          "date": "2026-11-23T05:23:00.000Z",
+          "category": "research"
+        },
+        {
+          "title": "ПОКА Я ТРЕНИРУЮ ТЕЛО, ИИ УЧИТСЯ ЭВОЛЮЦИОНИРОВАТЬ. КОМУ БУДЕТ ПРИНАДЛЕЖАТЬ БУДУЩЕЕ?",
+          "summary": "Мне 66 лет. Я продолжаю свой научно-спортивный эксперимент ZORIN-140: тренируюсь с большими весами, работаю над силой и рекомпозицией тела, проверяю возможности собственного организма…",
+          "link": "https://habr.com/ru/articles/1111014/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1111014",
+          "source": "Хабр",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
+          "date": "2026-11-23T04:18:43.000Z",
+          "category": "research"
+        },
+        {
           "title": "tiny-voca-ru: русский голос в 21 мегабайте",
           "summary": "TL;DR. Я адаптировал открытую TTS-модель tiny-voca к русскому языку: обучил два голоса на открытом датасете Dialogs, собрал русский фонемайзер, добавил расстановку ударений и сделал голосового ассистента с веб-звонком и…",
           "link": "https://habr.com/ru/articles/1110838/?utm_campaign=1110838&utm_source=habrahabr&utm_medium=rss",
@@ -480,6 +500,16 @@
       "label": "Регулирование",
       "items": [
         {
+          "title": "Мем: парень подал в суд на Facebook¹ с помощью нейронки Facebook¹ — после того, как его забанили в Facebook¹",
+          "summary": "Мем: парень подал в суд на Facebook¹ с помощью нейронки Facebook¹ — после того, как его забанили в Facebook¹. Теперь требует от компании $75'000 за блокировку аккаунта…",
+          "link": "https://t.me/AI_Chad/7818",
+          "source": "Chad GPT",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/AI_Chad",
+          "date": "2026-11-23T05:34:58.000Z",
+          "category": "policy"
+        },
+        {
           "title": "Claude заблокировал аккаунт и вызвал ФБР из-за… шутки 👻В США пользователь по приколу рассказал ИИ, что собирается",
           "summary": "Claude заблокировал аккаунт и вызвал ФБР из-за… шутки 👻В США пользователь по приколу рассказал ИИ, что собирается вместе с друзьями из Ку-клукс-клана уб*ть соседей…",
           "link": "https://t.me/neuraldvig/12062",
@@ -517,16 +547,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
           "date": "2026-11-20T15:09:43.000Z",
-          "category": "policy"
-        },
-        {
-          "title": "Федеральный суд по делам о банкротстве в США одобрил продажу данных авиакомпании Spirit Airlines корпорации Google",
-          "summary": "Федеральный суд по делам о банкротстве в Нью‑Йорке одобрил продажу внутренних бизнес‑данных бюджетной авиакомпании Spirit Airlines корпорации Google за $10 млн, пишет Reuters…",
-          "link": "https://habr.com/ru/articles/1109718/?utm_campaign=1109718&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · Машинное обучение",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
-          "date": "2026-11-19T07:59:12.000Z",
           "category": "policy"
         },
         {
@@ -645,6 +665,26 @@
       "id": "applications",
       "label": "Применение и инструменты",
       "items": [
+        {
+          "title": "МВД: мошенники крадут деньги через ИИ-приложение для редактирования фото",
+          "summary": "",
+          "link": "https://www.vedomosti.ru/society/news/2026/11/23/1414151-mvd-moshenniki",
+          "source": "Ведомости",
+          "type": "site",
+          "sourceUrl": "https://www.vedomosti.ru/rss/news",
+          "date": "2026-11-23T04:33:19.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "В МВД предупредили о мошенничестве с ИИ-приложением для обработки фото",
+          "summary": "",
+          "link": "https://ria.ru/20261123/moshennichestvo-2133312511.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-23T01:26:50.000Z",
+          "category": "applications"
+        },
         {
           "title": "Ролевая игра с RAG: как нейросеть стала библиотекарем",
           "summary": "Во время игры на полигоне всегда есть момент, когда игрок подходит с лицом человека, у которого наконец-то созрел правильный вопрос, а у мастера в этот момент в голове план полигона, в одной руке рация а в другой чужой…",
@@ -824,26 +864,6 @@
           "sourceUrl": "https://t.me/hiaimedia",
           "date": "2026-11-20T11:35:10.000Z",
           "category": "applications"
-        },
-        {
-          "title": "Яндекс добавил персональные ИИ-подсказки в свои приложения «Яндекс — с Алисой AI» и десктопный Браузер — Алиса AI",
-          "summary": "Яндекс добавил персональные ИИ-подсказки в свои приложения «Яндекс — с Алисой AI» и десктопный Браузер — Алиса AI теперь сама придумывает за вас промпты и не нужно ломать голову над запросом…",
-          "link": "https://t.me/neuraldvig/12047",
-          "source": "Нейродвиж",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuraldvig",
-          "date": "2026-11-20T10:20:03.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Пользователи смогут видеть ИИ-подсказки по своим интересам в приложении «Яндекс — с Алисой AI»",
-          "summary": "«Яндекс — с Алисой AI» и «Яндекс Браузер» теперь предугадывают, какие темы могут заинтересовать пользователя...",
-          "link": "https://www.cnews.ru/news/line/2026-11-20_polzovateli_smogut_videt",
-          "source": "CNews",
-          "type": "site",
-          "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
-          "date": "2026-11-20T07:56:00.000Z",
-          "category": "applications"
         }
       ]
     },
@@ -852,12 +872,52 @@
       "label": "Разное",
       "items": [
         {
+          "title": "ИИ навставляло кучу ненужных конденсаторов, резисторов и буферов в схему для пятиклассников. Возможно назло промпту",
+          "summary": "Я скормил ИИ несколько своих текстов про то, что цифровые схемы для обучения школьников нужно очистить от артефактов 1970-х годов, чтобы было проще подвести школьников к актуальным технологиям, то бишь…",
+          "link": "https://habr.com/ru/articles/1110942/?utm_campaign=1110942&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-23T05:25:33.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "OpenAI опубликовала цифры, которые лаборатории обычно держат при себе: замеры своих базовых моделей от GPT-3",
+          "summary": "OpenAI опубликовала цифры, которые лаборатории обычно держат при себе: замеры своих базовых моделей от GPT-3.5 до невыпущенной внутренней. И предложила отрасли договориться, где остановиться…",
+          "link": "https://t.me/neuro_channel/3205",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-23T04:27:01.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "В \"Билайне \" считают, что бунта ИИ не будет при управляемом делегировании задач",
+          "summary": "Работа с корпоративными данными должна осуществляться с соблюдением требований безопасности",
+          "link": "https://tass.ru/obschestvo/28344499",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-23T04:13:49.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Психолог рассказал о последствиях использования ИИ подростками",
+          "summary": "",
+          "link": "https://ria.ru/20261123/podrostki-2133312698.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-23T01:28:48.000Z",
+          "category": "misc"
+        },
+        {
           "title": "«Ваш разговор стал слишком длинным»: как Google Antigravity неожиданно режет контекст и как Gemini это решил",
           "summary": "Отображение размера контекстного окна сессии для Google Antigravity 2.0 Antigravity сжимает контекст, выводит об этом сообщение, что приводит к потере деталей, важных правил и инструкций в начале сессии, чтобы…",
-          "link": "https://habr.com/ru/articles/1111006/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1111006",
-          "source": "Хабр",
+          "link": "https://habr.com/ru/articles/1111006/?utm_campaign=1111006&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
           "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-22T23:08:19.000Z",
           "category": "misc"
         },
@@ -1009,46 +1069,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-22T15:48:40.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Превращаем Telegram в магазин зарубежных сервисов — в мессенджере появился мини-апп, для пополнения ChatGPT,",
-          "summary": "Превращаем Telegram в магазин зарубежных сервисов — в мессенджере появился мини-апп, для пополнения ChatGPT, Claude, Steam и Apple ID без лишних заморочек 😮Всё работает в одном месте: можно оплатить подписки, пополнить…",
-          "link": "https://t.me/neuraldvig/12060",
-          "source": "Нейродвиж",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuraldvig",
-          "date": "2026-11-22T15:10:03.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Ускоряем любое приложение в пару кликов — на GitHub вышла имбовая тулза fast-anything 😮Логика простая: вместо",
-          "summary": "Ускоряем любое приложение в пару кликов — на GitHub вышла имбовая тулза fast-anything 😮Логика простая: вместо того, чтобы полностью переписывать нужное вам приложение, агент находит медленные блоки кода и оптимизирует…",
-          "link": "https://t.me/neuraldvig/12059",
-          "source": "Нейродвиж",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuraldvig",
-          "date": "2026-11-22T14:41:34.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Почему 24/7 ИИ-агенты ломаются за 4 часа: хаос-бенчмарк F01–F10 и открытый линтер Sci Integrity Guard",
-          "summary": "Разбор 10 режимов отказа автономных агентов ИИ (F01–F10), открытый хаос-бенчмарк и линтер научной целостности sci-integrity-guard от EvoNova Labs. Читать анатомию хаос-тестов &rarr;",
-          "link": "https://habr.com/ru/articles/1110886/?utm_campaign=1110886&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · ИИ",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
-          "date": "2026-11-22T14:36:39.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Ревью кода от ИИ-агента: что можно не читать и как читать остальное",
-          "summary": "Вайб-кодинг хорош для прототипов, но кодом, за работу которого в проде кто-то отвечает, нужно владеть — а для этого его, как минимум, необходимо прочитать и понять …",
-          "link": "https://habr.com/ru/articles/1110878/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1110878",
-          "source": "Хабр",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
-          "date": "2026-11-22T14:10:37.000Z",
           "category": "misc"
         }
       ]
