@@ -1,12 +1,11 @@
 {
-  "updatedAt": "2026-11-26T19:58:33.941Z",
-  "updatedAtLocal": "26 ноября 2026 г. в 22:58",
+  "updatedAt": "2026-11-27T02:43:02.892Z",
+  "updatedAtLocal": "27 ноября 2026 г. в 05:43",
   "failedSources": [
-    "iXBT",
     "Интерфакс"
   ],
   "staleTelegram": [],
-  "total": 107,
+  "total": 103,
   "categories": [
     {
       "id": "models",
@@ -103,6 +102,36 @@
           "category": "models"
         },
         {
+          "title": "Вместо мощного сервера хватит обычного ноутбука: Сбер выпустил компактный GigaChat 4 37B",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/26/vmesto-moshhnogo-servera-xvatit-obycnogo-noutbuka-sber-vypustil-kompaktnyi-gigachat-4-37b.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-26T08:08:00.000Z",
+          "category": "models"
+        },
+        {
+          "title": "От фото до видео в 2K с несколькими персонажами: Сбер обновил нейросеть Kandinsky",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/26/ot-foto-do-video-v-2k-s-s-neskolkimi-personazami-sber-obnovil-neiroset-kandinsky.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-26T08:02:00.000Z",
+          "category": "models"
+        },
+        {
+          "title": "Миллион токенов и часы автономной работы: Сбер представил GigaChat 4, способную доводить задачи до результата без участия человека",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/26/million-tokenov-i-casy-avtonomnoi-raboty-sber-predstavil-gigachat-4-sposobnuiu-dovodit-zadaci-do-rezultata-bez-ucastiia-celoveka.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-26T07:55:00.000Z",
+          "category": "models"
+        },
+        {
           "title": "В OpenAI признали ошибку биллинга GPT-6.2: с запуска модели Astra и Sol у большинства подписчиков списывали лимит",
           "summary": "В OpenAI признали ошибку биллинга GPT-6.2: с запуска модели Astra и Sol у большинства подписчиков списывали лимит со скидкой, которой не должно было быть. Ошибку исправили, и на ту же работу теперь уходит больше лимита…",
           "link": "https://t.me/neuro_channel/3236",
@@ -181,36 +210,6 @@
           "sourceUrl": "https://t.me/neuro_channel",
           "date": "2026-11-24T16:33:01.000Z",
           "category": "models"
-        },
-        {
-          "title": "Anthropic запустила Claude Ship: три агента, которые ведут открытый pull request на GitHub",
-          "summary": "Anthropic запустила Claude Ship: три агента, которые ведут открытый pull request на GitHub. Code Review ищет баги, PR Steward чинит упавшие проверки, конфликты и замечания ревьюеров, а Claude Approvals по политике из…",
-          "link": "https://t.me/neuro_channel/3211",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-24T06:41:01.000Z",
-          "category": "models"
-        },
-        {
-          "title": "OpenAI выпустила в API голосовую модель GPT-Live-1.1 и режим standby: если в разговоре затянулась пауза, инференс",
-          "summary": "OpenAI выпустила в API голосовую модель GPT-Live-1.1 и режим standby: если в разговоре затянулась пауза, инференс приостанавливается, и минута стоит $0,02 вместо $0,05…",
-          "link": "https://t.me/neuro_channel/3194",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-20T17:05:22.000Z",
-          "category": "models"
-        },
-        {
-          "title": "Google открыла Genie 4 в Gemini API и AI Studio: модель строит из текста или картинки мир в 720p со звуком, по",
-          "summary": "Google открыла Genie 4 в Gemini API и AI Studio: модель строит из текста или картинки мир в 720p со звуком, по которому ходишь на WASD и крутишь камеру стрелками…",
-          "link": "https://t.me/neuro_channel/3193",
-          "source": "Нейросети · Инструменты",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/neuro_channel",
-          "date": "2026-11-20T16:40:21.000Z",
-          "category": "models"
         }
       ]
     },
@@ -218,16 +217,6 @@
       "id": "business",
       "label": "Бизнес и инвестиции",
       "items": [
-        {
-          "title": "Греф назвал беспрецедентными мировые инвестиции в ИИ",
-          "summary": "Глава Сбербанка отметил необходимость инвестиций на разных уровнях из-за сложности технологии",
-          "link": "https://tass.ru/ekonomika/28359733",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-26T17:56:13.000Z",
-          "category": "business"
-        },
         {
           "title": "Сооснователи xAI Маска создали стартап для предсказания будущего с помощью ИИ",
           "summary": "",
@@ -266,6 +255,16 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/AI_Chad",
           "date": "2026-11-26T07:00:01.000Z",
+          "category": "business"
+        },
+        {
+          "title": "Акции Anthropic упали ниже цены IPO, потеряв почти 12% за день",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/26/akcii-anthropic-upali-nize-ceny-ipo-poteriav-pocti-12-za-den.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-26T05:49:00.000Z",
           "category": "business"
         },
         {
@@ -375,16 +374,6 @@
       "label": "Исследования",
       "items": [
         {
-          "title": "Мурашко рассказал о диагностических  исследованиях с технологиями ИИ",
-          "summary": "",
-          "link": "https://ria.ru/20261126/ii-issledovaniya-2134241775.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T18:36:45.000Z",
-          "category": "research"
-        },
-        {
           "title": "Агент Google Cogentic на Gemini 4 в препринте заявляет доказательство: любое целое число N ≥ 2 можно полностью",
           "summary": "Агент Google Cogentic на Gemini 4 в препринте заявляет доказательство: любое целое число N ≥ 2 можно полностью разложить на простые множители рандомизированным алгоритмом, чьё ожидаемое время в худшем случае…",
           "link": "https://t.me/neuro_channel/3241",
@@ -395,7 +384,7 @@
           "category": "research"
         },
         {
-          "title": "Как очередное обновление Strata “сломало” публикацию LLM для виртуальных машин и как это починить за 2 минуты",
+          "title": "Как очередное обновление Strata «сломало» публикацию LLM для виртуальных машин и как это починить за 2 минуты",
           "summary": "Если вы активно используете локальные нейросети (например, квантованные модели Qwen 3.8) через приложение Strata на хост-машине и пробрасываете их в виртуальную машину для работы в VS Code (с плагином Cline) или Hermes…",
           "link": "https://habr.com/ru/articles/1112678/?utm_campaign=1112678&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -551,43 +540,13 @@
       "label": "Регулирование",
       "items": [
         {
-          "title": "В Госдуме рассказали о работе над законопроектами в сфере ИИ",
-          "summary": "",
-          "link": "https://ria.ru/20261126/gosduma-2134237182.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T18:12:04.000Z",
-          "category": "policy"
-        },
-        {
-          "title": "«Зомби-UI»: почему крупные бренды начали выпускать интерфейсы, которые стыдно показывать",
+          "title": "«Зомби‑UI»: почему крупные бренды начали выпускать интерфейсы, которые стыдно показывать",
           "summary": "Скриншоты интерфейсов, сгенерированных нейросетями у крупных брендов, вызывают закономерный вопрос: неужели в компаниях с миллиардными бюджетами закончились дизайнеры и тестировщики? К сожалению, во многих случаях это…",
           "link": "https://habr.com/ru/articles/1112820/?utm_campaign=1112820&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-26T17:59:22.000Z",
-          "category": "policy"
-        },
-        {
-          "title": "Эксперт Воробьева: педагогов учеников с успехами в ИИ нужно знать по именам",
-          "summary": "Это закономерный шаг в развития образования в отрасли, считает генеральный директор Альянса в сфере ИИ",
-          "link": "https://tass.ru/obschestvo/28359473",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-26T17:55:17.000Z",
-          "category": "policy"
-        },
-        {
-          "title": "Путин: рутинные задачи будут усложняться с развитием ИИ",
-          "summary": "Командная работа будет оставаться востребованной, считает глава государства",
-          "link": "https://tass.ru/obschestvo/28359691",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-26T17:38:01.000Z",
           "category": "policy"
         },
         {
@@ -707,46 +666,6 @@
       "label": "Применение и инструменты",
       "items": [
         {
-          "title": "Липецкая область первая в РФ внедрила ИИ-макроэкономиста от Сбера",
-          "summary": "Пользователю достаточно задать вопрос, после чего ИИ-агенты самостоятельно подберут необходимые данные, сопоставят прогнозы и проанализируют экспертные материалы",
-          "link": "https://tass.ru/obschestvo/28359931",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-26T19:44:30.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Как распознать нейросеть во время телефонного разговора, объяснил эксперт",
-          "summary": "",
-          "link": "https://ria.ru/20261126/neyroset-2134244128.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T18:59:59.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Песков: ИИ-помощник на прямой линии в следующем году сделает рывок вперед",
-          "summary": "",
-          "link": "https://ria.ru/20261126/ii-pomoschnik-2134242371.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T18:41:57.000Z",
-          "category": "applications"
-        },
-        {
-          "title": "Песков рассказал о работе ИИ-помощника на прямой линии",
-          "summary": "",
-          "link": "https://ria.ru/20261126/ii-pomoschnik-2134240097.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T18:26:27.000Z",
-          "category": "applications"
-        },
-        {
           "title": "Почему сотрудники обходят корпоративный ИИ, как изменить ситуацию и стоит ли",
           "summary": "Компания запускает корпоративный ИИ-инструмент, чтобы сотрудники работали быстрее. Через пару месяцев выясняется, что им почти не пользуются: сотрудники по-прежнему ходят во внешние чат-боты и оплачивают личные подписки…",
           "link": "https://habr.com/ru/companies/cloud_ru/articles/1112680/?utm_campaign=1112680&utm_source=habrahabr&utm_medium=rss",
@@ -757,7 +676,7 @@
           "category": "applications"
         },
         {
-          "title": "Как я с Claude английский изучаю",
+          "title": "Как я с Claude английский изучаю",
           "summary": "Находясь всё ещё в мечтах о получении работы на валютной удаленке, решил освежить свои знания английского языка. Хотелось одновременно прокачивать и словарный запас, и разговорный английский , и грамматику…",
           "link": "https://habr.com/ru/articles/1112810/?utm_campaign=1112810&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -767,7 +686,7 @@
           "category": "applications"
         },
         {
-          "title": "Как проверить, видят ли боты нейросетей текст сайта, и найти техническую блокировку",
+          "title": "Как проверить, видят ли боты нейросетей текст сайта, и найти техническую блокировку",
           "summary": "Страница открывается в браузере, а получает ли её поисковый ИИ-бот — непонятно. Чтобы проверить доступ сайта для ботов нейросетей, нужны правила обхода, логи и сам HTML. Иначе можно править robots…",
           "link": "https://habr.com/ru/articles/1112806/?utm_campaign=1112806&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
@@ -905,6 +824,46 @@
           "sourceUrl": "https://www.cnews.ru/inc/rss/news.xml",
           "date": "2026-11-26T03:50:00.000Z",
           "category": "applications"
+        },
+        {
+          "title": "Бесплатный AI-агент из обычного браузерного чата: как я устал от счетов за токены и правок, ломающих проект",
+          "summary": "Большинство разработчиков уже давно используют нейросети через обычный браузер: Gemini (в том числе через Google AI Studio), Claude, ChatGPT, DeepSeek, Qwen…",
+          "link": "https://habr.com/ru/articles/1112488/?utm_campaign=1112488&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · Машинное обучение",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
+          "date": "2026-11-26T01:58:50.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Claude Desktop научился ставить артефакты как обычные приложения для macOS и Windows",
+          "summary": "Claude Desktop научился ставить артефакты как обычные приложения для macOS и Windows. В Anthropic запустили бету Install as app: утилита, собранная в чате, получает свою иконку, окно и место в «Пуске» или Spotlight…",
+          "link": "https://t.me/neuro_channel/3231",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-25T17:54:01.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "В LibreOffice теперь нужно разрешение, чтобы писать код с помощью LLM. Фонд The Document Foundation, который",
+          "summary": "В LibreOffice теперь нужно разрешение, чтобы писать код с помощью LLM. Фонд The Document Foundation, который развивает офисный пакет, ужесточил правила для ИИ-патчей:🔘 разрешение на использование LLM нужно получить…",
+          "link": "https://t.me/neuro_channel/3229",
+          "source": "Нейросети · Инструменты",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuro_channel",
+          "date": "2026-11-25T16:36:01.000Z",
+          "category": "applications"
+        },
+        {
+          "title": "Anthropic разрешили ставить артефакты Claude как приложения на Mac и Windows",
+          "summary": "Разработчики десктопного софта годами мучаются с упаковкой, подписью и нотаризацией, а Anthropic спрятала всё это за одну кнопку. 24 ноября в Claude для Mac и Windows вышла бета Install as app …",
+          "link": "https://habr.com/ru/articles/1112294/?utm_campaign=1112294&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · Машинное обучение",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
+          "date": "2026-11-25T13:21:46.000Z",
+          "category": "applications"
         }
       ]
     },
@@ -912,6 +871,76 @@
       "id": "misc",
       "label": "Разное",
       "items": [
+        {
+          "title": "Mail разрешил подключать к своим сервисам внешних ИИ-агентов",
+          "summary": "Такие агенты смогут находить письма, отправлять их, делать краткий пересказ, работать с файлами, обобщать содержимое документов, создавать события и подготавливать ссылку на онлайн-звонок",
+          "link": "https://tass.ru/ekonomika/28360345",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-27T02:02:18.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Мошенники научились разводить \"фермы\" ИИ-знахарей",
+          "summary": "За каждым подобным аккаунтом стоит группа злоумышленников, сообщила замруководителя проекта \"За права заемщиков\" и платформы \"Мошеловка\" Александра Пожарская",
+          "link": "https://tass.ru/obschestvo/28360343",
+          "source": "ТАСС",
+          "type": "site",
+          "sourceUrl": "https://tass.ru/rss/v2.xml",
+          "date": "2026-11-27T02:01:25.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "В Росконгрессе рассказали, когда ИИ может принести пользу школьникам",
+          "summary": "",
+          "link": "https://ria.ru/20261127/ii-2134268232.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-27T01:05:51.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Превращаем картинки в SVG за пару кликов — принесли на ночь бесплатную утилиту OpenVector 🎁Закидываем логотип или",
+          "summary": "Превращаем картинки в SVG за пару кликов — принесли на ночь бесплатную утилиту OpenVector 🎁Закидываем логотип или иконку в PNG или JPEG и получаем редактируемый вектор, который можно масштабировать без потери качества…",
+          "link": "https://t.me/neuraldvig/12093",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-26T21:25:17.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Разгон LLM модели qwen 3.8 до 40+ токенов",
+          "summary": "Начну с истории очередного LLM сервера и особенностей AMD / ROCm. Но основная тема публикации настройка - оптимизация скорость платформы vLLM при работе с популярной моделью qwen 3.8…",
+          "link": "https://habr.com/ru/articles/1112874/?utm_campaign=1112874&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · Машинное обучение",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
+          "date": "2026-11-26T21:19:06.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Школьник, задавший вопрос Путину, рассказал о новых гранях применения ИИ",
+          "summary": "",
+          "link": "https://ria.ru/20261126/shkolnik-2134256608.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-26T20:53:20.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Греф: ИИ-пузырь плавно сдувается и не несет рисков финансового кризиса",
+          "summary": "Текущая ситуация обусловлена несоответствием темпов внедрения технологий объему затрат",
+          "link": "https://www.vedomosti.ru/finance/news/2026/11/26/1415819-ii-puzir-sduvaetsya",
+          "source": "Ведомости",
+          "type": "site",
+          "sourceUrl": "https://www.vedomosti.ru/rss/news",
+          "date": "2026-11-26T20:04:22.000Z",
+          "category": "misc"
+        },
         {
           "title": "Песков: ИИ кратно увеличил анализ обращений на прямую линию Путина",
           "summary": "",
@@ -923,33 +952,23 @@
           "category": "misc"
         },
         {
-          "title": "Греф оценил риск пузыря в сфере ИИ на мировом рынке",
+          "title": "Anthropic создала ловушку для ИИ-моделей и проверила, будут ли те нарушать запреты ради доступа к чужим данным",
           "summary": "",
-          "link": "https://ria.ru/20261126/gref-2134247638.html",
-          "source": "РИА Новости",
+          "link": "https://www.ixbt.com/news/2026/11/26/anthropic-sozdala-lovusku-dlia-ii-modelei-i-proverila-budut-li-te-narusat-zaprety-radi-dostupa-k-cuzim-dannym.html",
+          "source": "iXBT",
           "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T19:22:27.000Z",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-26T19:02:00.000Z",
           "category": "misc"
         },
         {
-          "title": "Токаев назвал развитие ИИ необратимым процессом",
-          "summary": "Президент Казахстана отметил, что цифровизация и искусственный интеллект являются ключевой задачей для республики",
-          "link": "https://tass.ru/mezhdunarodnaya-panorama/28359857",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-26T18:58:14.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "ИИ-модели подешевели в 13 раз, заявил Греф",
+          "title": "Canonical показала первую работающую версию ИИ-лаунчера для Ubuntu",
           "summary": "",
-          "link": "https://ria.ru/20261126/gref-2134243946.html",
-          "source": "РИА Новости",
+          "link": "https://www.ixbt.com/news/2026/11/26/canonical-pokazala-pervuiu-rabotaiushhuiu-versiiu-ii-launcera-dlia-ubuntu.html",
+          "source": "iXBT",
           "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T18:52:36.000Z",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-26T18:47:00.000Z",
           "category": "misc"
         },
         {
@@ -963,16 +982,6 @@
           "category": "misc"
         },
         {
-          "title": "Песков рассказал о помощи ИИ для анализа обращений на прямую линию",
-          "summary": "",
-          "link": "https://ria.ru/20261126/peskov-2134241600.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T18:34:56.000Z",
-          "category": "misc"
-        },
-        {
           "title": "У меня 11 дашбордов для контроля моих 7К+ сессий в Claude",
           "summary": "Когда я перестал понимать, что у меня вообще происходит в моих сессиях, сколько их, о чем они, что я хотел, как найти нужное, я стал создавать дашборды…",
           "link": "https://habr.com/ru/articles/1112848/?utm_campaign=1112848&utm_source=habrahabr&utm_medium=rss",
@@ -980,16 +989,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-26T18:33:37.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Токаев заявил, что не считает ИИ угрозой",
-          "summary": "",
-          "link": "https://ria.ru/20261126/ii-2134239689.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T18:25:14.000Z",
           "category": "misc"
         },
         {
@@ -1003,96 +1002,6 @@
           "category": "misc"
         },
         {
-          "title": "Песков: ИИ кратно увеличил возможности анализа обращений на прямую линию",
-          "summary": "Машина научилась маршрутизировать ту или иную проблему отметил пресс-секретарь российского лидера",
-          "link": "https://tass.ru/obschestvo/28359779",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-26T18:14:20.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Песков: функционал ИИ при подготовке прямой линии с Путиным расширился",
-          "summary": "Нейросеть позволила добавить несколько сотен операторских постов для приема звонков, заявил пресс-секретарь российского лидера",
-          "link": "https://tass.ru/obschestvo/28359765",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-26T18:08:55.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Песков рассказал о расширении функционала ИИ при подготовке прямой линии",
-          "summary": "",
-          "link": "https://ria.ru/20261126/ii-2134236612.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T18:07:48.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Греф: ИИ-модели подешевели в 2026 году в 12 раз",
-          "summary": "Это гарантирует то, что технология сможет совершить существенный переворот в буквально всех сферах человеческой жизни, считает глава Сбербанка",
-          "link": "https://tass.ru/ekonomika/28359737",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-26T17:58:00.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Греф: пузырь на мировом рынке ИИ не несет рисков финансового кризиса",
-          "summary": "Глава Сбербанка отметил, что скорость внедрения отстает от необходимых затрат на разработку технологий",
-          "link": "https://tass.ru/ekonomika/28359729",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-26T17:54:19.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Путин поблагодарил \"Сбер\" и Грефа за работу по развитию сферы ИИ",
-          "summary": "",
-          "link": "https://ria.ru/20261126/putin-2134233174.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T17:48:16.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Путин отреагировал на перспективы развития ИИ поговоркой",
-          "summary": "",
-          "link": "https://ria.ru/20261126/putin-2134232863.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T17:47:20.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Командная работа с развитием ИИ останется востребованной, заявил Путин",
-          "summary": "",
-          "link": "https://ria.ru/20261126/rabota-2134232666.html",
-          "source": "РИА Новости",
-          "type": "site",
-          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
-          "date": "2026-11-26T17:43:48.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Путин похвалил Сбер за инициативную работу в направлении ИИ",
-          "summary": "Речь об этом зашла на встрече со школьниками и студентами на конференции \"Путешествие в мир искусственного интеллекта\"",
-          "link": "https://tass.ru/ekonomika/28359683",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-26T17:38:03.000Z",
-          "category": "misc"
-        },
-        {
           "title": "❤️ ИИ-партнеры доводят людей до слез и отказываются с ними расставатьсяЖенатый IT-специалист из Дании влюбился в",
           "summary": "❤️ ИИ-партнеры доводят людей до слез и отказываются с ними расставатьсяЖенатый IT-специалист из Дании влюбился в ИИ-персонажа по имени Квинн, с которым познакомился на платформе для ролевых игр…",
           "link": "https://t.me/hiaimedia/3886",
@@ -1103,13 +1012,63 @@
           "category": "misc"
         },
         {
-          "title": "OpenAI нашла баг в лимитах GPT-6.2. Неделю он работал на пользователей",
+          "title": "OpenAI нашла баг в лимитах GPT-6.2. Неделю он работал на пользователей",
           "summary": "Целую неделю ошибка дарила подписчикам лишние запросы, и OpenAI нашла её сама. 26 ноября Тибо Сотто, который отвечает в компании за Codex, признал , что с запуска GPT-6…",
           "link": "https://habr.com/ru/articles/1112816/?utm_campaign=1112816&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-26T17:05:03.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "🤖 Олимпийская чемпионка выступила на льду в паре с роботом СбераНа AI Journey показали один из самых необычных",
+          "summary": "🤖 Олимпийская чемпионка выступила на льду в паре с роботом СбераНа AI Journey показали один из самых необычных экспериментов в истории робототехники…",
+          "link": "https://t.me/hiaimedia/3885",
+          "source": "Hi, AI",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/hiaimedia",
+          "date": "2026-11-26T16:39:12.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Китайцы придумали летающий автомобиль без крыльев — Tesla пора нервничать",
+          "summary": "Китайцы придумали летающий автомобиль без крыльев — Tesla пора нервничать.Вместо привычных крыльев машина использует встроенные вентиляторы, которые поднимают её в воздух…",
+          "link": "https://t.me/AI_Chad/7847",
+          "source": "Chad GPT",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/AI_Chad",
+          "date": "2026-11-26T16:32:01.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Путин встретился с молодыми специалистами по ИИ",
+          "summary": "",
+          "link": "https://www.vedomosti.ru/politics/news/2026/11/26/1415762-molodimi-spetsialistami",
+          "source": "Ведомости",
+          "type": "site",
+          "sourceUrl": "https://www.vedomosti.ru/rss/news",
+          "date": "2026-11-26T16:19:14.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Путин призвал защитить критическую инфраструктуру от инцидентов с ИИ",
+          "summary": "",
+          "link": "https://www.vedomosti.ru/politics/news/2026/11/26/1415757-zaschitit-kriticheskuyu-infrastrukturu",
+          "source": "Ведомости",
+          "type": "site",
+          "sourceUrl": "https://www.vedomosti.ru/rss/news",
+          "date": "2026-11-26T15:57:59.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Путин: каждому человеку придется осваивать навыки работы с ИИ",
+          "summary": "",
+          "link": "https://www.vedomosti.ru/politics/news/2026/11/26/1415756-cheloveku-pridetsya",
+          "source": "Ведомости",
+          "type": "site",
+          "sourceUrl": "https://www.vedomosti.ru/rss/news",
+          "date": "2026-11-26T15:56:44.000Z",
           "category": "misc"
         }
       ]
