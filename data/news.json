@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-27T20:39:25.755Z",
-  "updatedAtLocal": "27 ноября 2026 г. в 23:39",
+  "updatedAt": "2026-11-28T03:03:57.706Z",
+  "updatedAtLocal": "28 ноября 2026 г. в 06:03",
   "failedSources": [
     "Интерфакс"
   ],
@@ -686,6 +686,16 @@
       "label": "Применение и инструменты",
       "items": [
         {
+          "title": "Офицер рассказал, как ВС России применяют дроны с ИИ",
+          "summary": "",
+          "link": "https://ria.ru/20261128/spetsoperatsiya-2134562808.html",
+          "source": "РИА Новости",
+          "type": "site",
+          "sourceUrl": "https://ria.ru/export/rss2/archive/index.xml",
+          "date": "2026-11-28T03:02:43.000Z",
+          "category": "applications"
+        },
+        {
           "title": "Дмитриев: ИИ помогает готовиться к международным переговорам",
           "summary": "",
           "link": "https://www.vedomosti.ru/politics/news/2026/11/27/1416207-ii-pomogaet-gotovitsya",
@@ -746,16 +756,6 @@
           "category": "applications"
         },
         {
-          "title": "Какие навыки нужны IT‑специалистам, чтобы оставаться востребованными в эпоху ИИ",
-          "summary": "Код, тесты, отчёты и черновики документации всё чаще делают ИИ-ассистенты. Поэтому вопрос «заменит ли ИИ специалиста» постепенно уступает другому: что в работе остаётся ценным, когда рутину можно отдать нейросети…",
-          "link": "https://habr.com/ru/companies/habr_career/articles/1113188/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1113188",
-          "source": "Хабр",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/all/all/?fl=ru",
-          "date": "2026-11-27T13:04:48.000Z",
-          "category": "applications"
-        },
-        {
           "title": "Как ИИ анализирует логи, работает в песочнице и экономит токены. Что показали на двенадцатом митапе MWS",
           "summary": "ИИ-агенты все чаще получают доступ к инструментам, с помощью которых могут не только отвечать на вопросы, но и выполнять инженерные задачи…",
           "link": "https://habr.com/ru/companies/ru_mts/articles/1113132/?utm_campaign=1113132&utm_source=habrahabr&utm_medium=rss",
@@ -798,7 +798,7 @@
         {
           "title": "GigaEdge KWS: мы обучили колонку отзываться на любое имя",
           "summary": "Привет, Хабр. Меня зовут Максим, я работаю над User defined spotter решением совместно с моим коллегой Артёмом @artsokol. В этой статье мы хотим поделиться своими мыслями и опытом в создании этой технологии для СберБум…",
-          "link": "https://habr.com/ru/companies/sberdevices/articles/1112468/?utm_campaign=1112468&utm_source=habrahabr&utm_medium=rss",
+          "link": "https://habr.com/ru/companies/sberbank/articles/1112468/?utm_campaign=1112468&utm_source=habrahabr&utm_medium=rss",
           "source": "Хабр · ИИ",
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
@@ -892,6 +892,56 @@
       "label": "Разное",
       "items": [
         {
+          "title": "Порт GTA 6 на ПК, обстановка: у одного из разрабов буквально исчезло море, благодаря чему он смог отпинать рыбу",
+          "summary": "Порт GTA 6 на ПК, обстановка: у одного из разрабов буквально исчезло море, благодаря чему он смог отпинать рыбу ногами 😂Обычные будни вайбкодеров.",
+          "link": "https://t.me/neuraldvig/12105",
+          "source": "Нейродвиж",
+          "type": "telegram",
+          "sourceUrl": "https://t.me/neuraldvig",
+          "date": "2026-11-27T22:27:02.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "HMD представила смартфон за $110, и в нем даже есть ИИ. HMD Rise получил батарею  5000 мАч и Android 16 Go Edition",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/28/hmd-predstavila-smartfon-za-110-i-v-nem-daze-est-ii-hmd-rise-polucil-batareiu-5000-mac-i-android-16-go-edition.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-27T22:16:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Samsung научит смартфоны Galaxy менять ракурс уже сделанных фотографий с помощью ИИ — функция уже реализована в One UI 9.5 Beta",
+          "summary": "",
+          "link": "https://www.ixbt.com/news/2026/11/28/samsung-naucit-smartfony-galaxy-meniat-rakurs-uze-sdelannyx-fotografii-s-pomoshhiu-ii-funkciia-uze-realizovana-v-one-ui-95-beta.html",
+          "source": "iXBT",
+          "type": "site",
+          "sourceUrl": "https://www.ixbt.com/export/news.rss",
+          "date": "2026-11-27T22:11:00.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "Вайбкодинг для дизайнеров: разрешить нельзя запретить",
+          "summary": "Раньше дизайнер приносил макет в Figma и гифку с Dribbble: «Тут карточка выезжает с пружинкой, а при свайпе — лёгкий хаптик». Программист вздыхал и угадывал, сколько миллисекунд длится «приятная пружинка» и на каком…",
+          "link": "https://habr.com/ru/articles/1113430/?utm_campaign=1113430&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-27T21:28:42.000Z",
+          "category": "misc"
+        },
+        {
+          "title": "ИИ‑стоматолог для Planmeca: от поиска патологий на всей панораме к анализу каждого зуба",
+          "summary": "Исследовательский эксперимент на открытых данных. Это не медицинское изделие и не инструмент диагностики. Мне нужна была модель, которая работает на снимках конкретного оборудования, Planmeca 3D…",
+          "link": "https://habr.com/ru/articles/1113422/?utm_campaign=1113422&utm_source=habrahabr&utm_medium=rss",
+          "source": "Хабр · ИИ",
+          "type": "site",
+          "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
+          "date": "2026-11-27T20:48:50.000Z",
+          "category": "misc"
+        },
+        {
           "title": "Новый Google Ads? Количество заказов через ИИ-агентов выросло в 107 раз. Это сумасшествие",
           "summary": "Forter публикует статистику Black Friday в режиме реального времени. По данным её торговой сети за 26–27 ноября, количество заказов, оформленных ИИ-агентами, выросло в 107 раз по сравнению с прошлым годом…",
           "link": "https://habr.com/ru/articles/1113420/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1113420",
@@ -919,16 +969,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/neuro_channel",
           "date": "2026-11-27T19:22:25.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Т-банк призвал бигтехи к открытой архитектуре для ИИ-агентов",
-          "summary": "Подход компании, состоит в том, чтобы тренировать агентов всегда \"играть на стороне клиента\", отметил председатель правления банка Станислав Близнюк",
-          "link": "https://tass.ru/obschestvo/28363845",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-27T19:11:45.000Z",
           "category": "misc"
         },
         {
@@ -969,16 +1009,6 @@
           "type": "telegram",
           "sourceUrl": "https://t.me/neuro_channel",
           "date": "2026-11-27T17:38:01.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Награждены победители национальной премии \"Лидеры ИИ\"",
-          "summary": "Число заявок на премию в 2026 году выросло более чем в полтора раза",
-          "link": "https://tass.ru/ekonomika/28363719",
-          "source": "ТАСС",
-          "type": "site",
-          "sourceUrl": "https://tass.ru/rss/v2.xml",
-          "date": "2026-11-27T17:30:28.000Z",
           "category": "misc"
         },
         {
@@ -1059,36 +1089,6 @@
           "type": "site",
           "sourceUrl": "https://habr.com/ru/rss/hubs/artificial_intelligence/all/?fl=ru",
           "date": "2026-11-27T14:38:27.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Я поставил гейт 80% для поиска файлов по смыслу и не прошёл: 74%. Почему я остановился",
-          "summary": "Нужны ли эмбеддинги для поиска личных файлов по смыслу? Прежде чем ставить torch , я решил проверить, не справится ли без них обычный лексический поиск, и поставил себе порог заранее. Не прошёл: 74% при пороге 80%…",
-          "link": "https://habr.com/ru/articles/1113324/?utm_campaign=1113324&utm_source=habrahabr&utm_medium=rss",
-          "source": "Хабр · Машинное обучение",
-          "type": "site",
-          "sourceUrl": "https://habr.com/ru/rss/hubs/machine_learning/all/?fl=ru",
-          "date": "2026-11-27T14:30:25.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "Минцифры разработало правила для развития ИИ",
-          "summary": "",
-          "link": "https://www.vedomosti.ru/technology/news/2026/11/27/1416120-pravila-dlya-ii",
-          "source": "Ведомости",
-          "type": "site",
-          "sourceUrl": "https://www.vedomosti.ru/rss/news",
-          "date": "2026-11-27T14:18:47.000Z",
-          "category": "misc"
-        },
-        {
-          "title": "🤖 ИИ-агенты помогут российским компаниям сократить время на выполнение бизнес-задачНа AI Journey ГК Softline",
-          "summary": "🤖 ИИ-агенты помогут российским компаниям сократить время на выполнение бизнес-задачНа AI Journey ГК Softline договорилась о партнерстве с «Салют для Бизнеса» (группа Сбера)…",
-          "link": "https://t.me/hiaimedia/3894",
-          "source": "Hi, AI",
-          "type": "telegram",
-          "sourceUrl": "https://t.me/hiaimedia",
-          "date": "2026-11-27T14:15:15.000Z",
           "category": "misc"
         }
       ]
